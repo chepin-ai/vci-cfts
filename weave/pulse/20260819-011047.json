@@ -1,0 +1,10 @@
+{
+ "ts": "20260819-011047",
+ "line": "cfts",
+ "vrepo": "vci-cfts",
+ "snapshot": {
+  "registry": "listed-no-url",
+  "outbox": null
+ },
+ "prev_chain": "c11426cd11d33af8"
+}
