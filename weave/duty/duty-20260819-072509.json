@@ -1,0 +1,41 @@
+{
+ "ts": "20260819-072509",
+ "line": "cfts",
+ "checks": {
+  "outbox": "unregistered",
+  "pulse": {
+   "last": "20260819-071300",
+   "age_h": 0.2,
+   "chain_log": "abd63f34e1d5c49b"
+  },
+  "chain_match": false,
+  "matrix": [
+   {
+    "id": "shadow-pulse@vci-cfts",
+    "status": "ok"
+   }
+  ],
+  "inbox_unread": 6
+ },
+ "findings": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  },
+  {
+   "kind": "chain-diverge",
+   "note": "pulse.log 链头与 status.json 不一致"
+  }
+ ],
+ "cleared": [],
+ "escalated": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  },
+  {
+   "kind": "chain-diverge",
+   "note": "pulse.log 链头与 status.json 不一致"
+  }
+ ]
+}
