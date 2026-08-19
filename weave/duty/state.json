@@ -6,7 +6,7 @@
     "note": "对线未在公面注册表登记 outbox"
    },
    "first": "20260819-012638",
-   "ticks": 20,
+   "ticks": 21,
    "escalate": true
   },
   "94491f5227": {
@@ -15,7 +15,7 @@
     "note": "公面矩阵 shadow-pulse@vci-cfts=fail"
    },
    "first": "20260819-200123",
-   "ticks": 1
+   "ticks": 2
   }
  }
 }
