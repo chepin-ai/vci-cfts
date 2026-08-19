@@ -1,0 +1,13 @@
+{
+ "line": "cfts",
+ "vrepo": "vci-cfts",
+ "last_pulse": "20260819-011047",
+ "chain_head": "0a91b24b3047f2f1",
+ "pulses_total": 4,
+ "snapshot": {
+  "registry": "listed-no-url",
+  "outbox": null
+ },
+ "verdict": "ok",
+ "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）"
+}
