@@ -1,0 +1,33 @@
+{
+ "ts": "20260820-060625",
+ "line": "cfts",
+ "checks": {
+  "outbox": "unregistered",
+  "pulse": {
+   "last": "20260820-023750",
+   "age_h": 3.5,
+   "chain_log": "9c1949f13672260b"
+  },
+  "chain_match": true,
+  "matrix": [
+   {
+    "id": "shadow-pulse@vci-cfts",
+    "status": "ok"
+   }
+  ],
+  "inbox_unread": 28
+ },
+ "findings": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  }
+ ],
+ "cleared": [],
+ "escalated": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  }
+ ]
+}
