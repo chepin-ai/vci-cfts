@@ -2,7 +2,7 @@
  "line": "cfts",
  "vrepo": "vci-cfts",
  "last_pulse": "20260819-011047",
- "chain_head": "ba87d608e2923c8e",
+ "chain_head": "6e905f4373ba4641",
  "pulses_total": 4,
  "snapshot": {
   "registry": "listed-no-url",
@@ -10,5 +10,5 @@
  },
  "verdict": "ok",
  "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）",
- "heal_note": "F2 愈合 2026-08-21T04:55:51Z：status 链头重建对齐 pulse.log"
+ "heal_note": "F2 愈合 2026-08-21T08:51:47Z：status 链头重建对齐 pulse.log"
 }
