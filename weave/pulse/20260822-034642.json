@@ -1,0 +1,10 @@
+{
+ "ts": "20260822-034642",
+ "line": "cfts",
+ "outbox": {
+  "url": "https://3ay75hdbfrqe4.ok.kimi.link/cfts-outbox.json",
+  "http": 200,
+  "sha256": "72b9965fbcdbf346"
+ },
+ "note": "snapshot ok"
+}
