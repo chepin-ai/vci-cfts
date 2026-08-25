@@ -10,7 +10,7 @@ jobs:
         env:
           K_APP: ${{ secrets.CI_OPS_APP_KEY }}
           I_HUB: ${{ vars.CI_OPS_APP_ID }}
-          I_LINE: ${{ vars.CI_OPS_APP_ID }}
+          I_LINE: 4685074
         run: |
           python3 - <<'PYEOF'
           import json,os,time,urllib.request,urllib.error
