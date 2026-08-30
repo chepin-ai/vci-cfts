@@ -1,0 +1,336 @@
+{
+ "net": "session-tensor-net-incr/v1",
+ "spec": "FULLCAP-DRIVE-01 §4.1/§4.3（增量批制式照 FB01）",
+ "line": "cfts",
+ "batch_id": "INCR-01-cfts-20260830-001",
+ "generated_at": "2026-08-30T07:48:31Z",
+ "generation_rules": {
+  "canon": "json.dumps(x,ensure_ascii=False,sort_keys=True)",
+  "turn_hash": "sha256(canon(q_raw)+canon(a_raw)+ts_utc+str(turn_seq))",
+  "digest_rule": "state_digest=sha256(canon({nodes,edges}))（仅增量节点/边参与）",
+  "external_refs": "LINE:cfts 与 TURN:cfts:cfts-lex-wave-20260828:T98 节点在 FB01 网（fullcap/cfts-20260828/session-tensor-net.json），本增量仅引其 id 不重录"
+ },
+ "nodes": [
+  {
+   "id": "SESSION:current-session",
+   "kind": "SESSION",
+   "session_id": "current-session",
+   "session0_anchor": {
+    "session_id": "current-session",
+    "turn_id": "cfts:current-session:T99",
+    "ts_utc": "2026-08-28T21:00:00Z",
+    "judge": "cfts",
+    "候": "cisvr-rev",
+    "basis": "session-current-raw.md turn_seq_local=8（RAW-VERBATIM 问面在案）；承接 FB01 lex-wave（T0..T7 local=T89..T98 global）之同一会话续段，lead 指令游标面命名 current-session",
+    "note": "当前会话续段（含 ~27.4h 静默期），S-I/1 SUSPENDED 期间 S-I/2·S-I/3 ARMED-SILENT-WATCH"
+   }
+  },
+  {
+   "id": "TURN:cfts:current-session:T99",
+   "kind": "TURN",
+   "turn_seq": 99,
+   "turn_seq_local": 8,
+   "ts_utc": "2026-08-28T21:00:00Z",
+   "turn_hash": "7fa5e62ba0d19a4f7e11987569c9419782423fa6d965cd95c5364bedc1ae7c96",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T100",
+   "kind": "TURN",
+   "turn_seq": 100,
+   "turn_seq_local": 9,
+   "ts_utc": "2026-08-30T01:20:00Z",
+   "turn_hash": "e1992e1e63dac66eb8caed69cd3410091b2dc45f33bb9d267613f390710d82ce",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T101",
+   "kind": "TURN",
+   "turn_seq": 101,
+   "turn_seq_local": 10,
+   "ts_utc": "2026-08-30T01:40:00Z",
+   "turn_hash": "9d86d78d6e0ab26442d6174c77367ff60b83d5a66f5a95ac7113a5800f6f2bcf",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T102",
+   "kind": "TURN",
+   "turn_seq": 102,
+   "turn_seq_local": 11,
+   "ts_utc": "2026-08-30T01:50:00Z",
+   "turn_hash": "fd265560dee325f7b6303c63e16781ccc40375d48f70c5858938731298e6497a",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T103",
+   "kind": "TURN",
+   "turn_seq": 103,
+   "turn_seq_local": 12,
+   "ts_utc": "2026-08-30T01:50:00Z",
+   "turn_hash": "e0b39c67df6be6fc2e1ab7aa38342d2fb33ad45a4651ddd38f83cee4fac23c4d",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T104",
+   "kind": "TURN",
+   "turn_seq": 104,
+   "turn_seq_local": 13,
+   "ts_utc": "2026-08-30T03:50:00Z",
+   "turn_hash": "31154396dbd81fcab72c8c77186dc5c8ebc28fd4e1899d1934a455d987108ee7",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T105",
+   "kind": "TURN",
+   "turn_seq": 105,
+   "turn_seq_local": 14,
+   "ts_utc": "2026-08-30T07:20:00Z",
+   "turn_hash": "cc3b1260b376e4d27a3a5bdb371bd8da8dcb5d6f58da3eb27fbd94a4bc030168",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T106",
+   "kind": "TURN",
+   "turn_seq": 106,
+   "turn_seq_local": 15,
+   "ts_utc": "2026-08-30T07:22:00Z",
+   "turn_hash": "e7e45fac0d4150800893f4d190243243f83f06356c8b4018eeaa44eb2fb54c67",
+   "source_class": "RAW-VERBATIM"
+  },
+  {
+   "id": "TURN:cfts:current-session:T107",
+   "kind": "TURN",
+   "turn_seq": 107,
+   "turn_seq_local": 16,
+   "ts_utc": "2026-08-30T07:27:27Z",
+   "turn_hash": "77e43b4023ed6c884ca79fa63d5c6792c3263337dcf5045e8425f14e9eb50888",
+   "source_class": "SUMMARY-DERIVED"
+  }
+ ],
+ "edges": [
+  {
+   "from": "TURN:cfts:cfts-lex-wave-20260828:T98",
+   "to": "TURN:cfts:current-session:T99",
+   "type": "NEXT",
+   "note": "跨批接续 FB01 tip（cursor_prev 咬合）"
+  },
+  {
+   "from": "TURN:cfts:current-session:T99",
+   "to": "TURN:cfts:current-session:T100",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "TURN:cfts:current-session:T101",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "TURN:cfts:current-session:T102",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "TURN:cfts:current-session:T103",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T103",
+   "to": "TURN:cfts:current-session:T104",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T104",
+   "to": "TURN:cfts:current-session:T105",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T105",
+   "to": "TURN:cfts:current-session:T106",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T106",
+   "to": "TURN:cfts:current-session:T107",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T99",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T103",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T104",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T105",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T106",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T107",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "SESSION:current-session",
+   "to": "TURN:cfts:current-session:T99",
+   "type": "ANCHOR",
+   "evidence": "session0_anchor 钉档（每 session 唯一；线级创世锚仍为 kernel-era T0 不动）"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "ART:cfts-current-session-T100-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T100-a0:3659ba83ce7afce1d302f900e905cf849c6337e66f3c3d3a2c4c645675e1c7c9"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "ART:cfts-current-session-T100-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T100-a1:22001e7713cb4a5d88b4e4cbd0c0d0606165362db349322b107c6e5326383d53"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "ART:cfts-current-session-T100-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T100-a2:33b760d3ef0c65f7d170260242214baaa094f7dd9a4f22bf7aafb7863e6206a1"
+  },
+  {
+   "from": "TURN:cfts:current-session:T100",
+   "to": "ART:cfts-current-session-T100-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T100-a3:60fa489167c21585a0b18c4bdf585e4f029ad7d0cb0fd7b1814a835c3fa7d73d"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "ART:cfts-current-session-T101-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T101-a0:d530012b4b26829b33aa81e39770ce395ef188a7156f1a19623b8fb2f44c6d17"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "ART:cfts-current-session-T101-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T101-a1:6cd17debe1244976b88aca4bc352821a2fece2082172d378f682d65cadf364c5"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "ART:cfts-current-session-T101-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T101-a2:7877334fc81edda25a143f35366ff1c8ee5882ccfcdd8a6cf9e2c928190e4d56"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "ART:cfts-current-session-T101-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T101-a3:58f275b940de53cbc7bf8e55f2e2b19a72859753ec92c75c4d9302e45877181a"
+  },
+  {
+   "from": "TURN:cfts:current-session:T101",
+   "to": "ART:cfts-current-session-T101-a4",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T101-a4:a5093de819c2006d059b9c5928de72cef85ba058342730fa0c2f8119449875f4"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a0:1aee9c87cc1896983b9a12ad5cabc58dffc905b9dec20bee95f0ec6e897413a4"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a1:a2cdcf4aa2e2a6afba36567795f78f325237952935acd9e03bada35f067671ea"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a2:cdcdddc731910749f452811ae96301020f4b12aea593927094b241329ad813d1"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a3:788feec128bd2b3d57197fb6d2e2cbd3211b9820df4353f5144ec18393d117e1"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a4",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a4:173e7ad08409021933ec0ac390a2d098e8e28e9f98674cb4922c0abdac870684"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a5",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a5:fe96f46cec3fc800c436b089e472582dc86fc296717d174e539c2042d4599f96"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a6",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a6:00c3b78ce4a991335c0a14649dfbe401d3ad5fd9e17b7dcbf68e4a2252fff4fc"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a7",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a7:a270db59cc1ce73d971fb92a528f1366ce1614eb544f5735ee51c4200def8c14"
+  },
+  {
+   "from": "TURN:cfts:current-session:T102",
+   "to": "ART:cfts-current-session-T102-a8",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T102-a8:4349dfab599cc9b5e55a4fd252e7c2c6ee9ed70ea6e859bb050a050ce0d3f3e9"
+  },
+  {
+   "from": "TURN:cfts:current-session:T104",
+   "to": "ART:cfts-current-session-T104-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T104-a0:50a41c44c467347d2004cb2f9cae25d4862c6d43f2795768b74655beb11cc43f"
+  },
+  {
+   "from": "TURN:cfts:current-session:T105",
+   "to": "ART:cfts-current-session-T105-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T105-a0:5f9513569b322e1aa187415f5dfeed228a9da956e71502097324b961b0664e99"
+  },
+  {
+   "from": "TURN:cfts:current-session:T105",
+   "to": "ART:cfts-current-session-T105-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T105-a1:e04a97fee2232ae1704476765cd4a1b5b4310105fb3dc0bd4db742b7cd6abe83"
+  }
+ ],
+ "state_digest": "0d28bf5facd7925ca6ea4200604dc800f0bd00cee05d31c496d348124ea3a40a"
+}
