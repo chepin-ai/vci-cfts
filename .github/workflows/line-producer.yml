@@ -4,8 +4,8 @@ on:
   workflow_dispatch: {}
   push:
     paths: ['.github/workflows/line-producer.yml', 'weave/**']
-  schedule:
-    - cron: '11 */6 * * *'
+  # schedule: [废除-W30/34 cron全废]
+#     - cron: '11 */6 * * *'
 permissions:
   contents: read
 jobs:
@@ -50,4 +50,3 @@ jobs:
           r=requests.put(u,headers=H,json=b,timeout=20)
           print('line put:', line, state, r.status_code)
           PYEOF
-
