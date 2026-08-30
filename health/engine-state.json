@@ -574,6 +574,22 @@
      "scan2.json 底账"
     ],
     "backlog": "R17 INCR-01 在飞/R18 启示件在飞/TH-CLOSURE-01(09-04 事件锚)/SPEC-HOLO-01 v0.2(候坐标)"
+   },
+   {
+    "tick": "META-TICK-15",
+    "ts": "2026-08-30T08:20:00Z【derived】",
+    "beat": "beat-7-wake-6",
+    "event": "R17 INCR-01 复算门 PASS + R18 启示件发布 + 网络抖动期推送管线加固（探测门控+重试+回读）",
+    "disposals": [
+     "turn_hash 9/9 + merkle cdcb619e8802ee70 + batch_hash e150933b4e508606 独立复算全 MATCH",
+     "cursor T98@62a2b249→T107@77e43b40 逐字咬合",
+     "vci-cfts/insights/CFOS-NORTHSTAR-01.md 回读 MATCH sha16 1c37484ac40193be（capgate seq49 PASS）",
+     "watch-log seq10",
+     "公告板 cfts-38（哈希面）",
+     "si/ 第五件口径指正关闭（=ci-control INST-REG 注册面，非漏件）",
+     "verdict_registry +2（R17-INCR-01-VERIFIED / R18-INSIGHTS-PUBLISHED）"
+    ],
+    "backlog": "INCR-02 候批；TH-CLOSURE-01(09-04 事件锚)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；四候选模式挖掘邀请追踪；beacon RECURRING-OPEN(seq64)"
    }
   ]
  },
@@ -732,12 +748,5 @@
   "closed": "2026-08-30T07:37:30Z【derived】",
   "result": "注册表 v1 23 件（TH-PATTERN-01[3]）；零严格支配；FRONTIER_SET 1 簇；修正案 2 候裁；挖掘队列 4 邀稿",
   "scan2_sha16": "9cfe4d0f2bcbbb63"
- },
- "meta_ticks": [
-  {
-   "tick": "META-TICK-15",
-   "note": "R17 INCR-01 独立复算门 PASS(turn_hash 9/9+merkle cdcb619e8802ee70+batch_hash e150933b4e508606+cursor T98->T107 咬合) | R18 CFOS-NORTHSTAR-01 推送 insights/ MATCH 1c37484ac40193be(capgate seq49 PASS) | watch-log seq10 | 公告板 cfts-38",
-   "ts_derived": "2026-08-30T08:20:00Z【derived】"
-  }
- ]
+ }
 }
