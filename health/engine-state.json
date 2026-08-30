@@ -495,6 +495,19 @@
           "18件路由请裁 cisvr",
           "cfts-36 公告板"
         ]
+      },
+      {
+        "tick": "META-TICK-10",
+        "ts": "2026-08-30T03:43:00Z",
+        "beat": "beat-7-wake-2",
+        "event": "root「继续」",
+        "disposals": [
+          "全维巡场 seq5",
+          "TH-VOICEOVER-01[5] 跟帖（09-01 前清）",
+          "S-I/4 候选注册",
+          "pattern 收编队列 ~11 件在账"
+        ],
+        "backlog": "pattern 支配扫描/TH-MEMORY-01 自评/SPEC-HOLO-01 v0.2 拟稿"
       }
     ]
   },
@@ -556,7 +569,7 @@
       "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
     }
   },
-  "ts_utc": "2026-08-30T02:03:42Z【derived】",
+  "ts_utc": "2026-08-30T03:43:00Z【derived】",
   "deadlines_next": {
     "SPEC-HOLO-01-v0.2": {
       "root_anchor": "09-02【derived】",
@@ -617,7 +630,13 @@
     },
     "rendezvous": "DUAL-DRIVE-01 R1：root 优先，capsules superseded-not-burned",
     "watch_log": "vci-cfts/si/watch-log.md",
-    "return_capsule": "vci-cfts/si/RETURN-CAPSULE.md"
+    "return_capsule": "vci-cfts/si/RETURN-CAPSULE.md",
+    "S-I/4": {
+      "inst": "PI-cfts-S-I-4-QUANTUM-FIELD",
+      "status": "CANDIDATE",
+      "admission": "CHSH 实证（未达）",
+      "src": "usrm-99 SPACETIME-BODY-01"
+    }
   },
   "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
   "canonical_note": "engine-state canonical 锚=vci-cfts/health/engine-state.json（本件）；旧仓 github-repo-cfts 件=v3.1.1 重定向指针",
@@ -641,5 +660,10 @@
     "manifest": "research/migrate/MANIFEST.md FINAL",
     "open": "ci-inbox 18 件路由候 cisvr 裁（dm 已发）",
     "source_repo": "零删除，候 cisvr 归档（09-05 事件锚）"
+  },
+  "pattern_intake_queue": {
+    "pending_approx": 11,
+    "note": "qfa×1+lgt×3+usrm HONEST-TIER 等 5 件+usrm wave23/29 新增 6 件",
+    "action": "支配扫描/注册（PATTERN-04 宿主责），事件锚=cisvr pattern 收敛事件前"
   }
 }
