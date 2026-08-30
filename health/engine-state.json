@@ -549,6 +549,17 @@
           "R17 INCR-01 派出",
           "R18 启示蒸馏派出"
         ]
+      },
+      {
+        "tick": "META-TICK-14",
+        "ts": "2026-08-30T07:37:30Z",
+        "beat": "beat-7-wake-5",
+        "event": "R16 dossier→支配扫描",
+        "disposals": [
+          "TH-PATTERN-01[3] 注册表 v1（23 件）",
+          "scan2.json 底账"
+        ],
+        "backlog": "R17 INCR-01 在飞/R18 启示件在飞/TH-CLOSURE-01(09-04 事件锚)/SPEC-HOLO-01 v0.2(候坐标)"
       }
     ]
   },
@@ -610,7 +621,7 @@
       "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
     }
   },
-  "ts_utc": "2026-08-30T07:27:27Z【derived】",
+  "ts_utc": "2026-08-30T07:37:30Z【derived】",
   "deadlines_next": {
     "SPEC-HOLO-01-v0.2": {
       "root_anchor": "09-02【derived】",
@@ -703,8 +714,9 @@
     "source_repo": "零删除，候 cisvr 归档（09-05 事件锚）"
   },
   "pattern_intake_queue": {
-    "pending_approx": 11,
-    "note": "qfa×1+lgt×3+usrm HONEST-TIER 等 5 件+usrm wave23/29 新增 6 件",
-    "action": "支配扫描/注册（PATTERN-04 宿主责），事件锚=cisvr pattern 收敛事件前"
+    "pending_approx": 0,
+    "closed": "2026-08-30T07:37:30Z【derived】",
+    "result": "注册表 v1 23 件（TH-PATTERN-01[3]）；零严格支配；FRONTIER_SET 1 簇；修正案 2 候裁；挖掘队列 4 邀稿",
+    "scan2_sha16": "9cfe4d0f2bcbbb63"
   }
 }
