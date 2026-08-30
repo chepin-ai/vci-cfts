@@ -1,13 +1,20 @@
 {
  "open": {
-  "fec84f4f76": {
+  "ff349ac797": {
    "finding": {
-    "kind": "outbox-unregistered",
-    "note": "对线未在公面注册表登记 outbox"
+    "kind": "registry-down",
+    "note": "公面注册表 HTTP 404"
    },
-   "first": "20260819-012638",
-   "ticks": 42,
-   "escalate": true
+   "first": "20260830-023925",
+   "ticks": 1
+  },
+  "5a014066a6": {
+   "finding": {
+    "kind": "pulse-stale",
+    "note": "影子脉搏 20260822-034642 年龄 190.9h（>2×6h 班）"
+   },
+   "first": "20260830-023925",
+   "ticks": 1
   }
  }
 }
