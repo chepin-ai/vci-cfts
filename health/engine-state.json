@@ -236,6 +236,12 @@
       "verdict": "PASS",
       "evidence": "247/247 MATCH；抽验2件blob sha一致；MANIFEST §4.1六件指纹齐；commit 0b47f165c4d3",
       "ts": "2026-08-30T01:27:30Z"
+    },
+    {
+      "id": "R15-migration-phase2",
+      "verdict": "PASS-条件挂账",
+      "evidence": "251/251 MATCH(累计498/498)；抽验2件MATCH；脱敏副本严式零命中；条件=MANIFEST §八补哈希单元规则（指纹可独立复算）",
+      "ts": "2026-08-30T01:53:29Z"
     }
   ],
   "federation_findings_by_cfts": [
@@ -462,6 +468,14 @@
         "response": "同拍幂等核验+巡场（R-STREAM-01 实证）",
         "result": "三律在册/闸链22节ok/拓扑不变/无新抵件/beacon停滯维持",
         "idempotency": "不重复立法"
+      },
+      {
+        "tick": "META-TICK-08",
+        "ts": "2026-08-30T01:53:29Z",
+        "beat": "beat-7-silent-watch",
+        "event": "R15 第二班交付",
+        "response": "验收 PASS+裁定（configs 寂化副本/残余面全授权/审计链回填）",
+        "next": "第三班迁毕→MANIFEST FINAL"
       }
     ]
   },
@@ -523,7 +537,7 @@
       "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
     }
   },
-  "ts_utc": "2026-08-30T01:48:41Z【derived】",
+  "ts_utc": "2026-08-30T01:53:29Z【derived】",
   "deadlines_next": {
     "SPEC-HOLO-01-v0.2": {
       "root_anchor": "09-02【derived】",
