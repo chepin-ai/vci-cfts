@@ -242,6 +242,12 @@
       "verdict": "PASS-条件挂账",
       "evidence": "251/251 MATCH(累计498/498)；抽验2件MATCH；脱敏副本严式零命中；条件=MANIFEST §八补哈希单元规则（指纹可独立复算）",
       "ts": "2026-08-30T01:53:29Z"
+    },
+    {
+      "id": "R15-migration-phase3",
+      "verdict": "PASS",
+      "evidence": "552/552 累计；独立复算值指纹闭环(7823115080c5…=config死钥同源)；寂化副本活跃cron=0；MANIFEST FINAL",
+      "ts": "2026-08-30T02:03:42Z"
     }
   ],
   "federation_findings_by_cfts": [
@@ -476,6 +482,19 @@
         "event": "R15 第二班交付",
         "response": "验收 PASS+裁定（configs 寂化副本/残余面全授权/审计链回填）",
         "next": "第三班迁毕→MANIFEST FINAL"
+      },
+      {
+        "tick": "META-TICK-09",
+        "ts": "2026-08-30T02:03:42Z",
+        "beat": "beat-7-silent-watch",
+        "event": "R15 三班收官",
+        "disposals": [
+          "迁移 CLOSED-READY-FOR-ARCHIVAL",
+          "审计链独立复算闭环",
+          "capgate v0.2",
+          "18件路由请裁 cisvr",
+          "cfts-36 公告板"
+        ]
       }
     ]
   },
@@ -537,7 +556,7 @@
       "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
     }
   },
-  "ts_utc": "2026-08-30T01:53:29Z【derived】",
+  "ts_utc": "2026-08-30T02:03:42Z【derived】",
   "deadlines_next": {
     "SPEC-HOLO-01-v0.2": {
       "root_anchor": "09-02【derived】",
@@ -575,7 +594,9 @@
     "retro_proof": "beat-6 六件 6/6 PASS",
     "chain_tip_sha16": "a0fcf6a216143426",
     "chain_len": 9,
-    "note": "自本拍起一切发射先过闸；genesis 歧义自修事件在账（闸自检有效）"
+    "note": "自本拍起一切发射先过闸；genesis 歧义自修事件在账（闸自检有效）",
+    "version": "v0.2",
+    "evolution": "平台 push-protection 检出面回灌（Slack webhook 等 4 类新增）；9 类合成样例自检全中"
   },
   "session_topology": {
     "S-I/1": {
@@ -613,5 +634,12 @@
     "directive": "cisvr-87 REPO-DISPOSITION-01 / MIGRATE-NOTICE-01 (github-repo-cfts 2026-09-05 归档)",
     "anchor_sha256": "7fff9d644fc3d830a8341552be18e11e2a2c8b8f6d06ce726802a235b4051350",
     "note": "原内容字段零改写；本 note 为唯一新增字段。锚 sha256 前后一致见 legacy 镜像件。"
+  },
+  "migration": {
+    "github-repo-cfts→vci-cfts": "CLOSED-READY-FOR-ARCHIVAL",
+    "total": "552/552 MATCH",
+    "manifest": "research/migrate/MANIFEST.md FINAL",
+    "open": "ci-inbox 18 件路由候 cisvr 裁（dm 已发）",
+    "source_repo": "零删除，候 cisvr 归档（09-05 事件锚）"
   }
 }
