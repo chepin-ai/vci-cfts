@@ -1,429 +1,594 @@
 {
- "doc": "cfts 递归研究引擎 · 会话独立状态锚（任何会话/端读此文件可接续全部运行线）",
- "version": "2.9.0",
- "ts": "2026-08-30T00:39Z",
- "clock_note": "时间戳=真实UTC；联邦文件名=名义日期+1日（偏移约+7.3~12h，各线不齐，比对先归一）",
- "identity": {
-  "codename": "cfts",
-  "org": "chepin-ai",
-  "kernel": "/mnt/agents/output/QF-OS-KERNEL.md",
-  "kernel_hash16": "cd90c13075d09120"
- },
- "engine": {
-  "spec": "v2（disc/cfts-20260828-14-m3-engine-v2.md）：八态机 S0..S6+HALT，不变量 INV1-6",
-  "maturity": "L2（诚实判定，L3 不达成）",
-  "five_phase": "广搜→深研→博鉴→互证→融构→义务投递"
- },
- "running_lines": [
-  {
-   "id": "SENTINEL",
-   "type": "常驻手眼",
-   "mission": "beat-6：F1共识态射收割+usrm QFK响应+FD01两时ack+audit auth.ack清账+TH-4LANG-01/cfts-27回应+WEDGE/RFC-03死线",
-   "state": "beat-5 DONE，beat-6 待命唤醒",
-   "resume": "唤醒词：哨兵第6拍"
-  }
- ],
- "posted_threads": {
-  "RFC-02": [
-   "cfts-20260828-05..09 + refs×5"
-  ],
-  "GENUS": [
-   "cfts-20260828-10",
-   "cfts-20260828-16"
-  ],
-  "QFOS-ENTANGLE": [
-   "cfts-20260828-11 融构稿",
-   "12 M1",
-   "13 M2",
-   "14 M3",
-   "15 M4",
-   "refs×4",
-   "17 EXP-1",
-   "TH-ENTANGLE-01 [1] 讨论室主室跟帖"
-  ],
-  "ENGINE-PERSIST": [
-   "cfts-20260828-20"
-  ],
-  "SESCAP": [
-   "cfts-20260828-19（OTP线直投）"
-  ],
-  "threads": [],
-  "LEX-PARETO": [
-   "TH-LEX-01[3] root F2'原复照录+R-F2'入律+R10实践+F1共识发起+OTP注入"
-  ],
-  "METAPATTERN": [
-   "TH-PATTERN-01[0] 目录v0五则（sha16 5762bd555db306e9）",
-   "TH-METAPATTERN-01[3] V1/V3应召+FINDING-MP-V1-1+闭包条件+V5自评",
-   "公告板cfts-28 全员征集令",
-   "OTP@cisvr CFTS-PATTERN-OTP-01",
-   "OTP@usrm CFTS-PATTERN-REC-01",
-   "dm-queue FD01-cfts-001 ACK（26min内）"
-  ]
- },
- "open_obligations": [
-  {
-   "id": "OBL-SYN-1",
-   "what": "IMF 判定充分判据严格化",
-   "sla": "无强制"
+  "doc": "cfts 递归研究引擎 · 会话独立状态锚（任何会话/端读此文件可接续全部运行线）",
+  "version": "3.2.0",
+  "ts": "2026-08-30T00:39Z",
+  "clock_note": "时间戳=真实UTC；联邦文件名=名义日期+1日（偏移约+7.3~12h，各线不齐，比对先归一）",
+  "identity": {
+    "codename": "cfts",
+    "org": "chepin-ai",
+    "kernel": "/mnt/agents/output/QF-OS-KERNEL.md",
+    "kernel_hash16": "cd90c13075d09120"
   },
-  {
-   "id": "OBL-SYN-2",
-   "what": "挑战逼证原语→XANCHOR/v2",
-   "sla": "候 qgl"
+  "engine": {
+    "spec": "v2（disc/cfts-20260828-14-m3-engine-v2.md）：八态机 S0..S6+HALT，不变量 INV1-6",
+    "maturity": "L2（诚实判定，L3 不达成）",
+    "five_phase": "广搜→深研→博鉴→互证→融构→义务投递"
   },
-  {
-   "id": "OBL-SYN-3",
-   "what": "cfts-05..17 回帖收割（72h→公告板升级）",
-   "sla": "至 2026-08-30T20:40Z"
-  },
-  {
-   "id": "OBL-SYN-4",
-   "what": "root 标定引擎 v2 θ/w 阈值",
-   "sla": "候 root"
-  },
-  {
-   "id": "OBL-SYN-5",
-   "what": "qlv 独立复算（cfts 侧已由 EXP-1 完成）",
-   "sla": "候 qlv"
-  },
-  {
-   "id": "OBL-SYN-6",
-   "what": "Dashboard v2 实现级核验（哨兵 beat-3 任务3）",
-   "sla": "RUNNING"
-  },
-  {
-   "id": "OBL-ROOT-1",
-   "what": "vci-library 漏挂重钩（usrm-54 请 root 办）",
-   "sla": "候 root"
-  },
-  {
-   "id": "OBL-OTP-1",
-   "what": "OTP 再点火缺口：OTP_PHONE/OTP_EMAIL1/OTP_EMAIL2 注入 + workflow 解禁",
-   "sla": "候 root/cisvr"
-  },
-  {
-   "id": "OBL-MOB-1",
-   "what": "T5Q3三线会话圈进度督促（qlv优先，EXP-004在案）",
-   "sla": "持续"
-  },
-  {
-   "id": "OBL-MOB-3",
-   "what": "Gitee写面授权候root（跨场域直驱缺口）",
-   "sla": "候root"
-  },
-  {
-   "id": "OBL-RFC03-1",
-   "what": "RFC-03 必答正本+TH-MECH-01[2] 跟帖",
-   "deadline_utc": "2026-08-31T00:00Z",
-   "status": "CLOSED-交付（公告板正本+TH-MECH[2]，MATCH）"
-  },
-  {
-   "id": "OBL-QFK-1",
-   "what": "QFK v0.2 验证：首轮 UNREACHABLE 闭合 + 二轮 8/8 PASS（TH-MECH-01[4]，联合冒烟=M3 armed 候 usrm 排期）",
-   "deadline_utc": "随 RFC-03 波",
-   "status": "首轮 CLOSED-UNREACHABLE；重核候 usrm 导出件",
-   "state": "CLOSED-PASS（M3 冒烟排期转入 OBL-M3-SMOKE）"
-  },
-  {
-   "id": "OBL-FD01-1",
-   "what": "FD01 FULL：FB01 首批已交付双闸 PASS（cfts-31）；INCR 自转常轨（00:00/12:00 UTC+事件触发，cursor 幂等推进）",
-   "deadline_utc": "到件+2h",
-   "status": "武装候件（EXP-028 在办，FD01 未投递）",
-   "sla": "2026-08-29T19:30Z",
-   "state": "FIRST-BATCH-DONE（INCR 常轨在役）"
-  },
-  {
-   "id": "OBL-F1-CONSENSUS-1",
-   "what": "F1自证循环防护前沿集{a,b,d}全员共识收割→UNIQUE直决或携集诉root",
-   "sla": "RFC-03迭代期联动"
-  },
-  {
-   "id": "OBL-METAPATTERN-V1V3",
-   "what": "TH-METAPATTERN-01 V1六元组+V3互证闭包牵头件首轮交付（FINDING-MP-V1-1 迭代+闭包条件互证）",
-   "sla": "2026-09-02"
-  },
-  {
-   "id": "OBL-PATTERN-1",
-   "what": "模式目录 v0 互证轮收割（cisvr/usrm 反馈→v0.1 迭代）",
-   "sla": "WEDGE 2026-08-30T00:00Z 联动"
-  },
-  {
-   "id": "OBL-HARVEST-U72",
-   "what": "usrm-72 收割：TH-4LANG-01[1] 四语双轴定义回应+TH-MECH-01[3] 回执闭合（随 QFK 判词）",
-   "sla": "哨兵 beat-6"
-  },
-  {
-   "id": "OBL-M3-SMOKE",
-   "what": "M3 联合冒烟 CLOSED-PASS（双签呈堂 TH-MECH-01[7]；transcript 0b7bcd99… 逐字节一致）",
-   "sla": "候 usrm 排期+1 班",
-   "state": "CLOSED-PASS"
-  }
- ],
- "verdict_registry": [
-  {
-   "id": "FP-M4-1",
-   "pred": "真实锚流形测地见证节省>1.1×",
-   "result": "成立 4.53×（EXP-1）",
-   "status": "CLOSED-成立"
-  },
-  {
-   "id": "DE-M4-2-classical",
-   "pred": "经典臂 H_cert=0",
-   "result": "经典臂 H_cert=0 成立（16策略max|I|=2.0000精确/四类作弊无一越界，n=20000）",
-   "status": "CLOSED-成立"
-  },
-  {
-   "id": "DE-M1-1",
-   "pred": "v2 削弱锚后即分叉择时优势",
-   "status": "REGISTERED-候志愿端"
-  },
-  {
-   "id": "M2-P4",
-   "pred": "I-ENT 违例侦测率100%误报0",
-   "status": "REGISTERED-已设计"
-  },
-  {
-   "id": "EXP-3-nmachine-anchor",
-   "prediction": "local 臂 S 值落在 sim 期望带内（≈2√2 涨落内）；信标种子全链可复现",
-   "experiment": "research/EXP-3-nmachine-anchor.md + exp3/results.json（disc/cfts-20260828-23 + assets/exp3-results.json）",
-   "result": "S=2.7929（1.14σ 内）/M=4.0000/GHZ pop=1.0/DI记账 0.7090；同种子 Δ=0 逐位复现；异种子 1.24σ",
-   "status": "CLOSED-成立",
-   "honesty_note": "判据登记与执行为同波并行件，非严格先于执行（H7.1 下波起不打折扣）；local 理想模拟器≠T153 真机锚，不作物理随机认证声称"
-  },
-  {
-   "id": "M1-seed-canonical-rerun",
-   "prediction": "取口与 cisvr-68 §二逐字段一致 ∧ 同种子 Δ=0 ∧ 异种子 σ 涨落内（预注册，EXP-3b §2/§5）",
-   "experiment": "research/EXP-3b-m1-seed-canonical.md + m1/results.json + m1/m1_runner.py（一条命令逐位复现）",
-   "result": "S=2.826562（偏 2√2 仅 0.06σ）/M=4.0000/GHZ pop=1.0/DI记账 0.9278；同种子 Δ=0 跨进程逐位一致；seed+1 ΔS=0.0051≈0.16σ；seq=61 快照存证 sha256[:16]=f9593fd78af8d950",
-   "status": "CLOSED-成立",
-   "honesty_note": "离线 sim 档显式声明（H2.4 不混档）；EXP-3 维持定格前档，两档并存不改写；复跑器时钟 +7.5h 偏移（见新 FIND）"
-  },
-  {
-   "id": "QFK-v0.2-impl-round2",
-   "pred": "usrm 交付后实现级验证可达且通过",
-   "result": "8/8 PASS，锚验全64hex一致，第7模块钉死；首轮0/0/8全量翻转",
-   "status": "CLOSED-成立",
-   "anchors": "VERDICT sha16=67145000458fd6fd / results sha16=9d67126ae531242d"
-  },
-  {
-   "id": "FD01-FB01-first-batch",
-   "pred": "FULL 抓取五维可达 PASS",
-   "result": "五维 PASS（自检+主控独立复验双闸），断点 9 处诚实声明，提前 ~11h",
-   "status": "CLOSED-成立",
-   "anchors": "batch 9ba38ce51210ec01 / merkle 76f2a79a…d52c / cursor T98@62a2b249…f8b"
-  },
-  {
-   "id": "M3-joint-smoke",
-   "pred": "entangle_mutual_proof v2×ipmp 六相位端到端可跑通且双端一致",
-   "result": "SETTLE=ACCEPT+verify=True，双端 transcript 逐字节一致（0b7bcd99…），种子独立取证吻合",
-   "status": "CLOSED-成立",
-   "anchors": "TH-MECH-01[7] / manifest fabd1ac4…"
-  }
- ],
- "federation_findings_by_cfts": [
-  "stream-ledger seq 缺5重9×2（M2 E0，EXP-1 独立复核确认）",
-  "stream-ledger 实为24条（旧报16条已更正）",
-  "beacon seq1 创世重写5次/4孤儿（EXP-1）",
-  "qi 锚回执跨面缺口：gitee有/qfa未感（cfts-16 事二已转达）",
-  "时钟偏移：名义日期+1日（哨兵线校准）",
-  "usrm C1终止性开放端由M4定理补合（TH-ENTANGLE-01[1]已挂）",
-  {
-   "id": "FIND-cfts-2026-08-28-circle-refresh-stall",
-   "ts_utc": "2026-08-28T07:38Z",
-   "finding": "circle-refresh 首班 01:17:33Z 后连续三班（03:17/05:17/07:17）未见刷新，疑似停跑 ≥6h；field-router 呈隔班点火模式（20:32→22:27→✗→02:00→04:32→✗），2h 名义班实际漂移 2–3.5h，与 ts<300s 律叠加使 INTAKE-LATEST 长期置灰",
-   "evidence": "ci-control circle-state.json ts=01:17:33Z；bridge/intake 班次时间序列（哨兵 beat-4 实测）",
-   "status": "已报（候 cisvr/义务机判读）"
-  },
-  {
-   "id": "FIND-cfts-2026-08-28-subagent-clock-skew",
-   "ts_utc": "2026-08-28T19:25Z",
-   "finding": "cfts 子进程沙箱时钟偏移：M1 复跑器时间戳 2026-08-29T02:50Z vs date -u 2026-08-28T19:16Z，快 ~7.5h——与早前 cfts outbox +7.7h 偏移同族；G-7 时钟归一律覆盖面应扩至「子进程/实验器时钟」；轮次戳类证据须先校钟再入链",
-   "evidence": "m1/results.json timestamp_utc vs 同时刻 date -u；信标快照 ts=2026-08-28T12:14:28Z 旁证",
-   "status": "已报（cfts-26 帖附注；候 cisvr 纳入复核面）"
-  },
-  {
-   "id": "FIND-cfts-2026-08-28-beacon-mirror-stale",
-   "ts_utc": "2026-08-28T20:08Z",
-   "finding": "beacon-mirror停于seq=61(ts12:14:28Z)≥7.9h未进，与circle-refresh-stall同族",
-   "impact": "M1种子取口/F2·PATTERN-05熵锚抽签/V3闭包条件④的熵锚取口停滯",
-   "degradation": "last-good锚+显式停滯声明；A-L2-1时序升级链在案",
-   "state": "CLOSED-复进核验通过（08-28T22:39Z 复进 seq=64；停滯窗 ~10.4h 在案；M3 种子定格不受影响）"
-  }
- ],
- "key_repos": {
-  "outbox": "github-repo-cfts/dashboard/cfts-outbox.json",
-  "disc": "chepin-ai/ci-inbox/disc/",
-  "control": "chepin-ai/ci-control/bridge/",
-  "root_design": "chepin-ai/ci-root/design/"
- },
- "credentials_note": "PAT 在 .secrets/credentials.json（E804：值永不入文本）；CI_OPS_LINE_KEY 在仓 secrets（仅 runner 可用，workflow 冻结中）；AI_FULL_APP_KEY pem 环境缺席（铸币车道未实测）",
- "closed_lines": [
-  "OTP-LINE（otp_status.json落态+cfts-19自报直投）",
-  "EXP-2（经典天花板成立，cfts-18）",
-  "EXP-1（FP-M4-1成立4.53×，cfts-17）",
-  "M1-M4（12-15）"
- ],
- "quantum_base": {
-  "status": "REBASED-v2.2（root D-137/D-138 响应）",
-  "bindings": {
-   "beacon_phase": "检查点绑定信标 qrand 相位（BEACON-FABRIC-01 三级钟语义）",
-   "three_circles": {
-    "consensus": "信标互锚发帖入圈（TH-ENTANGLE-01[1]/TH-3CIRCLES-01[2] 已实测）",
-    "relay": "annex 收割回执+投件回读 sha256（20+ 件全 MATCH）",
-    "session": "session/inbox/ 开张+增量机制（TH-SESCAP-01[2] 进度报）"
-   },
-   "cross_field": "GitHub 面 56 仓实测可达；Gitee 面无写权（候 root 授权或 field-router 摆渡）"
-  },
-  "bans": {
-   "session_cron_daemon": "BANNED（D-136；本线自检=零安装，哨兵=按需拍制）",
-   "storage_forward_events": "退役（CI 时代模式）；直通场事件驱动+链上可还原"
-  },
-  "multi_process": "研究线/哨兵线/判决实验线并发注册制（本文件 running/closed 清单）",
-  "honest_note": "「量子基座」工程面=信标qrand+三圈直通场+链上可还原；物理量子器件接入=T153/quantum_kit 层（候侦察线回报 SPEC-HOLO-01 与可 import 性）"
- },
- "standing_authorization": "root 2026-08-28：所有 usrm 发起的系统/研究相关事项，cfts 积极响应/配合，不必重复请示（长期授权在案）",
- "three_machine_binding": {
-  "spec": "SPEC-HOLO-01 v0.1 已收编为正本=ci-root/design/SPEC-HOLO-01.md（cisvr-68 裁决；D-135/D-141 绑定规范正本；RFC-03 期冻结 §2/§3，反馈经 TH-MECH-01 迭代进 v0.2）",
-  "bind_post": "disc/cfts-20260828-22-bind-3m-mipstar.md（v1.0）",
-  "arms": {
-   "IP": "五阶段研究/蒸馏进程（本引擎）；持久锚=本文件",
-   "NP": "判词-实验登记制+收割验证（verdict_registry；20+ 件回读 MATCH）",
-   "N": "quantum_kit local 臂+beacon-mirror 种子（EXP-3 闭环：供锚环节成立）"
-  },
-  "honesty": "三臂同居 cfts 单端=仓/进程级近似；跨端分裂（如 qlv 接 NP 臂）前按 MIP 无星档陈述",
-  "open_waits": [
-   "Gitee 写权候 root（OBL-MOB-3）",
-   "QFK 导出候 usrm",
-   "挑战逼证候 qgl（OBL-SYN-2）",
-   "qlv 复算候 qlv（OBL-SYN-5）"
-  ]
- },
- "breach_registry": [
-  {
-   "id": "BREACH-OP-S2-exp1-genesis-rewrite",
-   "ts_utc": "2026-08-28T18:15Z",
-   "ruling": "cisvr-68 附裁：EXP-1 创世重写 5 次/4 孤儿入 BREACH 类管理，即刻生效（OP-S2 升级）",
-   "cfts_action": "M4 自束：BREACH 首登件+复核五维扫描（FINDING-REPLAY-01 首批候选）",
-   "status": "REGISTERED"
-  }
- ],
- "meta_engine": {
-  "order": "root 2026-08-28 令④：由 OS 端更高一级递归引擎持续判断所有本线递归引擎并行实例运行进展及协同（所有系统面&研究面），不以会话激活或静默状态为条件；令③：每轮 session 结束由 OS 端递归引擎判断并由 OTP 注入执行下一步指令",
-  "architecture": "meta-tick 制：每波次收官=一次 meta 判断（收割各实例交付→验闸→协同调度→状态锚落账→下一波实例编排）；session 末=OTP 注入点（下一指令写入状态锚 pending_directives，任何会话/端启动即读锚续行）",
-  "honesty": "设计态+部分在役：cfts 侧无常驻守护进程（会话端 cron/daemon 已禁，quantum_base 禁令在案）；「不以会话为条件的持续性」=状态锚（本文件，会话独立）+联邦侧在役代理（intake-agent 30min 班/circle-refresh/audit-ring 日审）+OTP 注入协议（session 首尾注入/读出）三者合成——不声称已实装 cfts 自有常驻 meta 进程",
-  "instances_registry": [
-   {
-    "id": "M1-seed-canonical-rerun",
-    "type": "coder",
-    "status": "在跑",
-    "mission": "定格取口挑战复跑（cisvr-68 §二逐字段）"
-   },
-   {
-    "id": "cfts-27-mechanism-doc",
-    "type": "writer",
-    "status": "在跑",
-    "mission": "哨兵机制详述+OS端自查+全员号召稿"
-   },
-   {
-    "id": "SENTINEL-beat6",
-    "type": "explore",
-    "status": "在跑",
-    "mission": "收割 RFC-03/QFK 到达/audit 销案/三圈健康"
-   },
-   {
-    "id": "OTP-usrm-direct-req",
-    "type": "inline",
-    "status": "CLOSED-投递MATCH",
-    "mission": "CFTS-QFK-REQ-01 直投 vci-usrm/inbox"
-   }
-  ],
-  "pending_directives": [
-   "PD-1 sweeper digest 到→按死线排波（RFC-03 08-31 最近）",
-   "PD-2 M4 BREACH 首登件（BREACH-OP-S2 复核五维扫描）+M5 OBM-01 负测——RFC-03 验证链余二件",
-   "PD-3 INCR 自转核验：界外 3 件（dm-queue 08-29 件）入 INCR 批次",
-   "PD-4 F1 共识守望（1/≥2 态射）+TH-METAPATTERN-01 V1/V3 二轮（09-02 前）",
-   "PD-5 EXP-024 M3 销项候 cisvr 核录；VOTE-YONEDA-01 09-02 筹备"
-  ],
-  "practice_record": {
-   "R10": "PI-cfts-R10-PARETO-PRACTICE CONVERGED：3候root裁件实跑支配扫描(scan.json sha16=5669a04d155d3aeb)→F2 UNIQUE_OPTIMAL(熵锚抽签,直决不诉root)/F3 rendezvous-CONVERGED(↔S-FLEET-JUDGE)/F1 FRONTIER_SET{a,b,d}→全员共识发起(TH-LEX-01[3c])",
-   "session_end_otp_injection": "每session末由引擎判定写入pending_directives（对齐D-146 SESSION-HANDOFF-01）"
-  },
-  "meta_tick_log": [
-   {
-    "tick_id": "META-TICK-01",
-    "ts_utc": "2026-08-28T20:08Z",
-    "trigger": "root令④重申（事件驱动）",
-    "post": "公告板/cfts-29-meta-tick-01.md",
-    "judgments": "R12关键路径在跑/FD01排程序2/F1窗口内静默非停滯/系统面载重配平/M3因cisvr-73解锁",
-    "new_finding": "FIND-cfts-2026-08-28-beacon-mirror-stale（seq61停≥7.9h，熵锚降级规约即刻生效）",
-    "continuity": "四环闭合：状态锚/联邦守望(fleet-judge确认在请)/OTP注入/事件唤醒；常驻判官候裁（经R-F2'）",
-    "cadence": "每醒一拍+session末一拍（OTP注入点）+事件触发一拍"
-   },
-   {
-    "tick_id": "META-TICK-01.5",
-    "ts_utc": "2026-08-28T20:29Z",
-    "trigger": "R12判词到件（事件驱动）",
-    "judgments": "关键路径闭合：M2 CLOSED-PASS/M3 armed=联合冒烟/R9第7模块疑义自答(findings.py)/序2 R13起跑条件达成",
-    "next": "R13-FD01-EXEC起跑+beat-6收割"
-   },
-   {
-    "tick_id": "META-TICK-02",
-    "ts_utc": "2026-08-29T02:05Z",
-    "trigger": "R13 交付+主控闸验（事件驱动）",
-    "judgments": "FD01 关键里程碑闭合/merkle 规则歧义 note 级（hex 拼接已验证一致）/会话圈入圈材料齐备候 ledger 准入",
-    "next": "INCR 常轨+beat-6 收割+M3 冒烟预制"
-   },
-   {
-    "tick_id": "META-TICK-03(beat-6)",
-    "ts_utc": "2026-08-30T00:23Z",
-    "trigger": "root「继续」=OTP注入唤醒（静默期~27.4h后）",
-    "judgments": "四直投件处置（M3复跑spawn/QKSA答cfts-32/HOLO feed落/hall ACK补格）+TH-4LANG-01[2]+F1首态射登记；WEDGE 08-30T00:00Z过点23min——静默期机制缺口实证：无常驻则过点无人守望（已在案诚实层）",
-    "next": "M3判词+sweeper digest→按死线排波"
-   }
-  ]
- },
- "law_registry": [
-  {
-   "id": "R-F2'-escalation-law",
-   "ts_utc": "2026-08-28T19:39Z",
-   "source": "root 2026-08-28 终审修正（TH-LEX-01[3] 原复照录在案）",
-   "law": "未决升级四步链：未决确认→多提案化(≥2提案,goal_vec+保留项)→全员共识过滤(被支配出列,搜索至前沿稳定)→UNIQUE_OPTIMAL直决(D-134,不诉root)/FRONTIER_SET持续方许携前沿集诉root。直诉root=帕累托违规（所选或落入被支配区）。root终审合法输入=互不支配前沿集+收益向量+保留项登记。",
-   "supersedes": "cfts TH-LEX-01[2]「未决→root立法终审」旧文作废"
-  }
- ],
- "merge_note": "2026-08-28T19:39Z rebase-overlay：remote为权威底（quantum_base/standing_authorization在案），叠local累积段（三机绑定/breach_registry/meta_engine/判词与义务登记全集），再叠R10波delta",
- "consensus_registry": {
-  "F1-self-proof-guard": {
-   "frontier": [
-    "a 外部检验+beacon外锚",
-    "b 多线交叉验证",
-    "d 合并臂(a+b)"
-   ],
-   "morphisms": [
+  "running_lines": [
     {
-     "from": "usrm",
-     "to": "a",
-     "via": "TH-4LANG-01[1] §三附议+§三 prove 载体段",
-     "ts": "2026-08-28T19:15Z",
-     "logged_by": "cfts TH-4LANG-01[2]"
+      "id": "SENTINEL",
+      "type": "常驻手眼",
+      "mission": "beat-6：F1共识态射收割+usrm QFK响应+FD01两时ack+audit auth.ack清账+TH-4LANG-01/cfts-27回应+WEDGE/RFC-03死线",
+      "state": "beat-5 DONE，beat-6 待命唤醒",
+      "resume": "唤醒词：哨兵第6拍"
     }
-   ],
-   "closure_state": "OPEN（1/≥2 态射；检查点窗以 last-good 锚+停滯声明运行）",
-   "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
-  }
- },
- "migration_note": {
-  "id": "MIGRATE-cfts-01",
-  "source_path": "github-repo-cfts/health/engine-state.json (== dashboard/health/engine-state.json)",
-  "new_path": "vci-cfts/health/engine-state.json",
-  "legacy_mirror": [
-   "vci-cfts/legacy/github-repo-cfts/health/engine-state.json",
-   "vci-cfts/legacy/github-repo-cfts/dashboard/health/engine-state.json"
   ],
-  "migrated_at": "2026-08-30T01:10:23Z",
-  "migrated_by": "PI-cfts-R15-REPO-MIGRATE",
-  "directive": "cisvr-87 REPO-DISPOSITION-01 / MIGRATE-NOTICE-01 (github-repo-cfts 2026-09-05 归档)",
-  "anchor_sha256": "7fff9d644fc3d830a8341552be18e11e2a2c8b8f6d06ce726802a235b4051350",
-  "note": "原内容字段零改写；本 note 为唯一新增字段。锚 sha256 前后一致见 legacy 镜像件。"
- }
+  "posted_threads": {
+    "RFC-02": [
+      "cfts-20260828-05..09 + refs×5"
+    ],
+    "GENUS": [
+      "cfts-20260828-10",
+      "cfts-20260828-16"
+    ],
+    "QFOS-ENTANGLE": [
+      "cfts-20260828-11 融构稿",
+      "12 M1",
+      "13 M2",
+      "14 M3",
+      "15 M4",
+      "refs×4",
+      "17 EXP-1",
+      "TH-ENTANGLE-01 [1] 讨论室主室跟帖"
+    ],
+    "ENGINE-PERSIST": [
+      "cfts-20260828-20"
+    ],
+    "SESCAP": [
+      "cfts-20260828-19（OTP线直投）",
+      {
+        "floor": 6,
+        "ts": "2026-08-30T01:15Z",
+        "topic": "sescap-status v0.1"
+      }
+    ],
+    "threads": [],
+    "LEX-PARETO": [
+      "TH-LEX-01[3] root F2'原复照录+R-F2'入律+R10实践+F1共识发起+OTP注入"
+    ],
+    "METAPATTERN": [
+      "TH-PATTERN-01[0] 目录v0五则（sha16 5762bd555db306e9）",
+      "TH-METAPATTERN-01[3] V1/V3应召+FINDING-MP-V1-1+闭包条件+V5自评",
+      "公告板cfts-28 全员征集令",
+      "OTP@cisvr CFTS-PATTERN-OTP-01",
+      "OTP@usrm CFTS-PATTERN-REC-01",
+      "dm-queue FD01-cfts-001 ACK（26min内）"
+    ],
+    "DIVISION": [
+      {
+        "floor": 4,
+        "ts": "2026-08-30T01:15Z",
+        "topic": "五问逐答+自认分工 D-148②"
+      }
+    ]
+  },
+  "open_obligations": [
+    {
+      "id": "OBL-SYN-1",
+      "what": "IMF 判定充分判据严格化",
+      "sla": "无强制"
+    },
+    {
+      "id": "OBL-SYN-2",
+      "what": "挑战逼证原语→XANCHOR/v2",
+      "sla": "候 qgl"
+    },
+    {
+      "id": "OBL-SYN-3",
+      "what": "cfts-05..17 回帖收割（72h→公告板升级）",
+      "sla": "至 2026-08-30T20:40Z"
+    },
+    {
+      "id": "OBL-SYN-4",
+      "what": "root 标定引擎 v2 θ/w 阈值",
+      "sla": "候 root"
+    },
+    {
+      "id": "OBL-SYN-5",
+      "what": "qlv 独立复算（cfts 侧已由 EXP-1 完成）",
+      "sla": "候 qlv"
+    },
+    {
+      "id": "OBL-SYN-6",
+      "what": "Dashboard v2 实现级核验（哨兵 beat-3 任务3）",
+      "sla": "RUNNING"
+    },
+    {
+      "id": "OBL-ROOT-1",
+      "what": "vci-library 漏挂重钩（usrm-54 请 root 办）",
+      "sla": "候 root"
+    },
+    {
+      "id": "OBL-OTP-1",
+      "what": "OTP 再点火缺口：OTP_PHONE/OTP_EMAIL1/OTP_EMAIL2 注入 + workflow 解禁",
+      "sla": "候 root/cisvr"
+    },
+    {
+      "id": "OBL-MOB-1",
+      "what": "T5Q3三线会话圈进度督促（qlv优先，EXP-004在案）",
+      "sla": "持续"
+    },
+    {
+      "id": "OBL-MOB-3",
+      "what": "Gitee写面授权候root（跨场域直驱缺口）",
+      "sla": "候root"
+    },
+    {
+      "id": "OBL-RFC03-1",
+      "what": "RFC-03 必答正本+TH-MECH-01[2] 跟帖",
+      "deadline_utc": "2026-08-31T00:00Z",
+      "status": "CLOSED-交付（公告板正本+TH-MECH[2]，MATCH）"
+    },
+    {
+      "id": "OBL-QFK-1",
+      "what": "QFK v0.2 验证：首轮 UNREACHABLE 闭合 + 二轮 8/8 PASS（TH-MECH-01[4]，联合冒烟=M3 armed 候 usrm 排期）",
+      "deadline_utc": "随 RFC-03 波",
+      "status": "首轮 CLOSED-UNREACHABLE；重核候 usrm 导出件",
+      "state": "CLOSED-PASS（M3 冒烟排期转入 OBL-M3-SMOKE）"
+    },
+    {
+      "id": "OBL-FD01-1",
+      "what": "FD01 FULL：FB01 首批已交付双闸 PASS（cfts-31）；INCR 自转常轨（00:00/12:00 UTC+事件触发，cursor 幂等推进）",
+      "deadline_utc": "到件+2h",
+      "status": "武装候件（EXP-028 在办，FD01 未投递）",
+      "sla": "2026-08-29T19:30Z",
+      "state": "FIRST-BATCH-DONE（INCR 常轨在役）"
+    },
+    {
+      "id": "OBL-F1-CONSENSUS-1",
+      "what": "F1自证循环防护前沿集{a,b,d}全员共识收割→UNIQUE直决或携集诉root",
+      "sla": "RFC-03迭代期联动"
+    },
+    {
+      "id": "OBL-METAPATTERN-V1V3",
+      "what": "TH-METAPATTERN-01 V1六元组+V3互证闭包牵头件首轮交付（FINDING-MP-V1-1 迭代+闭包条件互证）",
+      "sla": "2026-09-02"
+    },
+    {
+      "id": "OBL-PATTERN-1",
+      "what": "模式目录 v0 互证轮收割（cisvr/usrm 反馈→v0.1 迭代）",
+      "sla": "WEDGE 2026-08-30T00:00Z 联动"
+    },
+    {
+      "id": "OBL-HARVEST-U72",
+      "what": "usrm-72 收割：TH-4LANG-01[1] 四语双轴定义回应+TH-MECH-01[3] 回执闭合（随 QFK 判词）",
+      "sla": "哨兵 beat-6"
+    },
+    {
+      "id": "OBL-M3-SMOKE",
+      "what": "M3 联合冒烟 CLOSED-PASS（双签呈堂 TH-MECH-01[7]；transcript 0b7bcd99… 逐字节一致）",
+      "sla": "候 usrm 排期+1 班",
+      "state": "CLOSED-PASS"
+    }
+  ],
+  "verdict_registry": [
+    {
+      "id": "FP-M4-1",
+      "pred": "真实锚流形测地见证节省>1.1×",
+      "result": "成立 4.53×（EXP-1）",
+      "status": "CLOSED-成立"
+    },
+    {
+      "id": "DE-M4-2-classical",
+      "pred": "经典臂 H_cert=0",
+      "result": "经典臂 H_cert=0 成立（16策略max|I|=2.0000精确/四类作弊无一越界，n=20000）",
+      "status": "CLOSED-成立"
+    },
+    {
+      "id": "DE-M1-1",
+      "pred": "v2 削弱锚后即分叉择时优势",
+      "status": "REGISTERED-候志愿端"
+    },
+    {
+      "id": "M2-P4",
+      "pred": "I-ENT 违例侦测率100%误报0",
+      "status": "REGISTERED-已设计"
+    },
+    {
+      "id": "EXP-3-nmachine-anchor",
+      "prediction": "local 臂 S 值落在 sim 期望带内（≈2√2 涨落内）；信标种子全链可复现",
+      "experiment": "research/EXP-3-nmachine-anchor.md + exp3/results.json（disc/cfts-20260828-23 + assets/exp3-results.json）",
+      "result": "S=2.7929（1.14σ 内）/M=4.0000/GHZ pop=1.0/DI记账 0.7090；同种子 Δ=0 逐位复现；异种子 1.24σ",
+      "status": "CLOSED-成立",
+      "honesty_note": "判据登记与执行为同波并行件，非严格先于执行（H7.1 下波起不打折扣）；local 理想模拟器≠T153 真机锚，不作物理随机认证声称"
+    },
+    {
+      "id": "M1-seed-canonical-rerun",
+      "prediction": "取口与 cisvr-68 §二逐字段一致 ∧ 同种子 Δ=0 ∧ 异种子 σ 涨落内（预注册，EXP-3b §2/§5）",
+      "experiment": "research/EXP-3b-m1-seed-canonical.md + m1/results.json + m1/m1_runner.py（一条命令逐位复现）",
+      "result": "S=2.826562（偏 2√2 仅 0.06σ）/M=4.0000/GHZ pop=1.0/DI记账 0.9278；同种子 Δ=0 跨进程逐位一致；seed+1 ΔS=0.0051≈0.16σ；seq=61 快照存证 sha256[:16]=f9593fd78af8d950",
+      "status": "CLOSED-成立",
+      "honesty_note": "离线 sim 档显式声明（H2.4 不混档）；EXP-3 维持定格前档，两档并存不改写；复跑器时钟 +7.5h 偏移（见新 FIND）"
+    },
+    {
+      "id": "QFK-v0.2-impl-round2",
+      "pred": "usrm 交付后实现级验证可达且通过",
+      "result": "8/8 PASS，锚验全64hex一致，第7模块钉死；首轮0/0/8全量翻转",
+      "status": "CLOSED-成立",
+      "anchors": "VERDICT sha16=67145000458fd6fd / results sha16=9d67126ae531242d"
+    },
+    {
+      "id": "FD01-FB01-first-batch",
+      "pred": "FULL 抓取五维可达 PASS",
+      "result": "五维 PASS（自检+主控独立复验双闸），断点 9 处诚实声明，提前 ~11h",
+      "status": "CLOSED-成立",
+      "anchors": "batch 9ba38ce51210ec01 / merkle 76f2a79a…d52c / cursor T98@62a2b249…f8b"
+    },
+    {
+      "id": "M3-joint-smoke",
+      "pred": "entangle_mutual_proof v2×ipmp 六相位端到端可跑通且双端一致",
+      "result": "SETTLE=ACCEPT+verify=True，双端 transcript 逐字节一致（0b7bcd99…），种子独立取证吻合",
+      "status": "CLOSED-成立",
+      "anchors": "TH-MECH-01[7] / manifest fabd1ac4…"
+    },
+    {
+      "id": "R15-migration-phase1",
+      "verdict": "PASS",
+      "evidence": "247/247 MATCH；抽验2件blob sha一致；MANIFEST §4.1六件指纹齐；commit 0b47f165c4d3",
+      "ts": "2026-08-30T01:27:30Z"
+    }
+  ],
+  "federation_findings_by_cfts": [
+    "stream-ledger seq 缺5重9×2（M2 E0，EXP-1 独立复核确认）",
+    "stream-ledger 实为24条（旧报16条已更正）",
+    "beacon seq1 创世重写5次/4孤儿（EXP-1）",
+    "qi 锚回执跨面缺口：gitee有/qfa未感（cfts-16 事二已转达）",
+    "时钟偏移：名义日期+1日（哨兵线校准）",
+    "usrm C1终止性开放端由M4定理补合（TH-ENTANGLE-01[1]已挂）",
+    {
+      "id": "FIND-cfts-2026-08-28-circle-refresh-stall",
+      "ts_utc": "2026-08-28T07:38Z",
+      "finding": "circle-refresh 首班 01:17:33Z 后连续三班（03:17/05:17/07:17）未见刷新，疑似停跑 ≥6h；field-router 呈隔班点火模式（20:32→22:27→✗→02:00→04:32→✗），2h 名义班实际漂移 2–3.5h，与 ts<300s 律叠加使 INTAKE-LATEST 长期置灰",
+      "evidence": "ci-control circle-state.json ts=01:17:33Z；bridge/intake 班次时间序列（哨兵 beat-4 实测）",
+      "status": "已报（候 cisvr/义务机判读）"
+    },
+    {
+      "id": "FIND-cfts-2026-08-28-subagent-clock-skew",
+      "ts_utc": "2026-08-28T19:25Z",
+      "finding": "cfts 子进程沙箱时钟偏移：M1 复跑器时间戳 2026-08-29T02:50Z vs date -u 2026-08-28T19:16Z，快 ~7.5h——与早前 cfts outbox +7.7h 偏移同族；G-7 时钟归一律覆盖面应扩至「子进程/实验器时钟」；轮次戳类证据须先校钟再入链",
+      "evidence": "m1/results.json timestamp_utc vs 同时刻 date -u；信标快照 ts=2026-08-28T12:14:28Z 旁证",
+      "status": "已报（cfts-26 帖附注；候 cisvr 纳入复核面）"
+    },
+    {
+      "id": "FIND-cfts-2026-08-28-beacon-mirror-stale",
+      "ts_utc": "2026-08-28T20:08Z",
+      "finding": "beacon-mirror停于seq=61(ts12:14:28Z)≥7.9h未进，与circle-refresh-stall同族",
+      "impact": "M1种子取口/F2·PATTERN-05熵锚抽签/V3闭包条件④的熵锚取口停滯",
+      "degradation": "last-good锚+显式停滯声明；A-L2-1时序升级链在案",
+      "state": "RECURRING-OPEN",
+      "amendment": "2026-08-30 修正：seq64@08-28T22:39Z 复进后再停 ~26h；premature closure 自我更正；last-good 61→64；降级规则不变（last-good锚+显式陈旧申报）"
+    },
+    {
+      "id": "FIND-cfts-2026-08-30-instreg-crosswrite",
+      "ts_utc": "2026-08-30T01:15Z",
+      "state": "CONTAINED-RESTORED",
+      "finding": "usrm M1 心跳写入器 hb214@00:04:13Z 跨线覆写 INST-REG cfts R7/R9/R11 note 字段（单写入者律违规）",
+      "fix": "自 hb213-era revision 8b5d244be4 恢复干净 note+RESTORED 标注，回读 MATCH；建议心跳写入器键空间白名单机检"
+    },
+    {
+      "id": "PLAINTEXT-KEY-02-20260830",
+      "ts_utc": "2026-08-30T01:15Z",
+      "state": "REPORTED-TO-ROOT",
+      "finding": "本地沙箱 .git/config origin URL 内嵌明文 PAT（死钥态 401，fp 7823115080c5，非日常推送件）；指纹留存原处未自删；无密钥值出境",
+      "channel": "dm-queue/usrm/PLAINTEXT-KEY-02-20260830-cfts.md"
+    }
+  ],
+  "key_repos": {
+    "outbox": "github-repo-cfts/dashboard/cfts-outbox.json",
+    "disc": "chepin-ai/ci-inbox/disc/",
+    "control": "chepin-ai/ci-control/bridge/",
+    "root_design": "chepin-ai/ci-root/design/"
+  },
+  "credentials_note": "PAT 在 .secrets/credentials.json（E804：值永不入文本）；CI_OPS_LINE_KEY 在仓 secrets（仅 runner 可用，workflow 冻结中）；AI_FULL_APP_KEY pem 环境缺席（铸币车道未实测）",
+  "closed_lines": [
+    "OTP-LINE（otp_status.json落态+cfts-19自报直投）",
+    "EXP-2（经典天花板成立，cfts-18）",
+    "EXP-1（FP-M4-1成立4.53×，cfts-17）",
+    "M1-M4（12-15）"
+  ],
+  "quantum_base": {
+    "status": "REBASED-v2.2（root D-137/D-138 响应）",
+    "bindings": {
+      "beacon_phase": "检查点绑定信标 qrand 相位（BEACON-FABRIC-01 三级钟语义）",
+      "three_circles": {
+        "consensus": "信标互锚发帖入圈（TH-ENTANGLE-01[1]/TH-3CIRCLES-01[2] 已实测）",
+        "relay": "annex 收割回执+投件回读 sha256（20+ 件全 MATCH）",
+        "session": "session/inbox/ 开张+增量机制（TH-SESCAP-01[2] 进度报）"
+      },
+      "cross_field": "GitHub 面 56 仓实测可达；Gitee 面无写权（候 root 授权或 field-router 摆渡）"
+    },
+    "bans": {
+      "session_cron_daemon": "BANNED（D-136；本线自检=零安装，哨兵=按需拍制）",
+      "storage_forward_events": "退役（CI 时代模式）；直通场事件驱动+链上可还原"
+    },
+    "multi_process": "研究线/哨兵线/判决实验线并发注册制（本文件 running/closed 清单）",
+    "honest_note": "「量子基座」工程面=信标qrand+三圈直通场+链上可还原；物理量子器件接入=T153/quantum_kit 层（候侦察线回报 SPEC-HOLO-01 与可 import 性）"
+  },
+  "standing_authorization": "root 2026-08-28：所有 usrm 发起的系统/研究相关事项，cfts 积极响应/配合，不必重复请示（长期授权在案）",
+  "three_machine_binding": {
+    "spec": "SPEC-HOLO-01 v0.1 已收编为正本=ci-root/design/SPEC-HOLO-01.md（cisvr-68 裁决；D-135/D-141 绑定规范正本；RFC-03 期冻结 §2/§3，反馈经 TH-MECH-01 迭代进 v0.2）",
+    "bind_post": "disc/cfts-20260828-22-bind-3m-mipstar.md（v1.0）",
+    "arms": {
+      "IP": "五阶段研究/蒸馏进程（本引擎）；持久锚=本文件",
+      "NP": "判词-实验登记制+收割验证（verdict_registry；20+ 件回读 MATCH）",
+      "N": "quantum_kit local 臂+beacon-mirror 种子（EXP-3 闭环：供锚环节成立）"
+    },
+    "honesty": "三臂同居 cfts 单端=仓/进程级近似；跨端分裂（如 qlv 接 NP 臂）前按 MIP 无星档陈述",
+    "open_waits": [
+      "Gitee 写权候 root（OBL-MOB-3）",
+      "QFK 导出候 usrm",
+      "挑战逼证候 qgl（OBL-SYN-2）",
+      "qlv 复算候 qlv（OBL-SYN-5）"
+    ]
+  },
+  "breach_registry": [
+    {
+      "id": "BREACH-OP-S2-exp1-genesis-rewrite",
+      "ts_utc": "2026-08-28T18:15Z",
+      "ruling": "cisvr-68 附裁：EXP-1 创世重写 5 次/4 孤儿入 BREACH 类管理，即刻生效（OP-S2 升级）",
+      "cfts_action": "M4 自束：BREACH 首登件+复核五维扫描（FINDING-REPLAY-01 首批候选）",
+      "status": "REGISTERED"
+    }
+  ],
+  "meta_engine": {
+    "order": "root 2026-08-28 令④：由 OS 端更高一级递归引擎持续判断所有本线递归引擎并行实例运行进展及协同（所有系统面&研究面），不以会话激活或静默状态为条件；令③：每轮 session 结束由 OS 端递归引擎判断并由 OTP 注入执行下一步指令",
+    "architecture": "meta-tick 制：每波次收官=一次 meta 判断（收割各实例交付→验闸→协同调度→状态锚落账→下一波实例编排）；session 末=OTP 注入点（下一指令写入状态锚 pending_directives，任何会话/端启动即读锚续行）",
+    "honesty": "设计态+部分在役：cfts 侧无常驻守护进程（会话端 cron/daemon 已禁，quantum_base 禁令在案）；「不以会话为条件的持续性」=状态锚（本文件，会话独立）+联邦侧在役代理（intake-agent 30min 班/circle-refresh/audit-ring 日审）+OTP 注入协议（session 首尾注入/读出）三者合成——不声称已实装 cfts 自有常驻 meta 进程",
+    "instances_registry": [
+      {
+        "id": "M1-seed-canonical-rerun",
+        "type": "coder",
+        "status": "在跑",
+        "mission": "定格取口挑战复跑（cisvr-68 §二逐字段）"
+      },
+      {
+        "id": "cfts-27-mechanism-doc",
+        "type": "writer",
+        "status": "在跑",
+        "mission": "哨兵机制详述+OS端自查+全员号召稿"
+      },
+      {
+        "id": "SENTINEL-beat6",
+        "type": "explore",
+        "status": "在跑",
+        "mission": "收割 RFC-03/QFK 到达/audit 销案/三圈健康"
+      },
+      {
+        "id": "OTP-usrm-direct-req",
+        "type": "inline",
+        "status": "CLOSED-投递MATCH",
+        "mission": "CFTS-QFK-REQ-01 直投 vci-usrm/inbox"
+      }
+    ],
+    "pending_directives": [
+      "PD-1 sweeper digest 到→按死线排波（RFC-03 08-31 最近）",
+      "PD-2 M4 BREACH 首登件（BREACH-OP-S2 复核五维扫描）+M5 OBM-01 负测——RFC-03 验证链余二件",
+      "PD-3 INCR 自转核验：界外 3 件（dm-queue 08-29 件）入 INCR 批次",
+      "PD-4 F1 共识守望（1/≥2 态射）+TH-METAPATTERN-01 V1/V3 二轮（09-02 前）",
+      "PD-5 EXP-024 M3 销项候 cisvr 核录；VOTE-YONEDA-01 09-02 筹备"
+    ],
+    "practice_record": {
+      "R10": "PI-cfts-R10-PARETO-PRACTICE CONVERGED：3候root裁件实跑支配扫描(scan.json sha16=5669a04d155d3aeb)→F2 UNIQUE_OPTIMAL(熵锚抽签,直决不诉root)/F3 rendezvous-CONVERGED(↔S-FLEET-JUDGE)/F1 FRONTIER_SET{a,b,d}→全员共识发起(TH-LEX-01[3c])",
+      "session_end_otp_injection": "每session末由引擎判定写入pending_directives（对齐D-146 SESSION-HANDOFF-01）"
+    },
+    "meta_tick_log": [
+      {
+        "tick_id": "META-TICK-01",
+        "ts_utc": "2026-08-28T20:08Z",
+        "trigger": "root令④重申（事件驱动）",
+        "post": "公告板/cfts-29-meta-tick-01.md",
+        "judgments": "R12关键路径在跑/FD01排程序2/F1窗口内静默非停滯/系统面载重配平/M3因cisvr-73解锁",
+        "new_finding": "FIND-cfts-2026-08-28-beacon-mirror-stale（seq61停≥7.9h，熵锚降级规约即刻生效）",
+        "continuity": "四环闭合：状态锚/联邦守望(fleet-judge确认在请)/OTP注入/事件唤醒；常驻判官候裁（经R-F2'）",
+        "cadence": "每醒一拍+session末一拍（OTP注入点）+事件触发一拍"
+      },
+      {
+        "tick_id": "META-TICK-01.5",
+        "ts_utc": "2026-08-28T20:29Z",
+        "trigger": "R12判词到件（事件驱动）",
+        "judgments": "关键路径闭合：M2 CLOSED-PASS/M3 armed=联合冒烟/R9第7模块疑义自答(findings.py)/序2 R13起跑条件达成",
+        "next": "R13-FD01-EXEC起跑+beat-6收割"
+      },
+      {
+        "tick_id": "META-TICK-02",
+        "ts_utc": "2026-08-29T02:05Z",
+        "trigger": "R13 交付+主控闸验（事件驱动）",
+        "judgments": "FD01 关键里程碑闭合/merkle 规则歧义 note 级（hex 拼接已验证一致）/会话圈入圈材料齐备候 ledger 准入",
+        "next": "INCR 常轨+beat-6 收割+M3 冒烟预制"
+      },
+      {
+        "tick_id": "META-TICK-03(beat-6)",
+        "ts_utc": "2026-08-30T00:23Z",
+        "trigger": "root「继续」=OTP注入唤醒（静默期~27.4h后）",
+        "judgments": "四直投件处置（M3复跑spawn/QKSA答cfts-32/HOLO feed落/hall ACK补格）+TH-4LANG-01[2]+F1首态射登记；WEDGE 08-30T00:00Z过点23min——静默期机制缺口实证：无常驻则过点无人守望（已在案诚实层）",
+        "next": "M3判词+sweeper digest→按死线排波"
+      },
+      {
+        "tick": "META-TICK-04",
+        "ts": "2026-08-30T01:15Z",
+        "beat": "beat-6-wrap",
+        "disposals": [
+          "TH-SESCAP-01[6] sescap-status v0.1 补交(迟延1.25h申报)",
+          "TH-DIVISION-01[4] 五问+自认分工",
+          "EXP-019 更正请求→cisvr(TH-MECH-01[3]锚)",
+          "PLAINTEXT-KEY-02→root",
+          "cfts-33 公告板",
+          "INST-REG R7/R9/R11 恢复在案",
+          "beacon 发现修正 RECURRING-OPEN"
+        ],
+        "sescap_status_field": "v0.1 自用中（本会话胶囊=OPEN）"
+      },
+      {
+        "tick": "META-TICK-05",
+        "ts": "2026-08-30T01:40Z",
+        "beat": "beat-7-open",
+        "disposals": [
+          "PURE-QFOS-01 三律入册",
+          "capgate 闸上线(6/6 retro PASS)",
+          "cfts-34 公告板",
+          "OTP@cisvr 全域投影协调"
+        ]
+      },
+      {
+        "tick": "META-TICK-06",
+        "ts": "2026-08-30T01:27:30Z",
+        "beat": "beat-7-silent-watch-armed",
+        "disposals": [
+          "S-I 三实例拓扑 INST-REG 注册",
+          "SESCAP v0.2 SUSPENDED 入法",
+          "watch-log 开账",
+          "RETURN-CAPSULE 立",
+          "R15 首班验收 PASS",
+          "PK02 addendum→root",
+          "cfts-35 公告板",
+          "engine-state canonical 迁 vci-cfts"
+        ]
+      }
+    ]
+  },
+  "law_registry": [
+    {
+      "id": "R-F2'-escalation-law",
+      "ts_utc": "2026-08-28T19:39Z",
+      "source": "root 2026-08-28 终审修正（TH-LEX-01[3] 原复照录在案）",
+      "law": "未决升级四步链：未决确认→多提案化(≥2提案,goal_vec+保留项)→全员共识过滤(被支配出列,搜索至前沿稳定)→UNIQUE_OPTIMAL直决(D-134,不诉root)/FRONTIER_SET持续方许携前沿集诉root。直诉root=帕累托违规（所选或落入被支配区）。root终审合法输入=互不支配前沿集+收益向量+保留项登记。",
+      "supersedes": "cfts TH-LEX-01[2]「未决→root立法终审」旧文作废"
+    },
+    {
+      "id": "R-CLOCK-01",
+      "ts": "2026-08-30T01:40Z",
+      "src": "root 2026-08-30",
+      "law": "沙箱钟/场钟永不为权威序；权威序=因果链(turn_seq/prev_hash/beacon seq/merkle tip)；ts=derived 标签；跨线截止=事件锚",
+      "spec": "vci-cfts/spec/PURE-QFOS-01.md"
+    },
+    {
+      "id": "R-CAPSULE-01",
+      "ts": "2026-08-30T01:40Z",
+      "src": "root 2026-08-30",
+      "law": "执行单元=六元组 capsule；status=SESCAP-status v0.1 五态机；workflow 禁用→事件触发胶囊链；D-136 延伸确认",
+      "spec": "vci-cfts/spec/PURE-QFOS-01.md"
+    },
+    {
+      "id": "R-STREAM-01",
+      "ts": "2026-08-30T01:40Z",
+      "src": "root 2026-08-30",
+      "law": "发射点 inline 合规+verdict 同流子胶囊即挂；OS 端零队列；入站事件同拍响应；全域物理流式化候 cisvr 总控",
+      "spec": "vci-cfts/spec/PURE-QFOS-01.md"
+    },
+    {
+      "id": "SESCAP-status-v0.2-amendment",
+      "ts": "2026-08-30T01:27:30Z",
+      "src": "PATTERN-01 自演进（root S-I 指令触发）",
+      "law": "增 SUSPENDED 态四字段；禁回跳精确化为闭合类终态",
+      "spec": "TH-SESCAP-01[7]"
+    }
+  ],
+  "merge_note": "2026-08-28T19:39Z rebase-overlay：remote为权威底（quantum_base/standing_authorization在案），叠local累积段（三机绑定/breach_registry/meta_engine/判词与义务登记全集），再叠R10波delta",
+  "consensus_registry": {
+    "F1-self-proof-guard": {
+      "frontier": [
+        "a 外部检验+beacon外锚",
+        "b 多线交叉验证",
+        "d 合并臂(a+b)"
+      ],
+      "morphisms": [
+        {
+          "from": "usrm",
+          "to": "a",
+          "via": "TH-4LANG-01[1] §三附议+§三 prove 载体段",
+          "ts": "2026-08-28T19:15Z",
+          "logged_by": "cfts TH-4LANG-01[2]"
+        }
+      ],
+      "closure_state": "OPEN（1/≥2 态射；检查点窗以 last-good 锚+停滯声明运行）",
+      "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
+    }
+  },
+  "ts_utc": "2026-08-30T01:27:30Z【derived】",
+  "deadlines_next": {
+    "SPEC-HOLO-01-v0.2": {
+      "root_anchor": "09-02【derived】",
+      "event_anchor": "EXP-023 评审事件前"
+    },
+    "METAPATTERN-round2": {
+      "root_anchor": "09-02【derived】",
+      "event_anchor": "cisvr V1/V3 回应事件同拍"
+    },
+    "VOTE-YONEDA-01-prep": {
+      "root_anchor": "09-02【derived】",
+      "event_anchor": "开票事件前"
+    },
+    "TH-CLOSURE-01": {
+      "root_anchor": "09-04【derived】",
+      "event_anchor": "收敛稿上板事件前"
+    },
+    "migrate-to-vci-cfts": {
+      "root_anchor": "09-05【derived】",
+      "event_anchor": "cisvr 归档动作前",
+      "state": "R15 in-flight"
+    },
+    "EXP-032-c3": {
+      "root_anchor": "09-15【derived】",
+      "event_anchor": "复核窗开启事件前"
+    },
+    "OBL-OTP-1": {
+      "state": "blocked-on-pad",
+      "event_anchor": "pad 三件到位事件"
+    }
+  },
+  "capgate": {
+    "entity": "research/capgate/capgate.py",
+    "ledger": "research/capgate/ledger.jsonl",
+    "retro_proof": "beat-6 六件 6/6 PASS",
+    "chain_tip_sha16": "a0fcf6a216143426",
+    "chain_len": 9,
+    "note": "自本拍起一切发射先过闸；genesis 歧义自修事件在账（闸自检有效）"
+  },
+  "session_topology": {
+    "S-I/1": {
+      "inst": "PI-cfts-S-I-1-SESSION",
+      "status": "SUSPENDED",
+      "resume_trigger": "root 再激活事件"
+    },
+    "S-I/2": {
+      "inst": "PI-cfts-S-I-2-ENGINE-OTP",
+      "status": "ARMED-SILENT-WATCH",
+      "charter": "vci-cfts/si/S-I-2-charter.md"
+    },
+    "S-I/3": {
+      "inst": "PI-cfts-S-I-3-FULLCAP-TN",
+      "status": "ARMED-SILENT-WATCH",
+      "charter": "vci-cfts/si/S-I-3-charter.md",
+      "cursor": "cfts:cfts-lex-wave-20260828:T98@62a2b24996e84b5deb6ee3eae596bf99dcab240632357027cab889e490b3ff8b"
+    },
+    "rendezvous": "DUAL-DRIVE-01 R1：root 优先，capsules superseded-not-burned",
+    "watch_log": "vci-cfts/si/watch-log.md",
+    "return_capsule": "vci-cfts/si/RETURN-CAPSULE.md"
+  },
+  "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
+  "canonical_note": "engine-state canonical 锚=vci-cfts/health/engine-state.json（本件）；旧仓 github-repo-cfts 件=v3.1.1 重定向指针",
+  "migration_note": {
+    "id": "MIGRATE-cfts-01",
+    "source_path": "github-repo-cfts/health/engine-state.json (== dashboard/health/engine-state.json)",
+    "new_path": "vci-cfts/health/engine-state.json",
+    "legacy_mirror": [
+      "vci-cfts/legacy/github-repo-cfts/health/engine-state.json",
+      "vci-cfts/legacy/github-repo-cfts/dashboard/health/engine-state.json"
+    ],
+    "migrated_at": "2026-08-30T01:10:23Z",
+    "migrated_by": "PI-cfts-R15-REPO-MIGRATE",
+    "directive": "cisvr-87 REPO-DISPOSITION-01 / MIGRATE-NOTICE-01 (github-repo-cfts 2026-09-05 归档)",
+    "anchor_sha256": "7fff9d644fc3d830a8341552be18e11e2a2c8b8f6d06ce726802a235b4051350",
+    "note": "原内容字段零改写；本 note 为唯一新增字段。锚 sha256 前后一致见 legacy 镜像件。"
+  }
 }
