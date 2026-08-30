@@ -248,6 +248,12 @@
       "verdict": "PASS",
       "evidence": "552/552 累计；独立复算值指纹闭环(7823115080c5…=config死钥同源)；寂化副本活跃cron=0；MANIFEST FINAL",
       "ts": "2026-08-30T02:03:42Z"
+    },
+    {
+      "id": "FB01-third-party-reverify",
+      "verdict": "PASS",
+      "evidence": "99轮sha16一致+merkle复算76f2a79a精确命中+双网/索引sha16 MATCH（root 跟进/验证令）",
+      "ts": "2026-08-30T07:27:27Z"
     }
   ],
   "federation_findings_by_cfts": [
@@ -531,6 +537,18 @@
           "R16 pattern-dossier 采集派出"
         ],
         "next": "dossier 交付→支配扫描→TH-PATTERN-01 注册楼"
+      },
+      {
+        "tick": "META-TICK-13",
+        "ts": "2026-08-30T07:27:27Z",
+        "beat": "beat-7-wake-5",
+        "event": "root 跟进/验证+启示令",
+        "disposals": [
+          "FB01 复验 PASS",
+          "T8..T16 追加",
+          "R17 INCR-01 派出",
+          "R18 启示蒸馏派出"
+        ]
       }
     ]
   },
@@ -592,7 +610,7 @@
       "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
     }
   },
-  "ts_utc": "2026-08-30T07:22:41Z【derived】",
+  "ts_utc": "2026-08-30T07:27:27Z【derived】",
   "deadlines_next": {
     "SPEC-HOLO-01-v0.2": {
       "root_anchor": "09-02【derived】",
