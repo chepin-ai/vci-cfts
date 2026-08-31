@@ -1,0 +1,40 @@
+{
+ "ts": "20260831-170351",
+ "line": "cfts",
+ "checks": {
+  "outbox": {
+   "http": 200,
+   "sha256_16": "e27bf824b6430f8b"
+  },
+  "pulse": {
+   "last": "20260830-032741",
+   "age_h": 37.6,
+   "chain_log": "959855ed5c4ede2e"
+  },
+  "chain_match": false,
+  "matrix": "unreachable",
+  "inbox_unread": 48
+ },
+ "findings": [
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260830-032741 年龄 37.6h（>2×6h 班）"
+  },
+  {
+   "kind": "chain-diverge",
+   "note": "pulse.log 链头与 status.json 不一致"
+  }
+ ],
+ "cleared": [
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260830-032741 年龄 36.5h（>2×6h 班）"
+  }
+ ],
+ "escalated": [
+  {
+   "kind": "chain-diverge",
+   "note": "pulse.log 链头与 status.json 不一致"
+  }
+ ]
+}
