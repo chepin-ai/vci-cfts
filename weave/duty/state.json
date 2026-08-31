@@ -1,19 +1,19 @@
 {
  "open": {
-  "ff349ac797": {
-   "finding": {
-    "kind": "registry-down",
-    "note": "公面注册表 HTTP 404"
-   },
-   "first": "20260830-023925",
-   "ticks": 1
-  },
-  "5a014066a6": {
+  "3c2683d82f": {
    "finding": {
     "kind": "pulse-stale",
-    "note": "影子脉搏 20260822-034642 年龄 190.9h（>2×6h 班）"
+    "note": "影子脉搏 20260830-032741 年龄 31.0h（>2×6h 班）"
    },
-   "first": "20260830-023925",
+   "first": "20260831-102807",
+   "ticks": 1
+  },
+  "1094fa63bf": {
+   "finding": {
+    "kind": "chain-diverge",
+    "note": "pulse.log 链头与 status.json 不一致"
+   },
+   "first": "20260831-102807",
    "ticks": 1
   }
  }
