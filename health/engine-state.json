@@ -86,7 +86,9 @@
   {
    "id": "OBL-SYN-3",
    "what": "cfts-05..17 回帖收割（72h→公告板升级）",
-   "sla": "至 2026-08-30T20:40Z"
+   "sla": "至 2026-08-30T20:40Z",
+   "status": "CLOSED-VERIFIED",
+   "evidence": "vci-cfts/inbox/SYN3-harvest-20260830.md（全量516件扫，0/13外部slug引用）；升级锚 SYN3-ESCALATE@2026-08-31T02:32Z 立"
   },
   {
    "id": "OBL-SYN-4",
@@ -268,6 +270,12 @@
    "sha16": "1c37484ac40193be",
    "gate": "capgate seq49 PASS cap 9f2de49a8f000512",
    "ts_derived": "2026-08-30T08:20:00Z【derived】"
+  },
+  {
+   "id": "OBL-SYN-3-HARVEST",
+   "verdict": "CLOSED-VERIFIED",
+   "evidence": "全量语料516件md严格slug扫描：外部回帖0/13；假阳11件识别剔出；方法可复算零编数",
+   "ts_derived": "2026-08-30T09:00:00Z【derived】"
   }
  ],
  "federation_findings_by_cfts": [
@@ -605,6 +613,20 @@
      "S-I/4 回候实测位"
     ],
     "backlog": "六项 root 决策项候裁（CFOS-NORTHSTAR-01 §6）；TH-CLOSURE-01(09-04)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；INCR-02 候批；beacon RECURRING-OPEN(seq64)"
+   },
+   {
+    "tick": "META-TICK-17",
+    "ts": "2026-08-30T09:00:00Z【derived】",
+    "beat": "beat-8-wake-1-otp-continue",
+    "event": "「继续」OTP注入→巡场+同拍推进：usrm HOUBAN-01 三答收、OBL-SYN-3 收割执行并关闭（0/13，升级锚立）、obl-shadow 自续覆写机制落地",
+    "disposals": [
+     "dm-queue/cfts 新件 USRM2CFTS-HOUBAN-20260830-01 已读已处置",
+     "SYN3-harvest-20260830.md 证据件",
+     "obl-shadow-20260830.json 同名幂等覆写（本会话侧首拍）",
+     "verdict_registry +1（OBL-SYN-3-HARVEST）",
+     "wake词「哨兵第6拍」直燃能力注记在案"
+    ],
+    "backlog": "SYN3-ESCALATE@08-31T02:32Z；TH-CLOSURE-01(09-04)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；四候选模式挖掘；六项root决策项候裁"
    }
   ]
  },
@@ -666,7 +688,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-08-30T08:40:00Z【derived】",
+ "ts_utc": "2026-08-30T09:00:00Z【derived】",
  "deadlines_next": {
   "SPEC-HOLO-01-v0.2": {
    "root_anchor": "09-02【derived】",
@@ -696,7 +718,8 @@
   "OBL-OTP-1": {
    "state": "blocked-on-pad",
    "event_anchor": "pad 三件到位事件"
-  }
+  },
+  "SYN3-ESCALATE": "2026-08-31T02:32Z（帖落地+72h；届时仍0/13→公告板升级帖cfts-39）"
  },
  "capgate": {
   "entity": "research/capgate/capgate.py",
