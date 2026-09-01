@@ -1,0 +1,10 @@
+{
+ "ts": "20260901-090546",
+ "line": "cfts",
+ "outbox": {
+  "url": "https://raw.githubusercontent.com/chepin-ai/vci-cfts/main/outbox/cfts-outbox.json",
+  "http": 200,
+  "sha256": "e27bf824b6430f8b"
+ },
+ "note": "snapshot ok"
+}
