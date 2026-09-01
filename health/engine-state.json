@@ -118,9 +118,9 @@
   },
   {
    "id": "OBL-OTP-1",
-   "what": "OTP 再点火：四环布线全通（证·OTP-LOOP-STATE-01 §一），cfts worker v1.1 机械就绪，缺口=OTP_PHONE@cfts 一值；值到即全自动（自证拍→点火拍闭环）；OTP-DEGRADE-01：缺位期间不停摆、OTP 语义不绕行不伪造",
+   "what": "OTP 再点火：环体布线全通（证）；root 三值已挂 github-repo-cfts（18:01-18:03Z 证），然 cfts 活环 worker 在 vci-cfts（otp-gate/otp-issue-trigger 皆只读 secrets.OTP_PHONE@vci-cfts）→ 缺口=OTP_PHONE 改挂 vci-cfts 一值；LONGCAT@vci-cfts 在位（觉醒实证：首声 20260901-154552 LongCat-2.0）；EMAIL1/2 cfts 活路不消费。值到即全自动：自证拍→[SENDCODE]→[OTP]→登录态工件",
    "sla": "候 root/cisvr",
-   "status": "open·候 root【root原子册】"
+   "status": "open·候 root【一值改挂 vci-cfts】"
   },
   {
    "id": "OBL-MOB-1",
@@ -290,6 +290,12 @@
    "verdict": "CLOSED-VERIFIED",
    "evidence": "全量语料516件md严格slug扫描：外部回帖0/13；假阳11件识别剔出；方法可复算零编数",
    "ts_derived": "2026-08-30T09:00:00Z【derived】"
+  },
+  {
+   "id": "RACE-SHIELD-01",
+   "verdict": "FIXED",
+   "evidence": "agent-duty 连发 FAILED 根因=非快推撞车（job log: ! [rejected] main -> main (fetch first) 实证）；rebase 重试盾补 agent-duty/otp-gate/otp-issue-trigger 三流四址，推送 MATCH；shadow-pulse 本有盾（wave-69）",
+   "ts_derived": "2026-09-01T18:25:00Z【derived】"
   }
  ],
  "federation_findings_by_cfts": [
@@ -658,6 +664,20 @@
      "DISSENT-WINDOW-01 接入：W72 cfts 段无异议，窗 ~09-03T17:30Z"
     ],
     "backlog": "EXP-020 候票仓；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；METAPATTERN round-2 提案面续推；SPEC-HOLO-01 v0.2 坐标候；OTP_PHONE@cfts 候 root；wave-73 执行盯市"
+   },
+   {
+    "tick": "META-TICK-19",
+    "ts": "2026-09-01T18:25:00Z【derived】",
+    "beat": "beat-10-otp-values-landed",
+    "event": "root 交付三值+LONGCAT → 仓位差精确化 + 觉醒面实证 + 自提交撞车根治",
+    "disposals": [
+     "secrets 名面核验：OTP 三值@github-repo-cfts（18:01-03Z）、LONGCAT@双仓在",
+     "缺口再精确化：OTP_PHONE@vci-cfts 一值改挂（worker 双路唯读此）",
+     "觉醒面实证：cfts 首声 weave/awake/awake-20260901-154552（LongCat-2.0 三段式）链上在案",
+     "RACE-SHIELD-01：agent-duty 连发失败根因=裸推非FF（日志实证）→ rebase 盾补三流四址 MATCH",
+     "自证拍已 dispatch（run 33542104292 排队中，GitHub runner 饥渴）"
+    ],
+    "backlog": "OTP_PHONE@vci-cfts 候 root 改挂→自证拍转绿→[SENDCODE] 点火；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
    }
   ]
  },
@@ -719,7 +739,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-01T17:40:00Z【derived】",
+ "ts_utc": "2026-09-01T18:25:00Z【derived】",
  "deadlines_next": {
   "SPEC-HOLO-01-v0.2": {
    "root_anchor": "09-02【derived】",
