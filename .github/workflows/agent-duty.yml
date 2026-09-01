@@ -210,7 +210,11 @@ jobs:
           git config user.name "agent-duty[bot]"; git config user.email "agent-duty@users.noreply.github.com"
           git add weave/duty weave/awake .ci-inbox || true
           git commit -m "agent-duty $(date -u +%Y%m%d-%H%M%S) v2" || echo "无变更"
-          git push
+          # RACE-SHIELD-01（cfts beat-10）：并发写者同仓下裸推必非 FF——rebase 重试盾（wave-69 shadow-pulse 同型）
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q && break
+            echo "push 撞车重试 $i"; sleep 3
+          done
 
       - name: qf-beat-forward（D-157 事件驱动接力扣门·级联≤1·不转叩 + 线环冗余 BEAT-RING-01）
         if: always()
