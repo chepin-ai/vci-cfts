@@ -1,0 +1,26 @@
+{
+ "ts": "20260901-085844",
+ "line": "cfts",
+ "checks": {
+  "outbox": {
+   "http": 200,
+   "sha256_16": "e27bf824b6430f8b"
+  },
+  "pulse": {
+   "last": "20260901-085744",
+   "age_h": 0.0,
+   "chain_log": "f4d02e3f247814fa"
+  },
+  "chain_match": true,
+  "matrix": "unreachable",
+  "inbox_unread": 62
+ },
+ "findings": [],
+ "cleared": [
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260830-032741 年龄 53.5h（>2×6h 班）"
+  }
+ ],
+ "escalated": []
+}
