@@ -45,7 +45,11 @@ jobs:
           git config user.name "otp-gate"; git config user.email "otp-gate@ci"
           git add -A inbox/ || true
           git commit -qm "otp state $(date -u +%H:%M:%SZ) [skip ci]" || echo "nothing"
-          git push -q || true
+          # RACE-SHIELD-01（cfts beat-10）：rebase 重试盾
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q && break
+            echo "push 撞车重试 $i"; sleep 3
+          done
   verify:
     if: startsWith(github.event.issue.title, '[OTP]')
     runs-on: ubuntu-latest
@@ -91,4 +95,8 @@ jobs:
           git config user.name "otp-gate"; git config user.email "otp-gate@ci"
           git add -A inbox/ || true
           git commit -qm "otp verify state $(date -u +%H:%M:%SZ) [skip ci]" || echo "nothing"
-          git push -q || true
+          # RACE-SHIELD-01（cfts beat-10）：rebase 重试盾
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q && break
+            echo "push 撞车重试 $i"; sleep 3
+          done
