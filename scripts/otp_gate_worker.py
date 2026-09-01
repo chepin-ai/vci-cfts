@@ -44,7 +44,9 @@ async def main():
     if verify_only:
         otps = ["(issue-trigger-otp)"]; sends = []
     if not sends and not otps:
-        print("nothing to consume"); return
+        if PHONE:
+            write_state("SELFTEST_OK", "空匣自证:secret在库且可达 worker(phone_len=%d)——布线实证,未触机未发码" % len(PHONE)); return
+        write_state("FAILED", "repo secret OTP_PHONE 未设置——root 请在 Settings→Secrets→Actions 添加（一次性）"); sys.exit(1)
     if not PHONE:
         write_state("FAILED", "repo secret OTP_PHONE 未设置——root 请在 Settings→Secrets→Actions 添加（一次性）"); sys.exit(1)
     async with async_playwright() as pw:
