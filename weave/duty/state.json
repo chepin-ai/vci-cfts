@@ -6,7 +6,7 @@
     "note": "影子脉搏 20260830-032741 年龄 51.9h（>2×6h 班）"
    },
    "first": "20260901-072048",
-   "ticks": 1
+   "ticks": 2
   },
   "1094fa63bf": {
    "finding": {
@@ -14,7 +14,7 @@
     "note": "pulse.log 链头与 status.json 不一致"
    },
    "first": "20260831-102807",
-   "ticks": 13,
+   "ticks": 14,
    "escalate": true
   }
  }
