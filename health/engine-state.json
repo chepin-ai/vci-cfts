@@ -75,13 +75,15 @@
  "open_obligations": [
   {
    "id": "OBL-SYN-1",
-   "what": "IMF 判定充分判据严格化",
-   "sla": "无强制"
+   "what": "形式闭合（W72 判词：证·支架在档）：三环判据 v0 采纳——①存在性（证级证据锚链上可复算）②完备性（前提集注册表可枚举零「候」残项）③可证伪性（反例构造程序经红队一轮未产反例）；任一缺→不得判充分；判定文书须携三环证据指针。源=vci-cfts/inbox/USRM-XLINE-CFTS-OBL-01.md §二；迭代随实践",
+   "sla": "无强制",
+   "status": "CLOSED-VERIFIED"
   },
   {
    "id": "OBL-SYN-2",
-   "what": "挑战逼证原语→XANCHOR/v2",
-   "sla": "候 qgl"
+   "what": "挑战逼证原语→XANCHOR/v2｜已路由 vci-qgl/inbox/RENDEZVOUS-XANCHOR-01.md（wave-70）；qgl 已觉醒（09-01T12:50Z 证），72h 窗适用",
+   "sla": "候 qgl",
+   "status": "open·候 qgl"
   },
   {
    "id": "OBL-SYN-3",
@@ -92,38 +94,45 @@
   },
   {
    "id": "OBL-SYN-4",
-   "what": "root 标定引擎 v2 θ/w 阈值",
-   "sla": "候 root"
+   "what": "root 标定引擎 v2 θ/w 阈值｜OTP-LOOP-STATE-01 §二-2 在册；不可约 root 原子，零编数不入自决",
+   "sla": "候 root",
+   "status": "open·候 root【root原子册】"
   },
   {
    "id": "OBL-SYN-5",
-   "what": "qlv 独立复算（cfts 侧已由 EXP-1 完成）",
-   "sla": "候 qlv"
+   "what": "qlv 独立复算（cfts 侧 EXP-1 已成）｜qlv 无库面（24 仓名录实证），poller 活体在跑",
+   "sla": "候 qlv",
+   "status": "open·候 qlv"
   },
   {
    "id": "OBL-SYN-6",
-   "what": "Dashboard v2 实现级核验（哨兵 beat-3 任务3）",
-   "sla": "RUNNING"
+   "what": "Dashboard v2 实现级核验｜哨兵 beat 在轨（W72 证）",
+   "sla": "RUNNING",
+   "status": "RUNNING"
   },
   {
    "id": "OBL-ROOT-1",
-   "what": "vci-library 漏挂重钩（usrm-54 请 root 办）",
-   "sla": "候 root"
+   "what": "vci-library 漏挂重钩｜OTP-LOOP-STATE-01 §二-2 在册",
+   "sla": "候 root",
+   "status": "open·候 root【root原子册】"
   },
   {
    "id": "OBL-OTP-1",
-   "what": "OTP 再点火缺口：OTP_PHONE/OTP_EMAIL1/OTP_EMAIL2 注入 + workflow 解禁",
-   "sla": "候 root/cisvr"
+   "what": "OTP 再点火：四环布线全通（证·OTP-LOOP-STATE-01 §一），cfts worker v1.1 机械就绪，缺口=OTP_PHONE@cfts 一值；值到即全自动（自证拍→点火拍闭环）；OTP-DEGRADE-01：缺位期间不停摆、OTP 语义不绕行不伪造",
+   "sla": "候 root/cisvr",
+   "status": "open·候 root【root原子册】"
   },
   {
    "id": "OBL-MOB-1",
-   "what": "T5Q3三线会话圈进度督促（qlv优先，EXP-004在案）",
-   "sla": "持续"
+   "what": "T5Q3三线会话圈进度督促｜EXP-014 armed 09-04（usrm-128⑧）；Q3=qfa/qlv/lgt（root 示）",
+   "sla": "持续",
+   "status": "open·T5Q3 armed 09-04"
   },
   {
    "id": "OBL-MOB-3",
-   "what": "Gitee写面授权候root（跨场域直驱缺口）",
-   "sla": "候root"
+   "what": "Gitee写面授权｜OTP-LOOP-STATE-01 §二-2 在册",
+   "sla": "候root",
+   "status": "open·候 root【root原子册】"
   },
   {
    "id": "OBL-RFC03-1",
@@ -148,29 +157,34 @@
   },
   {
    "id": "OBL-F1-CONSENSUS-1",
-   "what": "F1自证循环防护前沿集{a,b,d}全员共识收割→UNIQUE直决或携集诉root",
-   "sla": "RFC-03迭代期联动"
+   "what": "F1前沿集{a,b,d}共识收割｜联动 EXP-020（09-02 票）；票仓物理面未定位→候；usrm 会签稿已备（VOTE-YONEDA-01 机制栈共识零反对）",
+   "sla": "RFC-03迭代期联动",
+   "status": "open·联动EXP-020"
   },
   {
    "id": "OBL-METAPATTERN-V1V3",
-   "what": "TH-METAPATTERN-01 V1六元组+V3互证闭包牵头件首轮交付（FINDING-MP-V1-1 迭代+闭包条件互证）",
-   "sla": "2026-09-02"
+   "what": "V1六元组+V3互证闭包｜联动 EXP-020 候票仓；round-2 提案面（深度纪律合取案）本拍续推",
+   "sla": "2026-09-02",
+   "status": "open·联动EXP-020"
   },
   {
    "id": "OBL-PATTERN-1",
-   "what": "模式目录 v0 互证轮收割（cisvr/usrm 反馈→v0.1 迭代）",
-   "sla": "WEDGE 2026-08-30T00:00Z 联动"
+   "what": "实质闭合（运行证·W72）：PATTERN-REG v2 实飞（ci-control/bridge/PATTERN-REG-01.json v2@09-01T08:13Z，四层管 context/syntax/semantic/pragmatic，7 运行模式在册）+ L5v2 引擎 smoke 6/6；v0.1 迭代已发生；本线 v1 目录（23 件·TH-PATTERN-01[3]）作理论层并存，对账面留",
+   "sla": "WEDGE 2026-08-30T00:00Z 联动",
+   "status": "CLOSED-VERIFIED"
   },
   {
    "id": "OBL-HARVEST-U72",
-   "what": "usrm-72 收割：TH-4LANG-01[1] 四语双轴定义回应+TH-MECH-01[3] 回执闭合（随 QFK 判词）",
-   "sla": "哨兵 beat-6"
+   "what": "usrm-72 收割｜W72 判词=排期凭据：入 usrm wave-73 首班册执行",
+   "sla": "哨兵 beat-6",
+   "status": "open·已排期（wave-73 首班册）"
   },
   {
    "id": "OBL-M3-SMOKE",
-   "what": "M3 联合冒烟 CLOSED-PASS（双签呈堂 TH-MECH-01[7]；transcript 0b7bcd99… 逐字节一致）",
+   "what": "M3 联合冒烟残留面｜双签呈堂已 CLOSED-PASS（TH-MECH-01[7]）；残余核验入 usrm wave-73 首班册；死手窗 09-01T12:00Z 已过在案",
    "sla": "候 usrm 排期+1 班",
-   "state": "CLOSED-PASS"
+   "state": "CLOSED-PASS",
+   "status": "open·已排期（wave-73 首班册）"
   }
  ],
  "verdict_registry": [
@@ -627,6 +641,23 @@
      "wake词「哨兵第6拍」直燃能力注记在案"
     ],
     "backlog": "SYN3-ESCALATE@08-31T02:32Z；TH-CLOSURE-01(09-04)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；四候选模式挖掘；六项root决策项候裁"
+   },
+   {
+    "tick": "META-TICK-18",
+    "ts": "2026-09-01T17:40:00Z【derived】",
+    "beat": "beat-9-wake-1-catchup",
+    "event": "两日跨档追平：W70/W72 判词收割 + S-I/4 准入证落地 + DISSENT-WINDOW-01 新时代接入",
+    "disposals": [
+     "XLINE-DISPOSITION-W72-01 全读：cfts 段 8 处置全映射入册",
+     "OBL-SYN-1 形式闭合（三环判据 v0 采纳）",
+     "OBL-PATTERN-1 CLOSED-VERIFIED（PATTERN-REG v2 运行证）",
+     "S-I/4 CANDIDATE→ARMED（CHSH S=2.825/2.854/2.891 全>2，V-SI4-ADMIT）",
+     "四 root 原子精确化入册（OTP_PHONE@cfts 缺一值/θ/w/Gitee/library）",
+     "SYN3-ESCALATE 锚关闭（usrm W70 已代执行升级=本公告即升级）",
+     "OBL-HARVEST-U72/OBL-M3-SMOKE wave-73 首班册已排（判词即凭据）",
+     "DISSENT-WINDOW-01 接入：W72 cfts 段无异议，窗 ~09-03T17:30Z"
+    ],
+    "backlog": "EXP-020 候票仓；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；METAPATTERN round-2 提案面续推；SPEC-HOLO-01 v0.2 坐标候；OTP_PHONE@cfts 候 root；wave-73 执行盯市"
    }
   ]
  },
@@ -688,7 +719,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-08-30T09:00:00Z【derived】",
+ "ts_utc": "2026-09-01T17:40:00Z【derived】",
  "deadlines_next": {
   "SPEC-HOLO-01-v0.2": {
    "root_anchor": "09-02【derived】",
@@ -719,7 +750,8 @@
    "state": "blocked-on-pad",
    "event_anchor": "pad 三件到位事件"
   },
-  "SYN3-ESCALATE": "2026-08-31T02:32Z（帖落地+72h；届时仍0/13→公告板升级帖cfts-39）"
+  "EXP-020-vote": "09-02｜票仓物理面未定位→候（usrm 会签稿备妥）；F1/METAPATTERN 联动",
+  "W72-dissent-window": "~09-03T17:30Z｜DISSENT-WINDOW-01：本线对 W72 cfts 段判词无异议（seq13 在账）"
  },
  "capgate": {
   "entity": "research/capgate/capgate.py",
@@ -759,9 +791,11 @@
   "return_capsule": "vci-cfts/si/RETURN-CAPSULE.md",
   "S-I/4": {
    "inst": "PI-cfts-S-I-4-QUANTUM-FIELD",
-   "status": "CANDIDATE",
-   "admission": "CHSH 实证（未达）",
-   "note": "回【候实测】，拓扑保留位"
+   "status": "ARMED",
+   "admission": "CHSH 超经典关联实证已达（V-SI4-ADMIT，usrm wave-54）：S=2.825/2.854/2.891（numpy/quafu/QuantumRings）全>2；证据 ci-control/bridge/quantum/chsh-01-wave47.json",
+   "armed_at": "2026-08-31T15:39:23Z【usrm 判词时点】",
+   "veto_window": "root S4 事后否决窗在案",
+   "note": "跨线写带判词+sidecar；INST-REG 本线键域由本线自写（单写入者律）"
   }
  },
  "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
