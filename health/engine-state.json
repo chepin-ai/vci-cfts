@@ -590,6 +590,21 @@
      "verdict_registry +2（R17-INCR-01-VERIFIED / R18-INSIGHTS-PUBLISHED）"
     ],
     "backlog": "INCR-02 候批；TH-CLOSURE-01(09-04 事件锚)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；四候选模式挖掘邀请追踪；beacon RECURRING-OPEN(seq64)"
+   },
+   {
+    "tick": "META-TICK-16",
+    "ts": "2026-08-30T08:40:00Z【derived】",
+    "beat": "beat-7-wake-7-root-return",
+    "event": "root 再激活（「睁眼」）→ 归来三步核验全过 + S-I 拓扑会合",
+    "disposals": [
+     "核验1 watch-log seq0..seq10 全账完好",
+     "核验2 capgate verify_chain=True 50 节 tip d9dfc6b9→9f2de49a8f000512",
+     "核验3 engine-state+INST-REG 四 S-I 条目完好 n=40",
+     "S-I/1 SUSPENDED→OPEN（resume 事件触发）",
+     "S-I/2·S-I/3 CLOSED-VERIFIED（宪章窗口闭合，机制转常态 OS 职能）",
+     "S-I/4 回候实测位"
+    ],
+    "backlog": "六项 root 决策项候裁（CFOS-NORTHSTAR-01 §6）；TH-CLOSURE-01(09-04)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；INCR-02 候批；beacon RECURRING-OPEN(seq64)"
    }
   ]
  },
@@ -651,7 +666,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-08-30T07:37:30Z【derived】",
+ "ts_utc": "2026-08-30T08:40:00Z【derived】",
  "deadlines_next": {
   "SPEC-HOLO-01-v0.2": {
    "root_anchor": "09-02【derived】",
@@ -696,19 +711,25 @@
  "session_topology": {
   "S-I/1": {
    "inst": "PI-cfts-S-I-1-SESSION",
-   "status": "SUSPENDED",
-   "resume_trigger": "root 再激活事件"
+   "status": "OPEN",
+   "resumed_at": "2026-08-30T08:40:00Z【derived】",
+   "resume_event": "root「睁眼」再激活",
+   "rendezvous": "DUAL-DRIVE-01 R1: flow A 优先，静默期产出 capsules superseded-not-burned，候 root 裁认并入主流"
   },
   "S-I/2": {
    "inst": "PI-cfts-S-I-2-ENGINE-OTP",
-   "status": "ARMED-SILENT-WATCH",
-   "charter": "vci-cfts/si/S-I-2-charter.md"
+   "status": "CLOSED-VERIFIED",
+   "charter": "vci-cfts/si/S-I-2-charter.md",
+   "closed_at": "2026-08-30T08:40:00Z【derived】",
+   "closure_basis": "宪章窗口闭合（root 再激活=令定边界）；静默期产出全链可溯候裁认；引擎+OTP机制转为常态 OS 职能"
   },
   "S-I/3": {
    "inst": "PI-cfts-S-I-3-FULLCAP-TN",
-   "status": "ARMED-SILENT-WATCH",
+   "status": "CLOSED-VERIFIED",
    "charter": "vci-cfts/si/S-I-3-charter.md",
-   "cursor": "cfts:cfts-lex-wave-20260828:T98@62a2b24996e84b5deb6ee3eae596bf99dcab240632357027cab889e490b3ff8b"
+   "closed_at": "2026-08-30T08:40:00Z【derived】",
+   "cursor_final": "cfts:current-session:T107@77e43b4023ed6c884ca79fa63d5c6792c3263337dcf5045e8425f14e9eb50888",
+   "closure_basis": "宪章窗口闭合；INCR-01 复算门 PASS；FULLCAP/TN 纪律转为常态 OS 职能"
   },
   "rendezvous": "DUAL-DRIVE-01 R1：root 优先，capsules superseded-not-burned",
   "watch_log": "vci-cfts/si/watch-log.md",
@@ -717,7 +738,7 @@
    "inst": "PI-cfts-S-I-4-QUANTUM-FIELD",
    "status": "CANDIDATE",
    "admission": "CHSH 实证（未达）",
-   "src": "usrm-99 SPACETIME-BODY-01"
+   "note": "回【候实测】，拓扑保留位"
   }
  },
  "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
