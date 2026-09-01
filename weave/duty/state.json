@@ -1,21 +1,12 @@
 {
  "open": {
-  "95de346852": {
+  "bb8794fd95": {
    "finding": {
     "kind": "pulse-stale",
-    "note": "影子脉搏 20260830-032741 年龄 52.8h（>2×6h 班）"
+    "note": "影子脉搏 20260830-032741 年龄 53.5h（>2×6h 班）"
    },
-   "first": "20260901-081611",
+   "first": "20260901-085644",
    "ticks": 1
-  },
-  "1094fa63bf": {
-   "finding": {
-    "kind": "chain-diverge",
-    "note": "pulse.log 链头与 status.json 不一致"
-   },
-   "first": "20260831-102807",
-   "ticks": 17,
-   "escalate": true
   }
  }
 }
