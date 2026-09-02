@@ -5,7 +5,6 @@ on:
   push:
     paths: ['.github/workflows/line-producer.yml', 'weave/**']
   # schedule: [废除-W30/34 cron全废]
-#     - cron: '11 */6 * * *'
 permissions:
   contents: read
 jobs:
