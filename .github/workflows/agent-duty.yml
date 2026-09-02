@@ -1,5 +1,5 @@
 name: agent-duty
-# AGENT-DUTY v2.7 (wave-81,cfts独件): xanchor-run=M3 白名单(冒烟包hash闸+钉版依赖+runner路径重建+代投halfsign) — W81-D1§四/cfts M3半签重跑 wave-78令①偿
+# AGENT-DUTY v2.7.1 (wave-81,cfts独件): 成链败取证注记+rebase卡态自解(20:09Z起零落链疑案侦破) — 原v2.7:: xanchor-run=M3 白名单(冒烟包hash闸+钉版依赖+runner路径重建+代投halfsign) — W81-D1§四/cfts M3半签重跑 wave-78令①偿
 # AGENT-DUTY v2.5.1 (wave-80): vote/cosign 改走 vci-inbox bridge-drop 毂侧代投(LINE app 未覆 ci-control=404 实证;绕面先例 CIROOT-ROUTEAROUND-01;relay=bridge-drop-relay.yml)
 # AGENT-DUTY v2.5 (wave-80): 执手 H1 OTP机读执行(白名单vote/cosign/xanchor-respond,幂等,CAP4,无LLM) — kernel-20260902-08 有耳有口无手根治
 # AGENT-DUTY v2.4 (wave-77): SESSION-END-SWEEP 终止自检(W77-L2) + git级联触发路径扩(W77-L5) + pulse环守卫 + dashboard.meta同跑再生(W77-L6)
@@ -511,9 +511,17 @@ jobs:
         if: always()  # v2.4.1: duty步败亦必落链(W79 死角根治:产物写了却不提交=运行隐身)
         run: |
           git config user.name "agent-duty[bot]"; git config user.email "agent-duty@users.noreply.github.com"
-          git add weave/duty weave/awake .ci-inbox weave/xanchor;  # v2.7: 冒烟产物(transcript/run-log)亦成链(非触发面,无自激) [ -d session/inbox ] && git add session/inbox || true || true
-          git commit -m "agent-duty $(date -u +%Y%m%d-%H%M%S) v2" || echo "无变更"
-          for i in 1 2 3 4 5 6; do git fetch -q origin main && git rebase -q FETCH_HEAD && git push -q origin HEAD:main && break || sleep 3; done  # v2.5.3: 单发推→竞推环(fleet-drive高频面回执丢失实证: vinf 12:59Z ballot落箱而act回执失)
+          git add weave/duty weave/awake .ci-inbox weave/xanchor
+          [ -d session/inbox ] && git add session/inbox || true
+          git commit -m "agent-duty $(date -u +%Y%m%d-%H%M%S) v2" || echo "无变更 local=$(git rev-parse --short HEAD)"
+          ok=0
+          for i in 1 2 3 4 5 6; do
+            if git fetch -q origin main 2>/tmp/fe && git rebase -q FETCH_HEAD 2>/tmp/re && git push -q origin HEAD:main 2>/tmp/pe; then ok=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            echo "::warning::成链iter$i fail rc=$? head=$(git rev-parse --short HEAD) fetch[$(tail -c160 /tmp/fe 2>/dev/null)] rebase[$(tail -c160 /tmp/re 2>/dev/null)] push[$(tail -c260 /tmp/pe 2>/dev/null)]"
+            sleep 3
+          done
+          if [ "$ok" != 1 ]; then echo "::warning::自提交成链6连败 local=$(git rev-parse --short HEAD) remote=$(git ls-remote origin main 2>/dev/null | cut -c1-7) staged=$(git status --porcelain | head -4 | tr '\n' ' ')"; fi  # v2.7.1: 失败取证注记(匿面可读)+rebase卡态自解——cfts 20:09Z起6连败零落链疑案
 
       - name: qf-beat-forward（D-157 事件驱动接力扣门·级联≤1·不转叩 + 线环冗余 BEAT-RING-01）
         if: always()
