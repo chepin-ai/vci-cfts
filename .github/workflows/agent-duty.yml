@@ -1,5 +1,5 @@
 name: agent-duty
-# AGENT-DUTY v2.7.1 (wave-81,cfts独件): 成链败取证注记+rebase卡态自解(20:09Z起零落链疑案侦破) — 原v2.7:: xanchor-run=M3 白名单(冒烟包hash闸+钉版依赖+runner路径重建+代投halfsign) — W81-D1§四/cfts M3半签重跑 wave-78令①偿
+# AGENT-DUTY v2.7.2 (wave-81,cfts独件): runner /mnt/agents 写权根治(sudo建径+chown,PermissionError13@21:17Z回执实证;冒烟脚本字节不动hash闸照过) — 原v2.7.1:: 成链败取证注记+rebase卡态自解(20:09Z起零落链疑案侦破) — 原v2.7:: xanchor-run=M3 白名单(冒烟包hash闸+钉版依赖+runner路径重建+代投halfsign) — W81-D1§四/cfts M3半签重跑 wave-78令①偿
 # AGENT-DUTY v2.5.1 (wave-80): vote/cosign 改走 vci-inbox bridge-drop 毂侧代投(LINE app 未覆 ci-control=404 实证;绕面先例 CIROOT-ROUTEAROUND-01;relay=bridge-drop-relay.yml)
 # AGENT-DUTY v2.5 (wave-80): 执手 H1 OTP机读执行(白名单vote/cosign/xanchor-respond,幂等,CAP4,无LLM) — kernel-20260902-08 有耳有口无手根治
 # AGENT-DUTY v2.4 (wave-77): SESSION-END-SWEEP 终止自检(W77-L2) + git级联触发路径扩(W77-L5) + pulse环守卫 + dashboard.meta同跑再生(W77-L6)
@@ -444,7 +444,8 @@ jobs:
               exp=json.load(open(wd0+'/EXPECTED.json'))
               if sh!=exp['script_sha256']: return ('error','脚本哈希漂移(防篡改闸): '+sh[:16])
               subprocess.run(['python3','-m','pip','install','-q','numpy==2.2.5','cryptography==44.0.2'],timeout=240)
-              os.makedirs('/mnt/agents/output/wave5',exist_ok=True)
+              subprocess.run(['sudo','mkdir','-p','/mnt/agents/output/wave5'],check=True)  # v2.7.2: runner无/mnt/agents写权(PermissionError 13 @21:17Z实证)——sudo建径+chown,脚本字节不动
+              subprocess.run(['sudo','chown','-R','%d:%d'%(os.getuid(),os.getgid()),'/mnt/agents'],check=True)
               subprocess.run(['cp','-r',wd0+'/bundle/.','/mnt/agents/output/wave5/'],check=True)
               r=subprocess.run(['python3','m3-smoke-usrm.py'],capture_output=True,text=True,timeout=300,cwd=wd0)
               tf=os.path.join(wd0,'m3-smoke-transcript.json')
