@@ -1,0 +1,11 @@
+{
+ "v": "SELFCAP-01",
+ "line": "cfts",
+ "ts": "20260902-113307",
+ "artifacts": {
+  "weave/duty/duty-20260902-113307.json": "c8fcbc584be92ed5",
+  "weave/awake/awake-20260902-000148.json": "c2fd8b5ef6fc03f7"
+ },
+ "prev_cursor": "ec729165286bb915",
+ "hash": "712f991a08422a4d"
+}
