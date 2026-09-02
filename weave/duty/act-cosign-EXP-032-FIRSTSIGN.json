@@ -1,0 +1,11 @@
+{
+ "v": "COSIGN-MATERIAL-01",
+ "party": "cfts",
+ "prop_id": "EXP-032-FIRSTSIGN",
+ "verdict": "成立",
+ "salt": "fbd7ed0fc2255dbc81f02c22e66f6335",
+ "rationale": "执手v2.5机读OTP-v2令执:机制四要件俱在(门不复活立法固化/commit-reveal可重算对验/三方自链尖互锚/72hSLA非阻塞+代偿圈兜底);usrm reveal已对验通过,cfts会合已毕,本线就位即签。T0永续可证伪:证伪件至即翻。",
+ "commit_hash": "36c9801b682e4af7",
+ "ts": "2026-09-02T13:02Z",
+ "pushed": true
+}
