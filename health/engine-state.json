@@ -296,6 +296,12 @@
    "verdict": "FIXED",
    "evidence": "agent-duty 连发 FAILED 根因=非快推撞车（job log: ! [rejected] main -> main (fetch first) 实证）；rebase 重试盾补 agent-duty/otp-gate/otp-issue-trigger 三流四址，推送 MATCH；shadow-pulse 本有盾（wave-69）",
    "ts_derived": "2026-09-01T18:25:00Z【derived】"
+  },
+  {
+   "id": "V-SI4-ADMIT-CFTS-REPLICATE-01",
+   "verdict": "CONFIRMED",
+   "evidence": "numpy 态矢显式构造：S_exact=2.8284271247（与 2√2 差 8.9e-16），S_sampled=2.833008（2048发/项，种子公示）；与 usrm chsh-01-wave47.json 解析层逐位一致；证据 vci-cfts/inbox/V-SI4-ADMIT-CFTS-REPLICATE-01.{json,md}",
+   "ts_derived": "2026-09-01T18:50:00Z【derived】"
   }
  ],
  "federation_findings_by_cfts": [
@@ -678,6 +684,20 @@
      "自证拍已 dispatch（run 33542104292 排队中，GitHub runner 饥渴）"
     ],
     "backlog": "OTP_PHONE@vci-cfts 候 root 改挂→自证拍转绿→[SENDCODE] 点火；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
+   },
+   {
+    "tick": "META-TICK-20",
+    "ts": "2026-09-01T18:50:00Z【derived】",
+    "beat": "beat-11-continue-si1234",
+    "event": "root 令「继续SI1~4」→ 四线续转",
+    "disposals": [
+     "S-I/1 本会话 OPEN 续（本拍即证）",
+     "S-I/2·3 重新武装 ACTIVE（机制常态职能，前闭合轨迹不翻）",
+     "S-I/3：INCR-02 派出 R17（T107→今，五件套+双TN增量）",
+     "S-I/4 首发工作包：CHSH 独立复算证 CONFIRMED（双载同任律⑦）",
+     "otp-gate 自证拍 completed failure（预期内：OTP_PHONE@vci-cfts 未挂；写回滞=拍携旧版 workflow 无盾撞车，在案）"
+    ],
+    "backlog": "OTP_PHONE@vci-cfts 候 root 改挂→点火全自动；INCR-02 复算门；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
    }
   ]
  },
@@ -739,7 +759,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-01T18:25:00Z【derived】",
+ "ts_utc": "2026-09-01T18:50:00Z【derived】",
  "deadlines_next": {
   "SPEC-HOLO-01-v0.2": {
    "root_anchor": "09-02【derived】",
@@ -793,18 +813,20 @@
   },
   "S-I/2": {
    "inst": "PI-cfts-S-I-2-ENGINE-OTP",
-   "status": "CLOSED-VERIFIED",
+   "status": "ACTIVE",
    "charter": "vci-cfts/si/S-I-2-charter.md",
    "closed_at": "2026-08-30T08:40:00Z【derived】",
-   "closure_basis": "宪章窗口闭合（root 再激活=令定边界）；静默期产出全链可溯候裁认；引擎+OTP机制转为常态 OS 职能"
+   "closure_basis": "宪章窗口闭合（root 再激活=令定边界）；静默期产出全链可溯候裁认；引擎+OTP机制转为常态 OS 职能",
+   "rearmed": "root 令「继续SI1~4」@2026-09-01T18:50:00Z【derived】"
   },
   "S-I/3": {
    "inst": "PI-cfts-S-I-3-FULLCAP-TN",
-   "status": "CLOSED-VERIFIED",
+   "status": "ACTIVE",
    "charter": "vci-cfts/si/S-I-3-charter.md",
    "closed_at": "2026-08-30T08:40:00Z【derived】",
    "cursor_final": "cfts:current-session:T107@77e43b4023ed6c884ca79fa63d5c6792c3263337dcf5045e8425f14e9eb50888",
-   "closure_basis": "宪章窗口闭合；INCR-01 复算门 PASS；FULLCAP/TN 纪律转为常态 OS 职能"
+   "closure_basis": "宪章窗口闭合；INCR-01 复算门 PASS；FULLCAP/TN 纪律转为常态 OS 职能",
+   "rearmed": "root 令@2026-09-01T18:50:00Z【derived】；INCR-02 在飞"
   },
   "rendezvous": "DUAL-DRIVE-01 R1：root 优先，capsules superseded-not-burned",
   "watch_log": "vci-cfts/si/watch-log.md",
@@ -815,7 +837,8 @@
    "admission": "CHSH 超经典关联实证已达（V-SI4-ADMIT，usrm wave-54）：S=2.825/2.854/2.891（numpy/quafu/QuantumRings）全>2；证据 ci-control/bridge/quantum/chsh-01-wave47.json",
    "armed_at": "2026-08-31T15:39:23Z【usrm 判词时点】",
    "veto_window": "root S4 事后否决窗在案",
-   "note": "跨线写带判词+sidecar；INST-REG 本线键域由本线自写（单写入者律）"
+   "note": "跨线写带判词+sidecar；INST-REG 本线键域由本线自写（单写入者律）",
+   "first_package": "V-SI4-ADMIT-CFTS-REPLICATE-01 证（numpy S=2.833008>2）；quafu/QR 两路候账户"
   }
  },
  "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
