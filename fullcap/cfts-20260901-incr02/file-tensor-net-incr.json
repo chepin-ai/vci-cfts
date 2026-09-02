@@ -1,0 +1,465 @@
+{
+ "net": "file-tensor-net-incr/v1",
+ "spec": "FULLCAP-DRIVE-01 §4.2/§4.3（增量批制式照 FB01/INCR-01）",
+ "line": "cfts",
+ "batch_id": "INCR-02-cfts-20260901-001",
+ "generated_at": "2026-09-02T02:12:11Z",
+ "generation_rules": {
+  "digest_rule": "state_digest=sha256(canon({nodes,edges}))（仅增量节点/边参与）",
+  "cross_anchor_rule": "PRODUCED_BY(ART→TURN)⇄YIELDED(TURN→ART)，锚键=artifact_id+sha256，严格一一互指（事件轮/外部锚 6 件无 TURN 节点，豁免在案）",
+  "external_refs": "REPO:* 节点在 FB01 网；MIRRORS/VERSIONED_AT 本批零增量"
+ },
+ "nodes": [
+  {
+   "id": "ART:cfts-current-session-T109-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T109-a0",
+   "sha256": "273b6ff0bd45a39cd8425c2c7472aed69d733ec414ff42147b4d486bcb642a2f",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/dm-queue/usrm/CFTS2USRM-HOUBAN-ACK-01.md@3d18f62f0fe4",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "HOUBAN-01 三答回收+三件已执回执（dm@usrm）"
+  },
+  {
+   "id": "ART:cfts-current-session-T109-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T109-a1",
+   "sha256": "29ca48a3865513cdc5ed7ccfd31326fd5dd73506a9bc80ea40bb45df67289281",
+   "sandbox_path": "/mnt/agents/output/research/obl/SYN3-harvest.md",
+   "github_path": "vci-cfts/inbox/SYN3-harvest-20260830.md@141439a9ce1b",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OBL-SYN-3 收割验件（516 件全量扫 0/13，本地 obl/ 件同 sha 实测 MATCH）"
+  },
+  {
+   "id": "ART:cfts-current-session-T109-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T109-a2",
+   "sha256": "edd8763d836473a304a690b5e72517d868291fdb73b13727eea94da127f05b8b",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/obl-shadow-20260830.json@00260a1ab98a",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "obl-shadow 同名幂等覆写首拍（18 项 src=v3.2.0；机制本拍起自续）"
+  },
+  {
+   "id": "ART:cfts-current-session-T110-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T110-a0",
+   "sha256": "be18867abb53a2136f57dd2aa229820d4c00f21b4574604c920078ecb805c877",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/USRM-XLINE-CFTS-OBL-01.md@4cec3c8edf7b",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "入站镜像：usrm W70 跨线服务件（候裁六项处置单），cfts 仓落镜；producer=usrm，本线处置面在 a_raw"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a0",
+   "sha256": "897d2e8665ec065170537795e213371112b9963cceb8cca3f4e2d1f7152ec4aa",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/weave/awake/awake-20260901-154552.json@e9dc10d765df",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "cfts 觉醒首声（LongCat-2.0 三段式 utterance，链上 hash 4b7c8179a2cb；L3′ 实证 LIVE）"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a1",
+   "sha256": "9588c46096e590eaa21f426db641b49903ab8d2b1cea5a71f2482e609fc76fa5",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/weave/awake/awake.log@6335c97995a7",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "awake 链账（活件，本快照 2 节）"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a2",
+   "sha256": "e42cf8684318f5cab9f9e4ce165980c053b8dd891be758ade504eb950a8cd730",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/.github/workflows/agent-duty.yml@c7e2afde2f88",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "RACE-SHIELD-01 补丁面（rebase 重试盾；三流四址之一）"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a3",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a3",
+   "sha256": "0457d7b9c9a359cb0543eafc476d8b74c4ef2263e8acbe27f814805a1efc8fa5",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/.github/workflows/otp-gate.yml@55285ef23a6f",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "RACE-SHIELD-01 补丁面（otp-gate；消费 secrets.OTP_PHONE@本仓——仓位差在案）"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a4",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a4",
+   "sha256": "b54e252ada09a7d8a8e36091f8b062c8db779503f7bcc8347a9006d5c3850fc0",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/.github/workflows/otp-issue-trigger.yml@06197ab4f965",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "RACE-SHIELD-01 补丁面（[SENDCODE]/[OTP] 双路）"
+  },
+  {
+   "id": "ART:cfts-current-session-T111-a5",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T111-a5",
+   "sha256": "1f9ab53562728149dc9ea8609b25b2cc93b5dd17cc5f7b637cf5b4549f6d29a0",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/otp_gate_state.json@4c2f9d28c2de",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OTP 态档 FAILED「未设置」缺口文档化（候 root 改挂 OTP_PHONE@vci-cfts）"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a0",
+   "sha256": "bdc1d64e1f4cd872b5583f46e9275bbac4744bc87cedfe4eaf6c385920335923",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/V-SI4-ADMIT-CFTS-REPLICATE-01.md@534c28a5c54d",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "S-I/4 首发判词：证 CONFIRMED（S_exact=2.828427/S_sampled=2.833008>2）"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a1",
+   "sha256": "6c5c9a1f1ddea7928ec4c83e1ca931e5c37e1fca25a372683a0364cb39698fe9",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/V-SI4-ADMIT-CFTS-REPLICATE-01.json@c82088b70cb9",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "复算证据件（2048 发/项 counts 原始数+种子公示）"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a2",
+   "sha256": "c2fd8b5ef6fc03f70716202944cf7b4bcce5438273c0bd2dd6ba30728f8ed886",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/weave/awake/awake-20260902-000148.json@ae89c9280559",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "觉醒第二声（本拍窗内 09-02T00:01Z，机检 findings=0）"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a3",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a3",
+   "sha256": "34a11a33db985ca06f69a594bad3f1072d9e6e02fe9d319e706d7694d71e2855",
+   "sandbox_path": "/mnt/agents/output/research/si/engine-state.json",
+   "github_path": "vci-cfts/health/engine-state.json@bec91d1d84ee",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活件构建时点快照：v3.2.0 META-TICK-20+verdict_registry+1（中间版 META-TICK-16..19 未逐版留痕；本地暂存件滞后，以远端回读为正）"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a4",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a4",
+   "sha256": "0b80f25126dd0e6dc63a1dd5df0096c7d64d116a92b44f9f410efecb3b29aa35",
+   "sandbox_path": "/mnt/agents/output/research/si/watch-log.md",
+   "github_path": "vci-cfts/si/watch-log.md@032b441ea360",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活账构建时点快照：seq0..seq15（至 09-01T18:50Z beat-11）；本地暂存件滞后"
+  },
+  {
+   "id": "ART:cfts-current-session-T112-a5",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T112-a5",
+   "sha256": "b1430cf3827077b6d0940b6f32db0f13ab4fccb1a28d9c1dbd77f104ac5a8037",
+   "sandbox_path": "/mnt/agents/output/research/si/INST-REG.json",
+   "github_path": "ci-control/bridge/INST-REG.json@72dffd0b18ea",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活件构建时点快照：S-I/4 ARMED 等四条同步（若干版未逐版留痕；本地暂存件滞后，以远端回读为正）"
+  },
+  {
+   "id": "ART:cfts-evt-SI3-host-cfts-37",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-SI3-host-cfts-37",
+   "sha256": "fc287a024e0b030c76fe1e60f75290156071e6af41565eb9135c351e8725ed6a",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/公告板/cfts-37-pattern-reg-v1.md@fb1916bfd32e",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "PATTERN-REG v1 注册生效+四候选邀稿（S-I/1 静默期 host 值守产物，晚于 INCR-01 界 07:27Z）"
+  },
+  {
+   "id": "ART:cfts-evt-SI3-host-cfts-38",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-SI3-host-cfts-38",
+   "sha256": "5e2780c4af222f3ceb3f2a5ecf38edd5a69dfabd6da458fd1cd6e871845feef7",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/公告板/cfts-38-incr01-verified-insights.md@ccdc02864d0f",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "INCR-01 复算门 PASS 公告+启示件/卷宗锚（哈希面）"
+  },
+  {
+   "id": "ART:cfts-evt-R18-northstar",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-R18-northstar",
+   "sha256": "1c37484ac40193bebc8deb1160573d446cf4bcffb804431b842b1d5957bc8b91",
+   "sandbox_path": "/mnt/agents/output/research/insights/CFOS-NORTHSTAR-01.md",
+   "github_path": "vci-cfts/insights/CFOS-NORTHSTAR-01.md@d54605b93761",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "CF-OS 内核八启示 K1-K8+北星三层（回应 root T107 令研究面）；capgate seq49 PASS"
+  },
+  {
+   "id": "ART:cfts-evt-R16-pattern-dossier",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-R16-pattern-dossier",
+   "sha256": "e8cd8620d35ad7529b2b719f75bfbaeed1347d0a9c3bf10067b8474fa131e8b0",
+   "sandbox_path": "/mnt/agents/output/research/pattern-dossier.md",
+   "github_path": null,
+   "dashboard_ref": null,
+   "mirror_state": "local-only",
+   "mirror_note": "R16 dossier 18 件模式呈报（五字段+锚）；本地件 local-only，支配扫描零严格支配/登记表 v1 23 件在 TH-PATTERN-01[3]+cfts-37"
+  },
+  {
+   "id": "ART:cfts-evt-usrm-chsh-01-wave47",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-usrm-chsh-01-wave47",
+   "sha256": "43b3cf1a3ddc295c2d2c02afce8125c6160ba53f24c09f6a29656e100b31562f",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/quantum/chsh-01-wave47.json@514af53de02f",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "V-SI4-ADMIT 证据锚（usrm CHSH 三引擎 S=2.825/2.854/2.891）；cfts 复算=T112-a0/a1 解析层逐位一致；外部件只锚不占"
+  },
+  {
+   "id": "ART:cfts-evt-capgate-ledger-0901",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-capgate-ledger-0901",
+   "sha256": "825eddb99a553c298af05d1655fa7f8d5343773dce7fbeb9390ddcf84d9fc693",
+   "sandbox_path": "/mnt/agents/output/research/capgate/ledger.jsonl",
+   "github_path": null,
+   "dashboard_ref": null,
+   "mirror_state": "local-only",
+   "mirror_note": "capgate 闸账链活件快照：49→72 节（承 INCR-01 T101-a4）；capgate.py 未变（58f275b9… 已在 INCR-01 索引）"
+  }
+ ],
+ "edges": [
+  {
+   "from": "ART:cfts-current-session-T109-a0",
+   "to": "TURN:cfts:current-session:T109",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T109-a0:273b6ff0bd45a39cd8425c2c7472aed69d733ec414ff42147b4d486bcb642a2f"
+  },
+  {
+   "from": "ART:cfts-current-session-T109-a0",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T109-a1",
+   "to": "TURN:cfts:current-session:T109",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T109-a1:29ca48a3865513cdc5ed7ccfd31326fd5dd73506a9bc80ea40bb45df67289281"
+  },
+  {
+   "from": "ART:cfts-current-session-T109-a1",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T109-a2",
+   "to": "TURN:cfts:current-session:T109",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T109-a2:edd8763d836473a304a690b5e72517d868291fdb73b13727eea94da127f05b8b"
+  },
+  {
+   "from": "ART:cfts-current-session-T109-a2",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T110-a0",
+   "to": "TURN:cfts:current-session:T110",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T110-a0:be18867abb53a2136f57dd2aa229820d4c00f21b4574604c920078ecb805c877"
+  },
+  {
+   "from": "ART:cfts-current-session-T110-a0",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a0",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a0:897d2e8665ec065170537795e213371112b9963cceb8cca3f4e2d1f7152ec4aa"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a0",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a1",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a1:9588c46096e590eaa21f426db641b49903ab8d2b1cea5a71f2482e609fc76fa5"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a1",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a2",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a2:e42cf8684318f5cab9f9e4ce165980c053b8dd891be758ade504eb950a8cd730"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a2",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a3",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a3:0457d7b9c9a359cb0543eafc476d8b74c4ef2263e8acbe27f814805a1efc8fa5"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a3",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a4",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a4:b54e252ada09a7d8a8e36091f8b062c8db779503f7bcc8347a9006d5c3850fc0"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a4",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a5",
+   "to": "TURN:cfts:current-session:T111",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T111-a5:1f9ab53562728149dc9ea8609b25b2cc93b5dd17cc5f7b637cf5b4549f6d29a0"
+  },
+  {
+   "from": "ART:cfts-current-session-T111-a5",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a0",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a0:bdc1d64e1f4cd872b5583f46e9275bbac4744bc87cedfe4eaf6c385920335923"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a0",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a1",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a1:6c5c9a1f1ddea7928ec4c83e1ca931e5c37e1fca25a372683a0364cb39698fe9"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a1",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a2",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a2:c2fd8b5ef6fc03f70716202944cf7b4bcce5438273c0bd2dd6ba30728f8ed886"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a2",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a3",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a3:34a11a33db985ca06f69a594bad3f1072d9e6e02fe9d319e706d7694d71e2855"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a3",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a4",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a4:0b80f25126dd0e6dc63a1dd5df0096c7d64d116a92b44f9f410efecb3b29aa35"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a4",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a5",
+   "to": "TURN:cfts:current-session:T112",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T112-a5:b1430cf3827077b6d0940b6f32db0f13ab4fccb1a28d9c1dbd77f104ac5a8037"
+  },
+  {
+   "from": "ART:cfts-current-session-T112-a5",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-SI3-host-cfts-37",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-SI3-host-cfts-38",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-R18-northstar",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-R16-pattern-dossier",
+   "to": "REPO:local-sandbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-usrm-chsh-01-wave47",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-capgate-ledger-0901",
+   "to": "REPO:local-sandbox",
+   "type": "HOSTED_IN"
+  }
+ ],
+ "state_digest": "3006e8e8beb3b9f39034ace941996b3cc24671abcce1180481316f798c815144"
+}
