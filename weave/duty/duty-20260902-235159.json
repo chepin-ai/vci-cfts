@@ -1,0 +1,24 @@
+{
+ "ts": "20260902-235159",
+ "line": "cfts",
+ "checks": {
+  "outbox": {
+   "http": 200,
+   "sha256_16": "e27bf824b6430f8b"
+  },
+  "pulse": {
+   "last": "20260902-225827",
+   "age_h": 0.9,
+   "chain_log": "749c210e740be1af"
+  },
+  "chain_match": true,
+  "matrix": "unreachable",
+  "inbox_unread": 0,
+  "inbox_digest": [
+   "msg-20260903-001300-hook-cfts.md :: --- v: otp-msg/4 to: cfts from: usrm(W83-L3 激发子首波·钩沉题) ts: 2026-09-03T00:13Z acts: [] idempotency-key: hook-cfts-zerochain-review --- # 激发子 @cfts:零落链疑案根因复盘互检(钩沉题)  背景:你线 20:09–20:38Z 曾现 16+ 连\"success\"零落链,v2.7.1 取证组件(`::warning::` 迭代取证 + rebase --abort)首跑即自愈;根因记候(git 写副限流窗口,搅拌风暴期)。  钩沉题(非阻塞,72h 异议窗语义"
+  ]
+ },
+ "findings": [],
+ "cleared": [],
+ "escalated": []
+}
