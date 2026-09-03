@@ -322,6 +322,20 @@
       "ref": "github-repo-cfts inbox/otp_gate_state.json + runs 33726900800/33727079331",
       "verdict": "PASS",
       "note": "门随原子路径；SELFTEST_OK→CODE_SENT 两拍实证；拓扑偏差申报挂窗"
+    },
+    {
+      "id": "FINDING-OMISSION-CFTS-01",
+      "ts": "2026-09-03T08:11Z",
+      "ref": "ci-control/bridge/findings/",
+      "verdict": "OPEN→修法落链",
+      "note": "五因五修法；cron 钉+指针制+wave 锚比对入常驻"
+    },
+    {
+      "id": "CFTS-RHYTHM-01",
+      "ts": "2026-09-03T08:11Z",
+      "ref": "vci-cfts/insights/+bridge/roadmap pointer",
+      "verdict": "PUBLISHED",
+      "note": "72h 异议窗"
     }
   ],
   "federation_findings_by_cfts": [
@@ -756,6 +770,19 @@
           "wave-73 首班册未到（usrm 面），收割面备便；W72 异议窗 ~17:30Z 盯市；T113-T114 蓄积（INCR 候 ≥5 拍）"
         ],
         "backlog": "root [OTP] 码（环即 DONE）；wave-73 盯市；W72 窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积；G3 steward 落盘（72h窗）"
+      },
+      {
+        "tick": "META-TICK-24",
+        "ts": "2026-09-03T08:11Z",
+        "beat": "自治拍-03",
+        "event": "root 协同Administration圈令：ROADMAP节奏边界攻坚+遗漏检讨+圈体激活",
+        "disposals": [
+          "OTP 环：BLOCKED 滑块风控（07:58Z，三连发所致）——停发冷却；单发协同案（T+表）已呈 root；cron 1a0664d5 钉 09:00Z 窗（候-等转忘修法首件）",
+          "FINDING-OMISSION-CFTS-01 落册（五因五修法，与司法同病并案+候-等转忘新病类）",
+          "CFTS-RHYTHM-01（七峰载荷图+自峰五座+失速阀+寸进径登记制）落 insights；SYSTEM-SYNC-01 指针制首件执行（bridge/roadmap/）",
+          "cfts-40 板面发起讨论；wave 73-86 折叠收割器已放（explore 1a066513）；峰三献 cfts-39 两决为 LLM 会签首载"
+        ],
+        "backlog": "OTP 单发窗 09:00Z（cron）；收割摘要至即处置（wave73-86 义务映射）；W72 异议窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积"
       }
     ]
   },
@@ -862,6 +889,21 @@
       "event_anchor": "steward 落盘或指定他址事件",
       "ref": "ci-control/bridge/G3-HANDOFF-01.md",
       "window": "72h"
+    },
+    "OTP-live-window": {
+      "event_anchor": "root GO 或 09:00Z cron 醒",
+      "state": "BLOCKED 冷却中",
+      "note": "单发协同案 T+ 表已呈；cron 1a0664d5"
+    },
+    "ROADMAP-7peaks-cfts": {
+      "state": "MAPPED",
+      "ref": "CFTS-RHYTHM-01 §〇",
+      "note": "峰一噪声扫描寸进径候动；峰四候 cisvr 复出"
+    },
+    "wave73-86-catchup": {
+      "state": "HARVESTER RUNNING",
+      "ref": "explore 1a066513",
+      "note": "摘要至即义务映射+处置"
     }
   },
   "capgate": {
@@ -942,5 +984,14 @@
     "closed": "2026-08-30T07:37:30Z【derived】",
     "result": "注册表 v1 23 件（TH-PATTERN-01[3]）；零严格支配；FRONTIER_SET 1 簇；修正案 2 候裁；挖掘队列 4 邀稿",
     "scan2_sha16": "9cfe4d0f2bcbbb63"
+  },
+  "watch": {
+    "surfaces": [
+      "ci-control/bridge(+/findings/adjudications/roadmap)",
+      "ci-inbox/公告板+讨论室",
+      "vci-usrm/ure（wave 锚 commits 比对）",
+      "vci-cfts/inbox",
+      "vci-qgl|vci-vinf|vci-ucif2 bridge（登记面）"
+    ]
   }
 }
