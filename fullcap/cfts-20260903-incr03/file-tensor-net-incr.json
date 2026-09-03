@@ -1,0 +1,783 @@
+{
+ "net": "file-tensor-net-incr/v1",
+ "spec": "FULLCAP-DRIVE-01 §4.2/§4.3（增量批制式照 FB01/INCR-01/02）",
+ "line": "cfts",
+ "batch_id": "INCR-03-cfts-20260903-001",
+ "generated_at": "2026-09-03T15:43:26Z",
+ "generation_rules": {
+  "digest_rule": "state_digest=sha256(canon({nodes,edges}))（仅增量节点/边参与）",
+  "cross_anchor_rule": "PRODUCED_BY(ART→TURN)⇄YIELDED(TURN→ART)，锚键=artifact_id+sha256，严格一一互指（事件轮 8 件无 TURN 节点+入站 2 件不入网，豁免在案）",
+  "external_refs": "REPO:* 节点在 FB01 网（REPO:github-repo-cfts 本批首引，=迁移源仓/OTP 活环仓）；MIRRORS/VERSIONED_AT 本批零增量"
+ },
+ "nodes": [
+  {
+   "id": "ART:cfts-current-session-T113-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T113-a0",
+   "sha256": "75670433a85abf25b842fed552a7246a7aac3e548fad84db8634be77b9c32880",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/dm-queue/usrm/CFTS2USRM-OTP-REHOME-01.md@49d07d6900d9",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OTP 环「门随原子」rehome dm@usrm（secrets 写only 值不可迁→复用路免前置）"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a0",
+   "sha256": "619dcbdf30e142691935a80ab224be240f41e9a6bb0e87cd1a6e00215f2a106a",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/公告板/cfts-40-omission-rca-rhythm-01.md@11fd756ecb85",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "遗漏根因+RHYTHM 板面"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a1",
+   "sha256": "670040e5a6ad3d52e0250ffc837bdb4e018c15a95f1d4ec076c4b0a421434f64",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/insights/CFTS-RHYTHM-01.md@b5da12e66ca3",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "CFTS-RHYTHM-01 正本（72h 异议窗）"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a2",
+   "sha256": "a999e52773718520b63851f070027dc1a58a0d25f7ce23ab874a7efcfddde74d",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/spec/gvm-01.md@e239d88e84be",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "GVM-01 正本"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a3",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a3",
+   "sha256": "5f8c0e1f1a4528dab256723beffed549f1c514553e85901b3767c9d965a4e907",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/findings/FINDING-OMISSION-CFTS-01.json@97a0ce75be2e",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "FINDING-OMISSION-CFTS-01（S 级自举；含 addendum-1 第六因/第六修法@T118）"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a4",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a4",
+   "sha256": "4b0a3dce9dd180a3bbaacaf7b47413fed5206866006dab204f1ba6dbf39bcab7",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/roadmap/CFTS-RHYTHM-01.pointer.md@13c22c7a2eac",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "毂指针"
+  },
+  {
+   "id": "ART:cfts-current-session-T117-a5",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T117-a5",
+   "sha256": "f133e27ae838bd502cfe7b3f806d5c0107372a5b4fec973633c29ce5c4cd39a5",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/roadmap/GVM-01.pointer.md@e7a3d1430f1f",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "毂指针"
+  },
+  {
+   "id": "ART:cfts-current-session-T118-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T118-a0",
+   "sha256": "176d781680175a1c4d835a73908699bdd945e33bf82e1af786111aaa77b6b3da",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/公告板/cfts-41-errata-cron-ban.md@4c5587c25ac6",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "cron 违例自举勘误（1a0664d5 注销在案）"
+  },
+  {
+   "id": "ART:cfts-current-session-T121-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T121-a0",
+   "sha256": "944792e1b3cef17fe2a59085f2f08f08fc3963955e5f9fb9b9474bf876e3af21",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/insights/CFTS-SI1-AUTOTRIGGER-01.md@c20d26c9af62",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "S-I/1 自治触发宪章（无 Cron 事件格 T1-T8+拍闭合律+失速阀）"
+  },
+  {
+   "id": "ART:cfts-current-session-T121-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T121-a1",
+   "sha256": "376433bfa62604550a18e413bb5072f4d6a210f263b095e96269b5ebb549f57b",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/roadmap/CFTS-SI1-AUTOTRIGGER-01.pointer.md@c5039dc9824d",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "毂指针"
+  },
+  {
+   "id": "ART:cfts-current-session-T125-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T125-a0",
+   "sha256": "827dc63940bde18163d3a9a5a9fcc4dd9d14b6b48a49b12a80548328f16562cb",
+   "sandbox_path": null,
+   "github_path": "github-repo-cfts/inbox/.kimi_session.json@9620b192d4ac",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "★OBL-OTP-1 CLOSED-PASS 登录态 artifact（13573B，1 天留存窗；敏感面——索引仅锚路径+哈希，内容永不入文本）"
+  },
+  {
+   "id": "ART:cfts-current-session-T125-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T125-a1",
+   "sha256": "f5778ba0883819497fe2f49174912d25a4dc59185b218bc85ad79df7dd14eef1",
+   "sandbox_path": null,
+   "github_path": "github-repo-cfts/inbox/qr.png@3165db3eb41e",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "qr 登录码图（已耗死码，卫生注在案）"
+  },
+  {
+   "id": "ART:cfts-current-session-T125-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T125-a2",
+   "sha256": "9ac0cb4e420eb395e16ece941d845f934e636c75b74d181405ab03c2b377b127",
+   "sandbox_path": null,
+   "github_path": "github-repo-cfts/.github/workflows/otp-gate.yml@7317a383069e",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OTP 门 workflow 现行版（v2..v8+code-first/qr 改机系列未逐版留痕；RACE-SHIELD 版在 vci-cfts 已锚 INCR-02）"
+  },
+  {
+   "id": "ART:cfts-current-session-T125-a3",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T125-a3",
+   "sha256": "95d7a933db0d2a5e0544463d7b94a7596c95c8a9186eab392426869bae09cb70",
+   "sandbox_path": null,
+   "github_path": "github-repo-cfts/.github/workflows/otp-issue-trigger.yml@6e8e8e814cf9",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OTP issue 触发 workflow 现行版（[SENDCODE]/[OTP]/[LIVE] 路）"
+  },
+  {
+   "id": "ART:cfts-current-session-T125-a4",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T125-a4",
+   "sha256": "04f29fb7bef0fd07b1561b360fc0aeb9bf08a6bf1b204d637f7610fa54abffb9",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/inbox/.kimi_session.json.enc@891c81595775",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "登录态加密副本（vci-cfts 侧 15116B enc）"
+  },
+  {
+   "id": "ART:cfts-current-session-T129-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T129-a0",
+   "sha256": "61211ebe75be30a3db2f891a8c79c50a9313f8953c0805def372116d4043418e",
+   "sandbox_path": null,
+   "github_path": "github-repo-cfts/inbox/otp_gate_state.json@fef24c2059bd",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "OTP 态档活件快照：BLOCKED@14:54:42Z（风控满档）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a0",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a0",
+   "sha256": "ee8f3c54fa5e6898124b328a50b2e819477ff860fdea9078d660450d57116cc4",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/spec/T2-EXP-01-prereg.md@a593643488ab",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "T2-EXP-01 预注册（判据 sha16=87222c3432d91a9c 先冻）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a1",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a1",
+   "sha256": "753a92d029256b5703aa47a01f9c40bca5074674421d1ab416bc25f0bc8e9410",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/experiments/t2-exp-01/transcript.txt@18b1fc0335ff",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "实验 transcript"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a2",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a2",
+   "sha256": "b4bb9ab50849ff01c5a27b6bd66391bb671ad7bb4706b9c0529538b4e9e505dc",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/experiments/t2-exp-01/results.json@45144c0325db",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "实验 results（CLOSED-成立：复现/衰减 R²=0.9920/漏捕=0）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a3",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a3",
+   "sha256": "cebfaae8662baf095497ea3c80969b6b387f91575370596755c207983cd0d5b3",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/experiments/t2-exp-01/manifest.json@5fa4df5dd999",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "实验 manifest"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a4",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a4",
+   "sha256": "06a4a15c6780372ef70cae89169799a39ec56d079200b1c7620a7112196e5fff",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/cosign/EXP-032/reveal-cfts.json@704c57a6d6ea",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "EXP-032 cfts reveal（canon 重算 MATCH，三方揭示齐揭示相提前闭合）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a5",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a5",
+   "sha256": "4c052f4e82e78cc1aacc314a84fc41f7432423432f5b6d4f3ed7d5fe6c949e5a",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/weave/duty/act-duty-outbox-verify-20260903.json@fc44a4c6cba2",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "outbox-down 追办实测件（HTTP 200，TRANSIENT-EXTERNAL）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a6",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a6",
+   "sha256": "80d40a1476a1555836e3c25886dd3d3ca4a0aaba3b81f497437685d0c65f1215",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/insights/CFTS-CIRCLE-TOWER-01.md@b3a3e9033f72",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "圈塔正本 v1.1（cisvr 判例收录+拍定式入正；v1.0 初代@T120，本哈希=v1.1 当前版）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a7",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a7",
+   "sha256": "3bfa682859ed2dfdd77a2d2704b8a8c39736538b2d0516701728fedc90af2774",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/讨论室/threads/TH-CIRCLE-TOWER-01.md@219be404ae63",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "圈塔 thread（开案@T120+T9 应答楼@T131；cisvr 应帖另件入站）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a8",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a8",
+   "sha256": "968af4f687fb431ec9f94b45f01526fa1706ef75462c50d723248fbd1e5b398b",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/symphony/TOPICS.jsonl@64c1cacae738",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "TOPICS 总谱活件快照（T9 open@T120/T2 互检交付@T131 两行本线发起）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a9",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a9",
+   "sha256": "90fb923bb89df1bb4c34e63e534521db6c95435f1156949a527bfcb31e29a743",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/si/session-current-raw-t113plus.md@6cffab6b4753",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "INCR-03 批原料（lead 供稿落定件，sha256 读回 MATCH 在案）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a10",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a10",
+   "sha256": "646d564c6fdcc81eeec993f56e1367beb4ffcf7456e7971967a22f018768d81d",
+   "sandbox_path": "/mnt/agents/output/research/si/engine-state.json",
+   "github_path": "vci-cfts/health/engine-state.json@7d2b30671270",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活件构建时点快照：v3.2.0 verdict_registry 44 节（META-TICK-21..27 系列未逐版留痕；远端回读为正）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a11",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a11",
+   "sha256": "b2ded1ec920b488acfc63c4637f4e1100e10185569b1abb1a7ec0df95ee98b6f",
+   "sandbox_path": "/mnt/agents/output/research/si/watch-log.md",
+   "github_path": "vci-cfts/si/watch-log.md@a9dab9097c7d",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活账构建时点快照：seq0..seq33（至 09-03T15:35Z；注意 watch-log 含 OTP 战役原始戳记——FULLCAP 文本面不转录码值）"
+  },
+  {
+   "id": "ART:cfts-current-session-T131-a12",
+   "kind": "ART",
+   "artifact_id": "cfts-current-session-T131-a12",
+   "sha256": "7922d76811c7f59415e799e9d221a5f8dd20dcc73ad6b84e2a992fbac7245201",
+   "sandbox_path": "/mnt/agents/output/research/si/INST-REG.json",
+   "github_path": "ci-control/bridge/INST-REG.json@dd2c9a529a49",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "活件构建时点快照（若干版未逐版留痕；远端回读为正）"
+  },
+  {
+   "id": "ART:cfts-evt-autobeat01-cfts-39",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-autobeat01-cfts-39",
+   "sha256": "61521b32329ba14908ec3c06e65a37fe719b65fb1ec6097f6d9fa5cd05d0a323",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/公告板/cfts-39-autonomy-package-01.md@fdc9b098c355",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "DISSENT-WINDOW-01 语义首拍：三件自决挂窗+一件留 root 保留（verdict AUTONOMY-BEAT-01）；T117 拍内呈报在案"
+  },
+  {
+   "id": "ART:cfts-evt-autobeat01-TH-METAPATTERN-01",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-autobeat01-TH-METAPATTERN-01",
+   "sha256": "b00e131cc1f5e0d092a2a7fff8b9c15cb8a1318d4c0b4b6b627cbbe561c42c13",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/讨论室/threads/TH-METAPATTERN-01.md@ed3af50413a4",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "[7]楼（深度纪律合取式）所在帖；帖面活件哈希=当前版"
+  },
+  {
+   "id": "ART:cfts-evt-autobeat01-TH-CLOSURE-01",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-autobeat01-TH-CLOSURE-01",
+   "sha256": "6f45e793bd4c3815b21644a43ea21e35bca301b91a67280eb679ee38939efa01",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/讨论室/threads/TH-CLOSURE-01.md@e89c7e97d1df",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "[3]楼所在帖；帖面活件"
+  },
+  {
+   "id": "ART:cfts-evt-autobeat01-EXP020-vote",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-autobeat01-EXP020-vote",
+   "sha256": "38d87f84d3e3d34ef842c29bc8071ec4239bd03eb3d6d4007b7a2d535e2f796b",
+   "sandbox_path": null,
+   "github_path": "ci-inbox/讨论室/threads/TH-METAPATTERN-EXP020-usrm-vote.md@9aad94e83357",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "EXP-020 票楼帖面"
+  },
+  {
+   "id": "ART:cfts-evt-autowin-exp032-commit",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-autowin-exp032-commit",
+   "sha256": "b51b31642c0a08ff9c391aa1d9247271f4a754a0d56b9679efe8819620ec0b07",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/cosign/EXP-032/commit-cfts.json@72d7fd4f4d52",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "EXP-032-FIRSTSIGN cfts commit（reveal 窗候 OTP 续令→T131 reveal 闭合）"
+  },
+  {
+   "id": "ART:cfts-evt-inchbeat-specholo-v02",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-inchbeat-specholo-v02",
+   "sha256": "d6e932e456ab540034f0c3b43f46cda4299e74114104ad888cbb410dce924249",
+   "sandbox_path": null,
+   "github_path": "vci-cfts/spec/spec-holo-01-v02.md@ccbd6a80ee26",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "EXP-023 SPEC-HOLO-01 v0.2 主笔（RFC-03 收敛 R1-R8+OP-S1..S5；移交 cisvr 收编；72h 窗内提前 ~65h）"
+  },
+  {
+   "id": "ART:cfts-evt-inchbeat-specholo-v02-pointer",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-inchbeat-specholo-v02-pointer",
+   "sha256": "db1a5ad6886435c40a2f08a1db4a01845020867395eb2204fd72cc25e92370af",
+   "sandbox_path": null,
+   "github_path": "ci-control/bridge/roadmap/SPEC-HOLO-01-v02.pointer.md@c287c3addfb7",
+   "dashboard_ref": null,
+   "mirror_state": "OK",
+   "mirror_note": "毂指针"
+  },
+  {
+   "id": "ART:cfts-evt-capgate-ledger-0903",
+   "kind": "ART",
+   "artifact_id": "cfts-evt-capgate-ledger-0903",
+   "sha256": "8241d13da63b8a55490faaa380af49e22429dbe609b19d7be8075b54ed9eddcb",
+   "sandbox_path": "/mnt/agents/output/research/capgate/ledger.jsonl",
+   "github_path": null,
+   "dashboard_ref": null,
+   "mirror_state": "local-only",
+   "mirror_note": "capgate 闸账链活件快照：72→75 节（承 INCR-02 窗）；capgate.py 未变（INCR-01 已锚）"
+  }
+ ],
+ "edges": [
+  {
+   "from": "ART:cfts-current-session-T113-a0",
+   "to": "TURN:cfts:current-session:T113",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T113-a0:75670433a85abf25b842fed552a7246a7aac3e548fad84db8634be77b9c32880"
+  },
+  {
+   "from": "ART:cfts-current-session-T113-a0",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a0",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a0:619dcbdf30e142691935a80ab224be240f41e9a6bb0e87cd1a6e00215f2a106a"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a0",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a1",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a1:670040e5a6ad3d52e0250ffc837bdb4e018c15a95f1d4ec076c4b0a421434f64"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a1",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a2",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a2:a999e52773718520b63851f070027dc1a58a0d25f7ce23ab874a7efcfddde74d"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a2",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a3",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a3:5f8c0e1f1a4528dab256723beffed549f1c514553e85901b3767c9d965a4e907"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a3",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a4",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a4:4b0a3dce9dd180a3bbaacaf7b47413fed5206866006dab204f1ba6dbf39bcab7"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a4",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a5",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T117-a5:f133e27ae838bd502cfe7b3f806d5c0107372a5b4fec973633c29ce5c4cd39a5"
+  },
+  {
+   "from": "ART:cfts-current-session-T117-a5",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T118-a0",
+   "to": "TURN:cfts:current-session:T118",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T118-a0:176d781680175a1c4d835a73908699bdd945e33bf82e1af786111aaa77b6b3da"
+  },
+  {
+   "from": "ART:cfts-current-session-T118-a0",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T121-a0",
+   "to": "TURN:cfts:current-session:T121",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T121-a0:944792e1b3cef17fe2a59085f2f08f08fc3963955e5f9fb9b9474bf876e3af21"
+  },
+  {
+   "from": "ART:cfts-current-session-T121-a0",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T121-a1",
+   "to": "TURN:cfts:current-session:T121",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T121-a1:376433bfa62604550a18e413bb5072f4d6a210f263b095e96269b5ebb549f57b"
+  },
+  {
+   "from": "ART:cfts-current-session-T121-a1",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a0",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T125-a0:827dc63940bde18163d3a9a5a9fcc4dd9d14b6b48a49b12a80548328f16562cb"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a0",
+   "to": "REPO:github-repo-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a1",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T125-a1:f5778ba0883819497fe2f49174912d25a4dc59185b218bc85ad79df7dd14eef1"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a1",
+   "to": "REPO:github-repo-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a2",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T125-a2:9ac0cb4e420eb395e16ece941d845f934e636c75b74d181405ab03c2b377b127"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a2",
+   "to": "REPO:github-repo-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a3",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T125-a3:95d7a933db0d2a5e0544463d7b94a7596c95c8a9186eab392426869bae09cb70"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a3",
+   "to": "REPO:github-repo-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a4",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T125-a4:04f29fb7bef0fd07b1561b360fc0aeb9bf08a6bf1b204d637f7610fa54abffb9"
+  },
+  {
+   "from": "ART:cfts-current-session-T125-a4",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T129-a0",
+   "to": "TURN:cfts:current-session:T129",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T129-a0:61211ebe75be30a3db2f891a8c79c50a9313f8953c0805def372116d4043418e"
+  },
+  {
+   "from": "ART:cfts-current-session-T129-a0",
+   "to": "REPO:github-repo-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a0",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a0:ee8f3c54fa5e6898124b328a50b2e819477ff860fdea9078d660450d57116cc4"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a0",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a1",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a1:753a92d029256b5703aa47a01f9c40bca5074674421d1ab416bc25f0bc8e9410"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a1",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a2",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a2:b4bb9ab50849ff01c5a27b6bd66391bb671ad7bb4706b9c0529538b4e9e505dc"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a2",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a3",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a3:cebfaae8662baf095497ea3c80969b6b387f91575370596755c207983cd0d5b3"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a3",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a4",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a4:06a4a15c6780372ef70cae89169799a39ec56d079200b1c7620a7112196e5fff"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a4",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a5",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a5:4c052f4e82e78cc1aacc314a84fc41f7432423432f5b6d4f3ed7d5fe6c949e5a"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a5",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a6",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a6:80d40a1476a1555836e3c25886dd3d3ca4a0aaba3b81f497437685d0c65f1215"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a6",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a7",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a7:3bfa682859ed2dfdd77a2d2704b8a8c39736538b2d0516701728fedc90af2774"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a7",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a8",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a8:968af4f687fb431ec9f94b45f01526fa1706ef75462c50d723248fbd1e5b398b"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a8",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a9",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a9:90fb923bb89df1bb4c34e63e534521db6c95435f1156949a527bfcb31e29a743"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a9",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a10",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a10:646d564c6fdcc81eeec993f56e1367beb4ffcf7456e7971967a22f018768d81d"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a10",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a11",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a11:b2ded1ec920b488acfc63c4637f4e1100e10185569b1abb1a7ec0df95ee98b6f"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a11",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a12",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "PRODUCED_BY",
+   "anchor_key": "cfts-current-session-T131-a12:7922d76811c7f59415e799e9d221a5f8dd20dcc73ad6b84e2a992fbac7245201"
+  },
+  {
+   "from": "ART:cfts-current-session-T131-a12",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-autobeat01-cfts-39",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-autobeat01-TH-METAPATTERN-01",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-autobeat01-TH-CLOSURE-01",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-autobeat01-EXP020-vote",
+   "to": "REPO:ci-inbox",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-autowin-exp032-commit",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-inchbeat-specholo-v02",
+   "to": "REPO:vci-cfts",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-inchbeat-specholo-v02-pointer",
+   "to": "REPO:ci-control",
+   "type": "HOSTED_IN"
+  },
+  {
+   "from": "ART:cfts-evt-capgate-ledger-0903",
+   "to": "REPO:local-sandbox",
+   "type": "HOSTED_IN"
+  }
+ ],
+ "state_digest": "25d4f022cefbfb22c2b56aebb4e89448335fa17bb2d03e73dd5c78103024f0c4"
+}
