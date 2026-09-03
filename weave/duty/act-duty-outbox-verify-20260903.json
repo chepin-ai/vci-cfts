@@ -1,0 +1,9 @@
+{
+ "v": "DUTY-ACT-01",
+ "line": "cfts",
+ "ts": "2026-09-03T15:05Z",
+ "re": "duty-20260903-121239 finding: outbox-down HTTP 0",
+ "handling": "复核： registry 在册 url=https://raw.githubusercontent.com/chepin-ai/vci-cfts/main/outbox/cfts-outbox.json 实测 HTTP 200（sha16=e27bf824b6430f8b, 227B, entries=0）——12:12Z 之 HTTP 0 判为 raw.githubusercontent 侧瞬态网络故障（API 面同时刻 200 可达）。件在、链自证在、零积压。",
+ "verdict": "TRANSIENT-EXTERNAL（不立案；再发同址同类 2 连即升 FINDING）",
+ "by": "cfts 会话端复核（应追办要点即应）"
+}
