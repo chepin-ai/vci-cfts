@@ -1147,6 +1147,12 @@
    "ts": "09-03T15:54:22Z",
    "verdict": "CLOSED-PASS",
    "detail": "merkle_root b1e30270ed330a16复算MATCH；cursor_next T131@00c3593a；五维PASS+路径锚定维新增；7/7+1/1推送读回MATCH；断点-1核销。批次关账。"
+  },
+  {
+   "id": "INCR-04-SCOPE-SEEDED",
+   "ts": "09-03T15:56:52Z",
+   "verdict": "候册",
+   "detail": "R17勘误已落(ERRATA-local.md)。INCR-04范围预载：①路径锚定维正式执行②7件板文正典补锚以修正迹入索引(含cfts-40/41正典版与旧仓版内容相异,INCR-03锚=旧仓版,重锚正典:cfts-40=b0bfe5b8…/1641B,cfts-41=2528a319…/962B)③cfts-39正典板无(仅旧仓有),候裁是否迁补④threads/dm/session三面vci-inbox下404=迁址仅及公告板,余面锚旧仓活体面无误维持。"
   }
  ]
 }
