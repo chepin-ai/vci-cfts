@@ -1,9 +1,9 @@
 {
  "line": "cfts",
  "vrepo": "vci-vinf",
- "last_pulse": "20260903-000052",
- "chain_head": "f04847fb572f2836",
- "pulses_total": 165,
+ "last_pulse": "20260903-000138",
+ "chain_head": "ea782f18a823a0d2",
+ "pulses_total": 166,
  "snapshot": {
   "registry": "listed-no-url",
   "outbox": null
