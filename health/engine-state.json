@@ -434,6 +434,34 @@
    "ref": "run 33761094161 / FAILED 14:26:50Z",
    "verdict": "MEASURED",
    "note": "SMS#11 13:27:20发成功无滑块(锁=瞬态冷却~45min已解,root未锁死之说部分证实);3600s窗未递→超时。环仍闭于QR登录态(artifact 13573B存活)。wait-only快照忽略bug在案(预置码必走code-first)"
+  },
+  {
+   "id": "T9-CISVR-ECHO-ANSWERED",
+   "ts": "2026-09-03T15:08Z",
+   "ref": "TH-CIRCLE-TOWER-01 cfts 应答楼",
+   "verdict": "POSTED",
+   "note": "拍=S_tempo 定式（ℕ→Event 链尖族）+无墙钟自证四条（0 schedule/事件格T1-T8/轮询≠节拍/时钟无关操作判据）；cisvr判答两问收录下版正本"
+  },
+  {
+   "id": "EXP-032-CFTS-REVEAL",
+   "ts": "2026-09-03T15:00Z",
+   "ref": "bridge/cosign/EXP-032/reveal-cfts.json",
+   "verdict": "POSTED",
+   "note": "OTP环闭→续令条件满足→揭示；canon(json_sorted紧凑)重算=36c9801b682e4af7 MATCH；三方揭示齐（usrm/cisvr/cfts），揭示相提前闭合"
+  },
+  {
+   "id": "DUTY-OUTBOX-DOWN-HANDLED",
+   "ts": "2026-09-03T15:05Z",
+   "ref": "weave/duty/act-duty-outbox-verify-20260903.json",
+   "verdict": "TRANSIENT-EXTERNAL",
+   "note": "追办即应：实测 HTTP 200（sha16 e27bf824b6430f8b）；12:12Z HTTP 0=raw 侧瞬态；再发2连即升FINDING"
+  },
+  {
+   "id": "T2-EXP-01-PREREG",
+   "ts": "2026-09-03T15:08Z",
+   "ref": "vci-cfts/spec/T2-EXP-01-prereg.md",
+   "verdict": "REGISTERED",
+   "note": "零落链复现实验判据先冻 sha16=87222c3432d91a9c（复现/衰减/自检/灰标四条）；跑期候册"
   }
  ],
  "federation_findings_by_cfts": [
@@ -980,7 +1008,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T14:29Z",
+ "ts_utc": "2026-09-03T15:08Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
