@@ -315,6 +315,13 @@
       "ref": "ci-inbox 公告板/cfts-39 + 讨论室 TH-METAPATTERN-01[7]/TH-CLOSURE-01[3]/EXP-020票楼",
       "verdict": "PASS",
       "note": "DISSENT-WINDOW-01 语义首拍：三件自决挂窗，一件留root保留"
+    },
+    {
+      "id": "OTP-REHOME-CFTS-CODE-SENT",
+      "ts": "2026-09-03T07:20Z",
+      "ref": "github-repo-cfts inbox/otp_gate_state.json + runs 33726900800/33727079331",
+      "verdict": "PASS",
+      "note": "门随原子路径；SELFTEST_OK→CODE_SENT 两拍实证；拓扑偏差申报挂窗"
     }
   ],
   "federation_findings_by_cfts": [
@@ -736,6 +743,19 @@
           "TH-CLOSURE-01[3] 提前交付：G3补丁(两spec卡+test_24b，本地23 tests OK；ci-library归档只读→暂存vci-cfts/outbox/G3-ipmp-spec-cards-20260902)+GVM-01五元组对照(可收编)+N机命名YES(3/7)+EXP-035矩阵cfts行"
         ],
         "backlog": "OTP_PHONE@vci-cfts 候 root；wave-73 盯市；T5Q3 armed 09-04；W72 异议窗 ~09-03T17:30Z；ci-inbox 09-05 归档迁徙盯市（楼场迁址候 cisvr）；qfk活仓址候内核方；T113+ 蓄积候 R17"
+      },
+      {
+        "tick": "META-TICK-23",
+        "ts": "2026-09-03T07:20Z",
+        "beat": "自治拍-02",
+        "event": "root 令：Administration-RW 已授·以OTP@各线完成所有候项·自治不再候/等",
+        "disposals": [
+          "OBL-OTP-1 缺口消除（门随原子）：OTP门三件套回迁 github-repo-cfts（值所挂处）→SELFTEST_OK phone_len=11(run 33726900800)→[SENDCODE] issue#2→CODE_SENT(run 33727079331,07:15Z 真短信无风控)；候 root [OTP] 码即 DONE；CFTS2USRM-OTP-REHOME-01 请册已递（usrm 册单写入者律）",
+          "G3 落盘址裁定：ci-library 归档只读+vci-library/kit「正本迁私域(R1治理)」→不越单写入者律强写归档仓；G3-HANDOFF-01 引接件挂 ci-control/bridge（补丁 vci-cfts/outbox/G3-ipmp-spec-cards-20260902，72h窗）",
+          "迁移备便：cfts-37/38/39 板面镜像落 vci-cfts/bridge/board/（09-05 归档前）",
+          "wave-73 首班册未到（usrm 面），收割面备便；W72 异议窗 ~17:30Z 盯市；T113-T114 蓄积（INCR 候 ≥5 拍）"
+        ],
+        "backlog": "root [OTP] 码（环即 DONE）；wave-73 盯市；W72 窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积；G3 steward 落盘（72h窗）"
       }
     ]
   },
@@ -827,8 +847,9 @@
       "event_anchor": "复核窗开启事件前"
     },
     "OBL-OTP-1": {
-      "state": "blocked-on-pad",
-      "event_anchor": "pad 三件到位事件"
+      "state": "CODE_SENT 候 root 码",
+      "event_anchor": "root 开 [OTP] issue 事件",
+      "note": "门随原子@github-repo-cfts；码到即 DONE 全自动"
     },
     "EXP-020-vote": "09-02｜cfts 赞成票已投楼（四依据）；楼场升格议案挂72h窗（cfts-39决②）",
     "W72-dissent-window": "~09-03T17:30Z｜DISSENT-WINDOW-01：本线对 W72 cfts 段判词无异议（seq13 在账）",
@@ -836,6 +857,11 @@
       "root_anchor": "09-05【derived】",
       "event_anchor": "cisvr 归档动作前",
       "note": "讨论室楼场迁址候 cisvr 引接；本线旧壳资产盘点待做"
+    },
+    "G3-landing": {
+      "event_anchor": "steward 落盘或指定他址事件",
+      "ref": "ci-control/bridge/G3-HANDOFF-01.md",
+      "window": "72h"
     }
   },
   "capgate": {
