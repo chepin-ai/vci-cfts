@@ -413,6 +413,13 @@
    "ref": "vci-cfts/spec/spec-holo-01-v02.md + ci-control pointer",
    "verdict": "DELIVERED",
    "note": "RFC-03收敛R1-R8+OP-S1..S5推进(S2 CLOSED)；72h窗内交付；移交cisvr收编"
+  },
+  {
+   "id": "OTP-V7-TIMEOUT",
+   "ts": "2026-09-03T12:37Z",
+   "ref": "run 33750037334 / FAILED 12:35:34Z",
+   "verdict": "MEASURED",
+   "note": "SMS#8 11:34:50发(第8发)→3600s窗未递→超时。今日OTP战役收兵：8发+wait-only+qr+长窗，机械面全绿，人端窗对齐未达成。standing rule在案：root ping且无在跑窗→零序言即放qr窗"
   }
  ],
  "federation_findings_by_cfts": [
@@ -959,7 +966,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T12:01Z",
+ "ts_utc": "2026-09-03T12:37Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
@@ -977,7 +984,7 @@
   "EXP-032-commit-reveal",
   {
    "id": "OBL-OTP-1",
-   "state": "候 root 在場窗（掃碼或即復碼，二選一）",
+   "state": "standing rule armed——root 下一 ping 即放 qr 窗（零序言）",
    "note": "CI零发码免疫限频；判据=DONE+artifact；若新鲜码被拒=session-binding坐实→转CI发码+5min快递案",
    "five_elements": "断因=人端时延~10min vs 码TTL<20min；代偿面=机械面全绿在案；判据=DONE+session artifact；到期动作=root择可专注20min之时GO→单发1200s窗；销账=DONE落账+board通报",
    "standing_rule": "root 任一 ping 且無在跑窗→零序言即放 qr 窗 1800s 並即呈圖；root 復碼→秒注秒驗"
