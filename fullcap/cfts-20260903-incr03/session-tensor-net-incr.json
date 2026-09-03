@@ -1,0 +1,554 @@
+{
+ "net": "session-tensor-net-incr/v1",
+ "spec": "FULLCAP-DRIVE-01 §4.1/§4.3（增量批制式照 FB01/INCR-01/02）",
+ "line": "cfts",
+ "batch_id": "INCR-03-cfts-20260903-001",
+ "generated_at": "2026-09-03T15:43:26Z",
+ "generation_rules": {
+  "canon": "json.dumps(x,ensure_ascii=False,sort_keys=True)",
+  "turn_hash": "sha256(canon(q_raw)+canon(a_raw)+ts_utc+str(turn_seq))",
+  "digest_rule": "state_digest=sha256(canon({nodes,edges}))（仅增量节点/边参与）",
+  "external_refs": "SESSION:current-session 及其 ANCHOR 在 INCR-01 网；T112 节点在 INCR-02 网；本批无新 SESSION/ANCHOR（同会话续段）"
+ },
+ "nodes": [
+  {
+   "id": "TURN:cfts:current-session:T113",
+   "kind": "TURN",
+   "turn_seq": 113,
+   "turn_seq_local": 22,
+   "ts_utc": "2026-09-03T07:20:00Z",
+   "turn_hash": "4e7c0df796d338d30a4af2d34054d18a83a686e6e82e3e86c8568677b4e2f95b",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T114",
+   "kind": "TURN",
+   "turn_seq": 114,
+   "turn_seq_local": 23,
+   "ts_utc": "2026-09-03T07:25:00Z",
+   "turn_hash": "d14d3074c9c4eeb5d76ac705c5e984190afd35594e6fa6b0c488b5227ba2c837",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T115",
+   "kind": "TURN",
+   "turn_seq": 115,
+   "turn_seq_local": 24,
+   "ts_utc": "2026-09-03T07:50:00Z",
+   "turn_hash": "0aebc14e6b3c2b729908b78ad6953bf951d8af1ca572c574e9073e443c7912b9",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T116",
+   "kind": "TURN",
+   "turn_seq": 116,
+   "turn_seq_local": 25,
+   "ts_utc": "2026-09-03T07:58:30Z",
+   "turn_hash": "856b251ad75aa5b054bc7c445012f2fe389bcfb95ccb4f3b79922b5b1c500513",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T117",
+   "kind": "TURN",
+   "turn_seq": 117,
+   "turn_seq_local": 26,
+   "ts_utc": "2026-09-03T08:11:00Z",
+   "turn_hash": "7576617e26d30a7c9e195a3b5506436d2fba0044d959f0c421d0aeb14d84f2dd",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T118",
+   "kind": "TURN",
+   "turn_seq": 118,
+   "turn_seq_local": 27,
+   "ts_utc": "2026-09-03T08:15:00Z",
+   "turn_hash": "23e63120bebcf4cf98ac74cbb5e76cdca76d1262002552138fb519303f902914",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T119",
+   "kind": "TURN",
+   "turn_seq": 119,
+   "turn_seq_local": 28,
+   "ts_utc": "2026-09-03T08:47:00Z",
+   "turn_hash": "1004fb5898bb8ac04f84a9adb7f4bac5b33a68ea2f3917b662f751a758e1962c",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T120",
+   "kind": "TURN",
+   "turn_seq": 120,
+   "turn_seq_local": 29,
+   "ts_utc": "2026-09-03T08:55:00Z",
+   "turn_hash": "7c5c8ff9df4a66aa6433bebb3c6dbf5378a6a936ad9f40ff505efe92b57e25df",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T121",
+   "kind": "TURN",
+   "turn_seq": 121,
+   "turn_seq_local": 30,
+   "ts_utc": "2026-09-03T09:21:00Z",
+   "turn_hash": "2cf659c66dd3e4d7ba811359549dfc9cd9c2c333886f9291868f840c62ea3516",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T122",
+   "kind": "TURN",
+   "turn_seq": 122,
+   "turn_seq_local": 31,
+   "ts_utc": "2026-09-03T09:38:08Z",
+   "turn_hash": "ffa705f947d950737cf3a0c1c03bc8f6914835545e660e797a8ba3acb590fbb6",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T123",
+   "kind": "TURN",
+   "turn_seq": 123,
+   "turn_seq_local": 32,
+   "ts_utc": "2026-09-03T09:57:28Z",
+   "turn_hash": "7793f4b3b3f7e8e27532e3e282fade3e0ada046af5898d3a6e207aa21f0fc75c",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T124",
+   "kind": "TURN",
+   "turn_seq": 124,
+   "turn_seq_local": 33,
+   "ts_utc": "2026-09-03T11:17:00Z",
+   "turn_hash": "99656289cd6700d7bce00173433bc48dffa7050d615169191e1a94db052ae0e0",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T125",
+   "kind": "TURN",
+   "turn_seq": 125,
+   "turn_seq_local": 34,
+   "ts_utc": "2026-09-03T12:59:00Z",
+   "turn_hash": "68a4d456e1553f4bc00bde717df2502243238b48b202572cfdb5e1e65a63a216",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T126",
+   "kind": "TURN",
+   "turn_seq": 126,
+   "turn_seq_local": 35,
+   "ts_utc": "2026-09-03T13:00:00Z",
+   "turn_hash": "a927374aed69ec3f761023d71fce254c6e69d67d673be490e9c86529c17d27d7",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T127",
+   "kind": "TURN",
+   "turn_seq": 127,
+   "turn_seq_local": 36,
+   "ts_utc": "2026-09-03T13:12:00Z",
+   "turn_hash": "ceee9e8b159786c0172d38deee532cebf6f0605fb63aa9f6020ad9e9f0c4b0c3",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T128",
+   "kind": "TURN",
+   "turn_seq": 128,
+   "turn_seq_local": 37,
+   "ts_utc": "2026-09-03T14:29:00Z",
+   "turn_hash": "185d7d8482a90c1ea2df8c254d50d769395a31d46028669b7ead08f93cac1ede",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T129",
+   "kind": "TURN",
+   "turn_seq": 129,
+   "turn_seq_local": 38,
+   "ts_utc": "2026-09-03T14:54:42Z",
+   "turn_hash": "2b8f57f7f3904887e1dd1b9c250e6425f3a15cb9219b0d8f6f2ff994436f6a40",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T130",
+   "kind": "TURN",
+   "turn_seq": 130,
+   "turn_seq_local": 39,
+   "ts_utc": "2026-09-03T15:00:00Z",
+   "turn_hash": "6501374097c4447bb610e4e59fc61f0503fda28ebb5bd87135ca6f39512594fe",
+   "source_class": "SUMMARY-DERIVED"
+  },
+  {
+   "id": "TURN:cfts:current-session:T131",
+   "kind": "TURN",
+   "turn_seq": 131,
+   "turn_seq_local": 40,
+   "ts_utc": "2026-09-03T15:35:00Z",
+   "turn_hash": "00c3593a7b9e4ac7175eb528dff0f9ca2c96615d385caf5e2974e3c66a0a2243",
+   "source_class": "SUMMARY-DERIVED"
+  }
+ ],
+ "edges": [
+  {
+   "from": "TURN:cfts:current-session:T112",
+   "to": "TURN:cfts:current-session:T113",
+   "type": "NEXT",
+   "note": "跨批接续 INCR-02 tip（cursor_prev 咬合）"
+  },
+  {
+   "from": "TURN:cfts:current-session:T113",
+   "to": "TURN:cfts:current-session:T114",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T114",
+   "to": "TURN:cfts:current-session:T115",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T115",
+   "to": "TURN:cfts:current-session:T116",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T116",
+   "to": "TURN:cfts:current-session:T117",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "TURN:cfts:current-session:T118",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T118",
+   "to": "TURN:cfts:current-session:T119",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T119",
+   "to": "TURN:cfts:current-session:T120",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T120",
+   "to": "TURN:cfts:current-session:T121",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T121",
+   "to": "TURN:cfts:current-session:T122",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T122",
+   "to": "TURN:cfts:current-session:T123",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T123",
+   "to": "TURN:cfts:current-session:T124",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T124",
+   "to": "TURN:cfts:current-session:T125",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "TURN:cfts:current-session:T126",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T126",
+   "to": "TURN:cfts:current-session:T127",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T127",
+   "to": "TURN:cfts:current-session:T128",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T128",
+   "to": "TURN:cfts:current-session:T129",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T129",
+   "to": "TURN:cfts:current-session:T130",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T130",
+   "to": "TURN:cfts:current-session:T131",
+   "type": "NEXT"
+  },
+  {
+   "from": "TURN:cfts:current-session:T113",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T114",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T115",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T116",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T118",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T119",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T120",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T121",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T122",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T123",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T124",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T126",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T127",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T128",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T129",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T130",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "SESSION:current-session",
+   "type": "BELONGS"
+  },
+  {
+   "from": "TURN:cfts:current-session:T113",
+   "to": "ART:cfts-current-session-T113-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T113-a0:75670433a85abf25b842fed552a7246a7aac3e548fad84db8634be77b9c32880"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a0:619dcbdf30e142691935a80ab224be240f41e9a6bb0e87cd1a6e00215f2a106a"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a1:670040e5a6ad3d52e0250ffc837bdb4e018c15a95f1d4ec076c4b0a421434f64"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a2:a999e52773718520b63851f070027dc1a58a0d25f7ce23ab874a7efcfddde74d"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a3:5f8c0e1f1a4528dab256723beffed549f1c514553e85901b3767c9d965a4e907"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a4",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a4:4b0a3dce9dd180a3bbaacaf7b47413fed5206866006dab204f1ba6dbf39bcab7"
+  },
+  {
+   "from": "TURN:cfts:current-session:T117",
+   "to": "ART:cfts-current-session-T117-a5",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T117-a5:f133e27ae838bd502cfe7b3f806d5c0107372a5b4fec973633c29ce5c4cd39a5"
+  },
+  {
+   "from": "TURN:cfts:current-session:T118",
+   "to": "ART:cfts-current-session-T118-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T118-a0:176d781680175a1c4d835a73908699bdd945e33bf82e1af786111aaa77b6b3da"
+  },
+  {
+   "from": "TURN:cfts:current-session:T121",
+   "to": "ART:cfts-current-session-T121-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T121-a0:944792e1b3cef17fe2a59085f2f08f08fc3963955e5f9fb9b9474bf876e3af21"
+  },
+  {
+   "from": "TURN:cfts:current-session:T121",
+   "to": "ART:cfts-current-session-T121-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T121-a1:376433bfa62604550a18e413bb5072f4d6a210f263b095e96269b5ebb549f57b"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "ART:cfts-current-session-T125-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T125-a0:827dc63940bde18163d3a9a5a9fcc4dd9d14b6b48a49b12a80548328f16562cb"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "ART:cfts-current-session-T125-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T125-a1:f5778ba0883819497fe2f49174912d25a4dc59185b218bc85ad79df7dd14eef1"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "ART:cfts-current-session-T125-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T125-a2:9ac0cb4e420eb395e16ece941d845f934e636c75b74d181405ab03c2b377b127"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "ART:cfts-current-session-T125-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T125-a3:95d7a933db0d2a5e0544463d7b94a7596c95c8a9186eab392426869bae09cb70"
+  },
+  {
+   "from": "TURN:cfts:current-session:T125",
+   "to": "ART:cfts-current-session-T125-a4",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T125-a4:04f29fb7bef0fd07b1561b360fc0aeb9bf08a6bf1b204d637f7610fa54abffb9"
+  },
+  {
+   "from": "TURN:cfts:current-session:T129",
+   "to": "ART:cfts-current-session-T129-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T129-a0:61211ebe75be30a3db2f891a8c79c50a9313f8953c0805def372116d4043418e"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a0",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a0:ee8f3c54fa5e6898124b328a50b2e819477ff860fdea9078d660450d57116cc4"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a1",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a1:753a92d029256b5703aa47a01f9c40bca5074674421d1ab416bc25f0bc8e9410"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a2",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a2:b4bb9ab50849ff01c5a27b6bd66391bb671ad7bb4706b9c0529538b4e9e505dc"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a3",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a3:cebfaae8662baf095497ea3c80969b6b387f91575370596755c207983cd0d5b3"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a4",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a4:06a4a15c6780372ef70cae89169799a39ec56d079200b1c7620a7112196e5fff"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a5",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a5:4c052f4e82e78cc1aacc314a84fc41f7432423432f5b6d4f3ed7d5fe6c949e5a"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a6",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a6:80d40a1476a1555836e3c25886dd3d3ca4a0aaba3b81f497437685d0c65f1215"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a7",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a7:3bfa682859ed2dfdd77a2d2704b8a8c39736538b2d0516701728fedc90af2774"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a8",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a8:968af4f687fb431ec9f94b45f01526fa1706ef75462c50d723248fbd1e5b398b"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a9",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a9:90fb923bb89df1bb4c34e63e534521db6c95435f1156949a527bfcb31e29a743"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a10",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a10:646d564c6fdcc81eeec993f56e1367beb4ffcf7456e7971967a22f018768d81d"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a11",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a11:b2ded1ec920b488acfc63c4637f4e1100e10185569b1abb1a7ec0df95ee98b6f"
+  },
+  {
+   "from": "TURN:cfts:current-session:T131",
+   "to": "ART:cfts-current-session-T131-a12",
+   "type": "YIELDED",
+   "anchor_key": "cfts-current-session-T131-a12:7922d76811c7f59415e799e9d221a5f8dd20dcc73ad6b84e2a992fbac7245201"
+  }
+ ],
+ "state_digest": "d6d70e9461e41aaf18811e60777798fe7289f90c507a496e995767bc8f490992"
+}
