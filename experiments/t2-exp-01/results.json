@@ -1,0 +1,74 @@
+{
+ "v": "T2-EXP-01-RESULTS",
+ "seed": 20260903,
+ "ts": "2026-09-03T15:25Z",
+ "prereg_sha16": "87222c3432d91a9c",
+ "scenarios": [
+  {
+   "scenario": "silent-drop p=1.0（零落链原型）",
+   "N": 20,
+   "reported_success": 20,
+   "verified_landed": 0
+  },
+  {
+   "scenario": "credential-fail",
+   "N": 20,
+   "reported_success": 0,
+   "verified_landed": 0
+  },
+  {
+   "scenario": "readonly",
+   "N": 20,
+   "reported_success": 0,
+   "verified_landed": 0
+  },
+  {
+   "scenario": "healthy p=0",
+   "N": 20,
+   "reported_success": 20,
+   "verified_landed": 20
+  }
+ ],
+ "decay": {
+  "points": [
+   {
+    "p": 0,
+    "L": 1.0,
+    "expected": 1
+   },
+   {
+    "p": 0.25,
+    "L": 0.8,
+    "expected": 0.75
+   },
+   {
+    "p": 0.5,
+    "L": 0.5,
+    "expected": 0.5
+   },
+   {
+    "p": 0.75,
+    "L": 0.3,
+    "expected": 0.25
+   },
+   {
+    "p": 1.0,
+    "L": 0.0,
+    "expected": 0.0
+   }
+  ],
+  "max_dev": 0.05,
+  "R2": 0.992
+ },
+ "gate_check": {
+  "N": 20,
+  "gated_reported": 0,
+  "false_success_leaks": 0
+ },
+ "verdicts": {
+  "c1_reproduce": true,
+  "c2_decay": true,
+  "c3_gate": true
+ },
+ "overall": "CLOSED-成立"
+}
