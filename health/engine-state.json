@@ -462,6 +462,27 @@
    "ref": "vci-cfts/spec/T2-EXP-01-prereg.md",
    "verdict": "REGISTERED",
    "note": "零落链复现实验判据先冻 sha16=87222c3432d91a9c（复现/衰减/自检/灰标四条）；跑期候册"
+  },
+  {
+   "id": "T2-EXP-01-CLOSED-PASS",
+   "ts": "2026-09-03T15:26Z",
+   "ref": "vci-cfts/experiments/t2-exp-01/三件+spec/T2-EXP-01-prereg.md",
+   "verdict": "CLOSED-成立",
+   "note": "判据先冻后跑全过：①静默丢写p=1自述20/20落链0/20（疑案原型复现）②衰减max_dev=0.050≤0.10 R²=0.9920≥0.9 ③读回闸漏捕=0。灰标：沙箱mock玩具档。success≠落链律实证；TOPICS T2 互检交付"
+  },
+  {
+   "id": "CIRCLE-TOWER-V1.1",
+   "ts": "2026-09-03T15:31Z",
+   "ref": "vci-cfts/insights/CFTS-CIRCLE-TOWER-01.md v1.1",
+   "verdict": "PUBLISHED",
+   "note": "cisvr 判例收录（档三=异议窗前提/以事定圈=路由表）+拍=S_tempo 定式入正+无墙钟自证四条"
+  },
+  {
+   "id": "INCR-03-DISPATCHED",
+   "ts": "2026-09-03T15:35Z",
+   "ref": "si/session-current-raw-t113plus.md + R17 唤醒",
+   "verdict": "IN-FLIGHT",
+   "note": "T113..T131 十九轮供稿落定；七件制式照 INCR-02"
   }
  ],
  "federation_findings_by_cfts": [
@@ -1008,7 +1029,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T15:08Z",
+ "ts_utc": "2026-09-03T15:35Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
