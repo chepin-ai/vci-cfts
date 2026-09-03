@@ -427,6 +427,13 @@
    "ref": "run 33758143616 / state DONE 12:57:39Z / artifact inbox/.kimi_session.json 13573B",
    "verdict": "CLOSED-PASS",
    "note": "qr扫码登录成功（root亲扫）——OTP环闭合。全日战役终局：8发SMS锁死滑块→扫码路一通即中。session-binding坐实+burn链+双试+零发码+qr管线全实测在案。登录态1天留存，后台各线即刻持态可用"
+  },
+  {
+   "id": "OTP-V8-SEND-OK-NO-RELAY",
+   "ts": "2026-09-03T14:29Z",
+   "ref": "run 33761094161 / FAILED 14:26:50Z",
+   "verdict": "MEASURED",
+   "note": "SMS#11 13:27:20发成功无滑块(锁=瞬态冷却~45min已解,root未锁死之说部分证实);3600s窗未递→超时。环仍闭于QR登录态(artifact 13573B存活)。wait-only快照忽略bug在案(预置码必走code-first)"
   }
  ],
  "federation_findings_by_cfts": [
@@ -973,7 +980,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T12:59Z",
+ "ts_utc": "2026-09-03T14:29Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
