@@ -1,0 +1,12 @@
+{
+ "v": "T2-EXP-01-MANIFEST",
+ "ts": "2026-09-03T15:25Z",
+ "prereg_sha16": "87222c3432d91a9c",
+ "transcript_sha256": "753a92d029256b5703aa47a01f9c40bca5074674421d1ab416bc25f0bc8e9410",
+ "results_sha256": "b4bb9ab50849ff01c5a27b6bd66391bb671ad7bb4706b9c0529538b4e9e505dc",
+ "overall": "CLOSED-成立",
+ "gray": [
+  "沙箱mock≠真面",
+  "玩具档不升格"
+ ]
+}
