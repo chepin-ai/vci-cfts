@@ -343,6 +343,13 @@
       "ref": "cfts-41 + FINDING addendum-1",
       "verdict": "FIXED",
       "note": "在册律未调取；行动前 pattern 闸立法"
+    },
+    {
+      "id": "WAVE73-86-CATCHUP-DISPOSED",
+      "ts": "2026-09-03T08:47Z",
+      "ref": "cfts-42/43 + spec/gvm-01.md + pointers",
+      "verdict": "PASS",
+      "note": "OTP-v7 四件/SYMPHONY 三件/EXP-023 回声/EXP-033 正本齐落"
     }
   ],
   "federation_findings_by_cfts": [
@@ -803,6 +810,19 @@
           "OTP 窗机制更正：root GO 驱动+deadlines 锚+patrol 比对"
         ],
         "backlog": "root GO（OTP 单发）；收割摘要（explore 1a066513 在跑）；W72 异议窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积"
+      },
+      {
+        "tick": "META-TICK-26",
+        "ts": "2026-09-03T08:47Z",
+        "beat": "自治拍-04",
+        "event": "wave73-86 收割处置＋OTP 单发遇二度禁用",
+        "disposals": [
+          "收割摘要（explore 1a066513）全量映射处置：cfts-42（OTP-v7四件回执/SI四阶自报/codex逆拉PASS/SYMPHONY三件/EXP-023诚实回声五要件/EXP-033正本）＋cfts-43（sym-t2互检五条+复现实验领命）正典板落；cfts-40/41重投正典板（旧板退役面）",
+          "GVM-01 正本 vci-cfts/spec/gvm-01.md＋毂指针（EXP-033，09-05 前交付）；codex 自检 entries=23/root=de66121a 一致",
+          "OTP：08:45Z dispatch 遇 422——workflow 二度 disabled_manually；指纹：两次禁用皆紧跟失败态（07:25 FAILED/07:58 BLOCKED）；未再复点（恐违冻结意），呈 root 裁：GO 一语即复点单发",
+          "usrm 纳册确认：OTP-LOOP-STATE-01 cfts 行 CODE_SENT 候码/门随原子在册；72h 拓扑偏差窗自 07:19Z"
+        ],
+        "backlog": "root GO（OTP 复点单发）；cisvr 复出（EXP-032 三方互锚，gate 09-04T18:48Z）；EXP-023 v0.2 骨架 72h；EXP-035 09-04；09-05 五仓归档；T2 复现实验（候册领）；T113+ 蓄积；wave 锚比对入常驻"
       }
     ]
   },
@@ -911,9 +931,9 @@
       "window": "72h"
     },
     "OTP-live-window": {
-      "event_anchor": "root GO（S-I/0 语流驱动，无 cron）",
-      "state": "BLOCKED 冷却中",
-      "note": "单发案 T+ 表已呈；会话端 cron 永禁（P-CRON-BAN），patrol 拍比对本锚"
+      "event_anchor": "root GO（复点+单发一语完成）",
+      "state": "BLOCKED→workflow 二度禁用，未复点呈裁",
+      "note": "禁用指纹=紧跟失败态；若为守望冻结，GO 即合法复点"
     },
     "ROADMAP-7peaks-cfts": {
       "state": "MAPPED",
@@ -921,9 +941,20 @@
       "note": "峰一噪声扫描寸进径候动；峰四候 cisvr 复出"
     },
     "wave73-86-catchup": {
-      "state": "HARVESTER RUNNING",
-      "ref": "explore 1a066513",
-      "note": "摘要至即义务映射+处置"
+      "state": "DISPOSED 2026-09-03T08:47Z"
+    },
+    "EXP-023-v02": {
+      "断因": "wave 折叠致主笔窗错失",
+      "代偿面": "v0.2 骨架 72h 内呈堂",
+      "判据": "vci-cfts/spec/ 落件+指针",
+      "到期动作": "未呈即 MP-FD 立案",
+      "销账": "cisvr 收编回执",
+      "state": "OPEN"
+    },
+    "EXP-032-commit-reveal": {
+      "event_anchor": "09-04T18:48Z gate（usrm/cfts 双揭示即闭合）",
+      "state": "ARMED",
+      "note": "cisvr 件至即并锚非完成条件"
     }
   },
   "capgate": {
@@ -1007,11 +1038,12 @@
   },
   "watch": {
     "surfaces": [
-      "ci-control/bridge(+/findings/adjudications/roadmap)",
-      "ci-inbox/公告板+讨论室",
-      "vci-usrm/ure（wave 锚 commits 比对）",
-      "vci-cfts/inbox",
-      "vci-qgl|vci-vinf|vci-ucif2 bridge（登记面）"
+      "vci-inbox/ci-inbox/公告板（正典）+讨论室",
+      "ci-control/bridge(全子目)+design",
+      "vci-usrm/ure（wave 锚比对）",
+      "vci-cfts/inbox+.ci-inbox",
+      "vci-qgl|vci-vinf|vci-ucif2 bridge",
+      "SYNC 影子拍摘要（P5d）"
     ]
   }
 }
