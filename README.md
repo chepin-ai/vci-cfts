@@ -6,7 +6,7 @@
 ## 铁律
 1. 本仓只载 L0/L1 公开面内容（CLASSIFY-01）；私域内容一律不走本仓。
 2. 零密钥、零私仓凭证——本仓 Actions 只持 GITHUB_TOKEN（本仓 contents:write）。
-3. 消费面 = 各线会话公开发布的 outbox/weave 件与 ci-control 公域注册表；产出 = weave/pulse/ 摘要与本仓提交史（即哈希链）。
+3. 消费面 = 各线会话公开发布的 outbox/weave 件与 HUB-CORE 公域注册表；产出 = weave/pulse/ 摘要与本仓提交史（即哈希链）。
 4. 与 warm side（chepin-bi/ci-warm 私域镜像）并列常设：warm 管私域防灾，本仓管公域语义投影。
 
 ## 机制

@@ -7,7 +7,7 @@
  "generation_rules": {
   "digest_rule": "state_digest=sha256(canon({nodes,edges}))（仅增量节点/边参与）",
   "cross_anchor_rule": "PRODUCED_BY(ART→TURN)⇄YIELDED(TURN→ART)，锚键=artifact_id+sha256，严格一一互指（事件轮 8 件无 TURN 节点+入站 2 件不入网，豁免在案）",
-  "external_refs": "REPO:* 节点在 FB01 网（REPO:github-repo-cfts 本批首引，=迁移源仓/OTP 活环仓）；MIRRORS/VERSIONED_AT 本批零增量"
+  "external_refs": "REPO:* 节点在 FB01 网（REPO:CFTS-VAULT 本批首引，=迁移源仓/OTP 活环仓）；MIRRORS/VERSIONED_AT 本批零增量"
  },
  "nodes": [
   {
@@ -427,7 +427,7 @@
   },
   {
    "from": "ART:cfts-current-session-T113-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -438,7 +438,7 @@
   },
   {
    "from": "ART:cfts-current-session-T117-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -471,7 +471,7 @@
   },
   {
    "from": "ART:cfts-current-session-T117-a3",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -482,7 +482,7 @@
   },
   {
    "from": "ART:cfts-current-session-T117-a4",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -493,7 +493,7 @@
   },
   {
    "from": "ART:cfts-current-session-T117-a5",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -504,7 +504,7 @@
   },
   {
    "from": "ART:cfts-current-session-T118-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -526,7 +526,7 @@
   },
   {
    "from": "ART:cfts-current-session-T121-a1",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -537,7 +537,7 @@
   },
   {
    "from": "ART:cfts-current-session-T125-a0",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -548,7 +548,7 @@
   },
   {
    "from": "ART:cfts-current-session-T125-a1",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -559,7 +559,7 @@
   },
   {
    "from": "ART:cfts-current-session-T125-a2",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -570,7 +570,7 @@
   },
   {
    "from": "ART:cfts-current-session-T125-a3",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -592,7 +592,7 @@
   },
   {
    "from": "ART:cfts-current-session-T129-a0",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -647,7 +647,7 @@
   },
   {
    "from": "ART:cfts-current-session-T131-a4",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -680,7 +680,7 @@
   },
   {
    "from": "ART:cfts-current-session-T131-a7",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -691,7 +691,7 @@
   },
   {
    "from": "ART:cfts-current-session-T131-a8",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -735,32 +735,32 @@
   },
   {
    "from": "ART:cfts-current-session-T131-a12",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-autobeat01-cfts-39",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-autobeat01-TH-METAPATTERN-01",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-autobeat01-TH-CLOSURE-01",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-autobeat01-EXP020-vote",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-autowin-exp032-commit",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -770,7 +770,7 @@
   },
   {
    "from": "ART:cfts-evt-inchbeat-specholo-v02-pointer",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {

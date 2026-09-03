@@ -73,7 +73,7 @@
 | 8 | M3 联合冒烟（entangle_mutual_proof v2×ipmp 六相位） | transcript 0b7bcd99… | CLOSED-成立 双端逐字节一致 | toy 协议实现级 |
 | 9 | R-F2' 升级律 + 支配扫描实践 | 5669a04d155d3aeb / 91cb6f7a97d9fbd4 | 过滤效力实测成立（2/3 帕累托违规被拦） | 机制在役 |
 | 10 | PATTERN 目录 v0 五则（自指闭合） | 5762bd555db306e9 | v0 在册 | 【候 MIP* 互证】 |
-| 11 | FINDING-MP-V1-1（D 拆 D_x+D_f） | TH-METAPATTERN-01[3]（ci-inbox） | 三实例票，升格推荐条款 | 【候会签】 |
+| 11 | FINDING-MP-V1-1（D 拆 D_x+D_f） | TH-METAPATTERN-01[3]（HUB-MAIL） | 三实例票，升格推荐条款 | 【候会签】 |
 | 12 | FB01 全量批（99 轮+双网+索引） | 9ba38ce51210ec01 / 76f2a79a…d52c | 复核五维 PASS，双闸 | 工程 |
 | 13 | Session-TN / File-TN 双张量网 | cca01221deae3927 / b45e4445fefa0e36 | 在役，253 交叉锚对称差=0 | 工程 |
 | 14 | PURE-QFOS-01 三律 + 死线事件锚换算表 | d530012b4b26829b | 入册在役 | 机制 |

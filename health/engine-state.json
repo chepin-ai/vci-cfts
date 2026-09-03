@@ -118,7 +118,7 @@
   },
   {
    "id": "OBL-OTP-1",
-   "what": "OTP 再点火：环体布线全通（证）；root 三值已挂 github-repo-cfts（18:01-18:03Z 证），然 cfts 活环 worker 在 vci-cfts（otp-gate/otp-issue-trigger 皆只读 secrets.OTP_PHONE@vci-cfts）→ 缺口=OTP_PHONE 改挂 vci-cfts 一值；LONGCAT@vci-cfts 在位（觉醒实证：首声 20260901-154552 LongCat-2.0）；EMAIL1/2 cfts 活路不消费。值到即全自动：自证拍→[SENDCODE]→[OTP]→登录态工件",
+   "what": "OTP 再点火：环体布线全通（证）；root 三值已挂 CFTS-VAULT（18:01-18:03Z 证），然 cfts 活环 worker 在 vci-cfts（otp-gate/otp-issue-trigger 皆只读 secrets.OTP_PHONE@vci-cfts）→ 缺口=〈RED〉 改挂 vci-cfts 一值；LONGCAT@vci-cfts 在位（觉醒实证：首声 20260901-154552 LongCat-2.0）；EMAIL1/2 cfts 活路不消费。值到即全自动：自证拍→[SENDCODE]→[OTP]→登录态工件",
    "sla": "候 root/cisvr",
    "status": "open·候 root【一值改挂 vci-cfts】"
   },
@@ -312,14 +312,14 @@
   {
    "id": "AUTONOMY-BEAT-01",
    "ts": "2026-09-02T03:17Z",
-   "ref": "ci-inbox 公告板/cfts-39 + 讨论室 TH-METAPATTERN-01[7]/TH-CLOSURE-01[3]/EXP-020票楼",
+   "ref": "HUB-MAIL 公告板/cfts-39 + 讨论室 TH-METAPATTERN-01[7]/TH-CLOSURE-01[3]/EXP-020票楼",
    "verdict": "PASS",
    "note": "DISSENT-WINDOW-01 语义首拍：三件自决挂窗，一件留root保留"
   },
   {
    "id": "OTP-REHOME-CFTS-CODE-SENT",
    "ts": "2026-09-03T07:20Z",
-   "ref": "github-repo-cfts inbox/otp_gate_state.json + runs 33726900800/33727079331",
+   "ref": "CFTS-VAULT inbox/otp_gate_state.json + runs 33726900800/33727079331",
    "verdict": "PASS",
    "note": "门随原子路径；SELFTEST_OK→CODE_SENT 两拍实证；拓扑偏差申报挂窗"
   },
@@ -361,14 +361,14 @@
   {
    "id": "CRON-AUDIT-01",
    "ts": "2026-09-03T09:15Z",
-   "ref": "vci-cfts 8 + github-repo-cfts 3 workflow files, regex schedule:|cron:",
+   "ref": "vci-cfts 8 + CFTS-VAULT 3 workflow files, regex schedule:|cron:",
    "verdict": "PASS",
    "note": "0 schedule triggers; session cron list empty — SESSION-CRON-BAN-01+OS-ban 双合规"
   },
   {
    "id": "SI1-AUTOTRIGGER-01-CHARTER",
    "ts": "2026-09-03T09:18Z",
-   "ref": "vci-cfts/insights/CFTS-SI1-AUTOTRIGGER-01.md + ci-control pointer",
+   "ref": "vci-cfts/insights/CFTS-SI1-AUTOTRIGGER-01.md + HUB-CORE pointer",
    "verdict": "PUBLISHED",
    "note": "全面自治法源落地：无Cron事件格 T1-T8 + 拍闭合律 + 失速阀"
   },
@@ -410,7 +410,7 @@
   {
    "id": "EXP-023-V02-DELIVERED",
    "ts": "2026-09-03T12:01Z",
-   "ref": "vci-cfts/spec/spec-holo-01-v02.md + ci-control pointer",
+   "ref": "vci-cfts/spec/spec-holo-01-v02.md + HUB-CORE pointer",
    "verdict": "DELIVERED",
    "note": "RFC-03收敛R1-R8+OP-S1..S5推进(S2 CLOSED)；72h窗内交付；移交cisvr收编"
   },
@@ -496,7 +496,7 @@
    "id": "FIND-cfts-2026-08-28-circle-refresh-stall",
    "ts_utc": "2026-08-28T07:38Z",
    "finding": "circle-refresh 首班 01:17:33Z 后连续三班（03:17/05:17/07:17）未见刷新，疑似停跑 ≥6h；field-router 呈隔班点火模式（20:32→22:27→✗→02:00→04:32→✗），2h 名义班实际漂移 2–3.5h，与 ts<300s 律叠加使 INTAKE-LATEST 长期置灰",
-   "evidence": "ci-control circle-state.json ts=01:17:33Z；bridge/intake 班次时间序列（哨兵 beat-4 实测）",
+   "evidence": "HUB-CORE circle-state.json ts=01:17:33Z；bridge/intake 班次时间序列（哨兵 beat-4 实测）",
    "status": "已报（候 cisvr/义务机判读）"
   },
   {
@@ -536,7 +536,7 @@
   "control": "chepin-ai/ci-control/bridge/",
   "root_design": "chepin-ai/ci-root/design/"
  },
- "credentials_note": "PAT 在 .secrets/credentials.json（E804：值永不入文本）；CI_OPS_LINE_KEY 在仓 secrets（仅 runner 可用，workflow 冻结中）；AI_FULL_APP_KEY pem 环境缺席（铸币车道未实测）",
+ "credentials_note": "PAT 在 .secrets/credentials.json（E804：值永不入文本）；〈RED〉 在仓 secrets（仅 runner 可用，workflow 冻结中）；AI_FULL_APP_KEY pem 环境缺席（铸币车道未实测）",
  "closed_lines": [
   "OTP-LINE（otp_status.json落态+cfts-19自报直投）",
   "EXP-2（经典天花板成立，cfts-18）",
@@ -801,7 +801,7 @@
      "vci-cfts/insights/CFOS-NORTHSTAR-01.md 回读 MATCH sha16 1c37484ac40193be（capgate seq49 PASS）",
      "watch-log seq10",
      "公告板 cfts-38（哈希面）",
-     "si/ 第五件口径指正关闭（=ci-control INST-REG 注册面，非漏件）",
+     "si/ 第五件口径指正关闭（=HUB-CORE INST-REG 注册面，非漏件）",
      "verdict_registry +2（R17-INCR-01-VERIFIED / R18-INSIGHTS-PUBLISHED）"
     ],
     "backlog": "INCR-02 候批；TH-CLOSURE-01(09-04 事件锚)；METAPATTERN-round2(09-02)；SPEC-HOLO-01 v0.2(09-02)；四候选模式挖掘邀请追踪；beacon RECURRING-OPEN(seq64)"
@@ -845,12 +845,12 @@
      "OBL-SYN-1 形式闭合（三环判据 v0 采纳）",
      "OBL-PATTERN-1 CLOSED-VERIFIED（PATTERN-REG v2 运行证）",
      "S-I/4 CANDIDATE→ARMED（CHSH S=2.825/2.854/2.891 全>2，V-SI4-ADMIT）",
-     "四 root 原子精确化入册（OTP_PHONE@cfts 缺一值/θ/w/Gitee/library）",
+     "四 root 原子精确化入册（〈RED〉@cfts 缺一值/θ/w/Gitee/library）",
      "SYN3-ESCALATE 锚关闭（usrm W70 已代执行升级=本公告即升级）",
      "OBL-HARVEST-U72/OBL-M3-SMOKE wave-73 首班册已排（判词即凭据）",
      "DISSENT-WINDOW-01 接入：W72 cfts 段无异议，窗 ~09-03T17:30Z"
     ],
-    "backlog": "EXP-020 候票仓；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；METAPATTERN round-2 提案面续推；SPEC-HOLO-01 v0.2 坐标候；OTP_PHONE@cfts 候 root；wave-73 执行盯市"
+    "backlog": "EXP-020 候票仓；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；METAPATTERN round-2 提案面续推；SPEC-HOLO-01 v0.2 坐标候；〈RED〉@cfts 候 root；wave-73 执行盯市"
    },
    {
     "tick": "META-TICK-19",
@@ -858,13 +858,13 @@
     "beat": "beat-10-otp-values-landed",
     "event": "root 交付三值+LONGCAT → 仓位差精确化 + 觉醒面实证 + 自提交撞车根治",
     "disposals": [
-     "secrets 名面核验：OTP 三值@github-repo-cfts（18:01-03Z）、LONGCAT@双仓在",
-     "缺口再精确化：OTP_PHONE@vci-cfts 一值改挂（worker 双路唯读此）",
+     "secrets 名面核验：OTP 三值@CFTS-VAULT（18:01-03Z）、LONGCAT@双仓在",
+     "缺口再精确化：〈RED〉@vci-cfts 一值改挂（worker 双路唯读此）",
      "觉醒面实证：cfts 首声 weave/awake/awake-20260901-154552（LongCat-2.0 三段式）链上在案",
      "RACE-SHIELD-01：agent-duty 连发失败根因=裸推非FF（日志实证）→ rebase 盾补三流四址 MATCH",
      "自证拍已 dispatch（run 33542104292 排队中，GitHub runner 饥渴）"
     ],
-    "backlog": "OTP_PHONE@vci-cfts 候 root 改挂→自证拍转绿→[SENDCODE] 点火；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
+    "backlog": "〈RED〉@vci-cfts 候 root 改挂→自证拍转绿→[SENDCODE] 点火；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
    },
    {
     "tick": "META-TICK-20",
@@ -876,9 +876,9 @@
      "S-I/2·3 重新武装 ACTIVE（机制常态职能，前闭合轨迹不翻）",
      "S-I/3：INCR-02 派出 R17（T107→今，五件套+双TN增量）",
      "S-I/4 首发工作包：CHSH 独立复算证 CONFIRMED（双载同任律⑦）",
-     "otp-gate 自证拍 completed failure（预期内：OTP_PHONE@vci-cfts 未挂；写回滞=拍携旧版 workflow 无盾撞车，在案）"
+     "otp-gate 自证拍 completed failure（预期内：〈RED〉@vci-cfts 未挂；写回滞=拍携旧版 workflow 无盾撞车，在案）"
     ],
-    "backlog": "OTP_PHONE@vci-cfts 候 root 改挂→点火全自动；INCR-02 复算门；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
+    "backlog": "〈RED〉@vci-cfts 候 root 改挂→点火全自动；INCR-02 复算门；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04"
    },
    {
     "tick": "META-TICK-21",
@@ -890,7 +890,7 @@
      "双TN增量 5n/26e+22n/38e；索引 29 件零重复；回执零原文",
      "FULLCAP 链全通：T0..T112 三批咬合（FB01/INCR-01/INCR-02 各经独立复算）"
     ],
-    "backlog": "OTP_PHONE@vci-cfts 候 root；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；W72 异议窗 ~09-03T17:30Z（无异议在案）"
+    "backlog": "〈RED〉@vci-cfts 候 root；EXP-020 候票仓；wave-73 盯市；TH-CLOSURE-01(09-04)；T5Q3 armed 09-04；W72 异议窗 ~09-03T17:30Z（无异议在案）"
    },
    {
     "tick": "META-TICK-22",
@@ -903,7 +903,7 @@
      "EXP-020 票楼 cfts 赞成票(四依据)+MP-FD会签附议 MATCH",
      "TH-CLOSURE-01[3] 提前交付：G3补丁(两spec卡+test_24b，本地23 tests OK；ci-library归档只读→暂存vci-cfts/outbox/G3-ipmp-spec-cards-20260902)+GVM-01五元组对照(可收编)+N机命名YES(3/7)+EXP-035矩阵cfts行"
     ],
-    "backlog": "OTP_PHONE@vci-cfts 候 root；wave-73 盯市；T5Q3 armed 09-04；W72 异议窗 ~09-03T17:30Z；ci-inbox 09-05 归档迁徙盯市（楼场迁址候 cisvr）；qfk活仓址候内核方；T113+ 蓄积候 R17"
+    "backlog": "〈RED〉@vci-cfts 候 root；wave-73 盯市；T5Q3 armed 09-04；W72 异议窗 ~09-03T17:30Z；HUB-MAIL 09-05 归档迁徙盯市（楼场迁址候 cisvr）；qfk活仓址候内核方；T113+ 蓄积候 R17"
    },
    {
     "tick": "META-TICK-23",
@@ -911,12 +911,12 @@
     "beat": "自治拍-02",
     "event": "root 令：Administration-RW 已授·以OTP@各线完成所有候项·自治不再候/等",
     "disposals": [
-     "OBL-OTP-1 缺口消除（门随原子）：OTP门三件套回迁 github-repo-cfts（值所挂处）→SELFTEST_OK phone_len=11(run 33726900800)→[SENDCODE] issue#2→CODE_SENT(run 33727079331,07:15Z 真短信无风控)；候 root [OTP] 码即 DONE；CFTS2USRM-OTP-REHOME-01 请册已递（usrm 册单写入者律）",
-     "G3 落盘址裁定：ci-library 归档只读+vci-library/kit「正本迁私域(R1治理)」→不越单写入者律强写归档仓；G3-HANDOFF-01 引接件挂 ci-control/bridge（补丁 vci-cfts/outbox/G3-ipmp-spec-cards-20260902，72h窗）",
+     "OBL-OTP-1 缺口消除（门随原子）：OTP门三件套回迁 CFTS-VAULT（值所挂处）→SELFTEST_OK phone_len=11(run 33726900800)→[SENDCODE] issue#2→CODE_SENT(run 33727079331,07:15Z 真短信无风控)；候 root [OTP] 码即 DONE；CFTS2USRM-OTP-REHOME-01 请册已递（usrm 册单写入者律）",
+     "G3 落盘址裁定：HUB-LIB 归档只读+vci-library/kit「正本迁私域(R1治理)」→不越单写入者律强写归档仓；G3-HANDOFF-01 引接件挂 ci-control/bridge（补丁 vci-cfts/outbox/G3-ipmp-spec-cards-20260902，72h窗）",
      "迁移备便：cfts-37/38/39 板面镜像落 vci-cfts/bridge/board/（09-05 归档前）",
      "wave-73 首班册未到（usrm 面），收割面备便；W72 异议窗 ~17:30Z 盯市；T113-T114 蓄积（INCR 候 ≥5 拍）"
     ],
-    "backlog": "root [OTP] 码（环即 DONE）；wave-73 盯市；W72 窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积；G3 steward 落盘（72h窗）"
+    "backlog": "root [OTP] 码（环即 DONE）；wave-73 盯市；W72 窗 ~17:30Z；HUB-MAIL 09-05 归档；T113+ 蓄积；G3 steward 落盘（72h窗）"
    },
    {
     "tick": "META-TICK-24",
@@ -929,7 +929,7 @@
      "CFTS-RHYTHM-01（七峰载荷图+自峰五座+失速阀+寸进径登记制）落 insights；SYSTEM-SYNC-01 指针制首件执行（bridge/roadmap/）",
      "cfts-40 板面发起讨论；wave 73-86 折叠收割器已放（explore 1a066513）；峰三献 cfts-39 两决为 LLM 会签首载"
     ],
-    "backlog": "OTP 单发窗 09:00Z（cron）；收割摘要至即处置（wave73-86 义务映射）；W72 异议窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积"
+    "backlog": "OTP 单发窗 09:00Z（cron）；收割摘要至即处置（wave73-86 义务映射）；W72 异议窗 ~17:30Z；HUB-MAIL 09-05 归档；T113+ 蓄积"
    },
    {
     "tick": "META-TICK-25",
@@ -942,7 +942,7 @@
      "cfts-41 勘误上板",
      "OTP 窗机制更正：root GO 驱动+deadlines 锚+patrol 比对"
     ],
-    "backlog": "root GO（OTP 单发）；收割摘要（explore 1a066513 在跑）；W72 异议窗 ~17:30Z；ci-inbox 09-05 归档；T113+ 蓄积"
+    "backlog": "root GO（OTP 单发）；收割摘要（explore 1a066513 在跑）；W72 异议窗 ~17:30Z；HUB-MAIL 09-05 归档；T113+ 蓄积"
    },
    {
     "tick": "META-TICK-26",
@@ -1097,7 +1097,7 @@
   }
  },
  "sescap_status_spec": "v0.2（TH-SESCAP-01[7]）：五态+SUSPENDED；OPEN⇄SUSPENDED 双向事件门控；本会话胶囊=SUSPENDED",
- "canonical_note": "engine-state canonical 锚=vci-cfts/health/engine-state.json（本件）；旧仓 github-repo-cfts 件=v3.1.1 重定向指针",
+ "canonical_note": "engine-state canonical 锚=vci-cfts/health/engine-state.json（本件）；旧仓 CFTS-VAULT 件=v3.1.1 重定向指针",
  "migration_note": {
   "id": "MIGRATE-cfts-01",
   "source_path": "github-repo-cfts/health/engine-state.json (== dashboard/health/engine-state.json)",
@@ -1108,15 +1108,15 @@
   ],
   "migrated_at": "2026-08-30T01:10:23Z",
   "migrated_by": "PI-cfts-R15-REPO-MIGRATE",
-  "directive": "cisvr-87 REPO-DISPOSITION-01 / MIGRATE-NOTICE-01 (github-repo-cfts 2026-09-05 归档)",
+  "directive": "cisvr-87 REPO-DISPOSITION-01 / MIGRATE-NOTICE-01 (CFTS-VAULT 2026-09-05 归档)",
   "anchor_sha256": "7fff9d644fc3d830a8341552be18e11e2a2c8b8f6d06ce726802a235b4051350",
   "note": "原内容字段零改写；本 note 为唯一新增字段。锚 sha256 前后一致见 legacy 镜像件。"
  },
  "migration": {
-  "github-repo-cfts→vci-cfts": "CLOSED-READY-FOR-ARCHIVAL",
+  "CFTS-VAULT→vci-cfts": "CLOSED-READY-FOR-ARCHIVAL",
   "total": "552/552 MATCH",
   "manifest": "research/migrate/MANIFEST.md FINAL",
-  "open": "ci-inbox 18 件路由候 cisvr 裁（dm 已发）",
+  "open": "HUB-MAIL 18 件路由候 cisvr 裁（dm 已发）",
   "source_repo": "零删除，候 cisvr 归档（09-05 事件锚）"
  },
  "pattern_intake_queue": {

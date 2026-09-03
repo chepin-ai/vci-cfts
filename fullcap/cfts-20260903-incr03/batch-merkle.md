@@ -40,7 +40,7 @@ T130 6501374097c4447bb610e4e59fc61f0503fda28ebb5bd87135ca6f39512594fe  cfts:curr
 T131 00c3593a7b9e4ac7175eb528dff0f9ca2c96615d385caf5e2974e3c66a0a2243  cfts:current-session:T131  [local=40] [SUMMARY-DERIVED·处置锚]
 
 ## 声明断点（不凑绿）
-1. **cfts-42/43/44/45/46 五件板面仓面零落**：watch-log seq21/22/29 与 engine-state verdict 及 lead 供稿均载「cfts-42（OTP-v7 回执）/cfts-43（收割）/cfts-44（圈塔通告）/cfts-45（正典板）/cfts-46（OTP-1 呈堂）已发」，然三仓树+commits 全史核验**零落**（ci-inbox 公告板止于 cfts-41；全仓路径/提交史无此五件）——自述落件 vs 仓面零落，即 T2-EXP-01「静默丢写」疑案原型之本线实案（同型），如实挂账，候 lead 裁定（补发或核销）。
+1. **cfts-42/43/44/45/46 五件板面仓面零落**：watch-log seq21/22/29 与 engine-state verdict 及 lead 供稿均载「cfts-42（OTP-v7 回执）/cfts-43（收割）/cfts-44（圈塔通告）/cfts-45（正典板）/cfts-46（OTP-1 呈堂）已发」，然三仓树+commits 全史核验**零落**（HUB-MAIL 公告板止于 cfts-41；全仓路径/提交史无此五件）——自述落件 vs 仓面零落，即 T2-EXP-01「静默丢写」疑案原型之本线实案（同型），如实挂账，候 lead 裁定（补发或核销）。
 2. 供稿制式=T113..T131 q 原话**节选**+a 处置锚 digest（非逐字全录）：fidelity 全批标 SUMMARY-DERIVED（处置锚）/q 侧 RAW-VERBATIM（节选）；OTP 递码轮（T114/T115/T122/T123/T124/T125/T127）码值按律剜除，q_raw 仅余非密文本+剜除注记。
 3. ts 全批 [derived]：供稿无逐轮戳，turn ts_utc 取 a 面锚（watch-log seq/verdict/run 实测戳，逐轮 ts_note 在案）；**T126/T130 为区间估值**（分别落于 12:59–13:02Z、14:54:42–15:08Z 区间，取整点不伪造精确值）；平点 0、逆序 0。
 4. 自治拍归因：自治拍-01（09-02T03:17Z，TH-METAPATTERN-01[7]/TH-CLOSURE-01[3]/EXP-020 票/cfts-39 之实产拍，verdict AUTONOMY-BEAT-01 为据）与寸进拍（09-03T12:01Z，SPEC-HOLO-01 v0.2）均为**无新 root 注入之自主拍**（S-I/1 自治触发），无 q/a 轮→事件轮锚定；T117 答面「八项」中含此三件系呈报口径（lead 供稿），双口径互注不冲突。
@@ -49,5 +49,5 @@ T131 00c3593a7b9e4ac7175eb528dff0f9ca2c96615d385caf5e2974e3c66a0a2243  cfts:curr
 7. 入站 2 件（USRM2CFTS-OTP-REHOME-ACK-01/TH-CIRCLE-TOWER-01-cisvr-应帖）非本线产物：null artifact_id 注记锚（FB01 界外件先例），不入双网、不占跨锚对。
 8. 事件轮 8 件无 TURN 节点：自治拍-01×4/自治拍窗 EXP-032 commit×1/寸进拍×2/capgate ledger（local-only 活链 72→75 节）；跨锚对 PRODUCED_BY⇄YIELDED=29 对不含此 8 件。
 9. 值守机检背景层（fleet-drive seq99-101/duty/pulse/inbox incoming storm 09-02 起百余件）不入本批索引——机器台账层非会话交付物，链上自洽。
-10. 本批 7 件产物不入 turn artifacts（防自指循环，FB01/INCR-01/02 先例），经 deliverables-index-add.json + 批次回件（ci-inbox session/cfts/inbox/INCR03-cfts-20260903-001.md）锚定。
+10. 本批 7 件产物不入 turn artifacts（防自指循环，FB01/INCR-01/02 先例），经 deliverables-index-add.json + 批次回件（HUB-MAIL session/cfts/inbox/INCR03-cfts-20260903-001.md）锚定。
 11. FINDING-OMISSION-ROADMAP-01 作者=cisvr（非本线件，不锚）；cron 禁令本批全程合规：零定时器注册，全事件驱动（CRON-AUDIT-01 PASS 在案）。

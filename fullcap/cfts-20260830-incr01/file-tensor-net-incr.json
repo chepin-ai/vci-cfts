@@ -261,7 +261,7 @@
    "github_path": "ci-inbox/dm-queue/cisvr/CFTS-ROUTING-Q-18FILES-01.md@29ebbffe18c1",
    "dashboard_ref": null,
    "mirror_state": "OK",
-   "mirror_note": "ci-inbox 通信面 18 件路由请裁 dm@cisvr（事件轮产物）"
+   "mirror_note": "HUB-MAIL 通信面 18 件路由请裁 dm@cisvr（事件轮产物）"
   },
   {
    "id": "ART:cfts-evt-R15-migrate-manifest",
@@ -284,7 +284,7 @@
   },
   {
    "from": "ART:cfts-current-session-T100-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -295,7 +295,7 @@
   },
   {
    "from": "ART:cfts-current-session-T100-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -306,7 +306,7 @@
   },
   {
    "from": "ART:cfts-current-session-T100-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -317,7 +317,7 @@
   },
   {
    "from": "ART:cfts-current-session-T100-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -339,7 +339,7 @@
   },
   {
    "from": "ART:cfts-current-session-T101-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -383,7 +383,7 @@
   },
   {
    "from": "ART:cfts-current-session-T102-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -438,7 +438,7 @@
   },
   {
    "from": "ART:cfts-current-session-T102-a5",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -449,7 +449,7 @@
   },
   {
    "from": "ART:cfts-current-session-T102-a6",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -460,7 +460,7 @@
   },
   {
    "from": "ART:cfts-current-session-T102-a7",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -482,7 +482,7 @@
   },
   {
    "from": "ART:cfts-current-session-T104-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -493,7 +493,7 @@
   },
   {
    "from": "ART:cfts-current-session-T105-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -509,12 +509,12 @@
   },
   {
    "from": "ART:cfts-evt-R15-cfts-36",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-R15-routing-q-18files",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {

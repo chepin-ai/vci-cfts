@@ -14,7 +14,7 @@
    "note": "本线私仓（原文层标的）"
   },
   {
-   "id": "REPO:ci-inbox",
+   "id": "REPO:HUB-MAIL",
    "kind": "REPO",
    "note": "公告板/disc/讨论室/dm-queue 面"
   },
@@ -29,17 +29,17 @@
    "note": "公面 inbox/disc"
   },
   {
-   "id": "REPO:ci-control",
+   "id": "REPO:HUB-CORE",
    "kind": "REPO",
    "note": "bridge/INST-REG/hall/provision 面"
   },
   {
-   "id": "REPO:ci-library",
+   "id": "REPO:HUB-LIB",
    "kind": "REPO",
    "note": "archive harvest 实证组"
   },
   {
-   "id": "REPO:github-repo-cfts",
+   "id": "REPO:CFTS-VAULT",
    "kind": "REPO",
    "note": "本线 dashboard/health 仓",
    "history_rewritten": true,
@@ -3453,7 +3453,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T31-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -3948,7 +3948,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T57-a0",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -3972,7 +3972,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T58-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4170,7 +4170,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a16",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4181,7 +4181,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a17",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4192,7 +4192,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a18",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4203,7 +4203,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a19",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4214,7 +4214,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a20",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4225,7 +4225,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a21",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4236,7 +4236,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a22",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4247,7 +4247,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a23",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4258,7 +4258,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a24",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4269,7 +4269,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a25",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4280,7 +4280,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a26",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4291,7 +4291,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a27",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4302,7 +4302,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a28",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4313,7 +4313,7 @@
   },
   {
    "from": "ART:cfts-cfts-duty-era-T61-a29",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -4467,7 +4467,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4478,7 +4478,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4489,7 +4489,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4500,7 +4500,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4511,7 +4511,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a4",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4544,7 +4544,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T69-a7",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4654,7 +4654,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T70-a9",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4665,7 +4665,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T70-a10",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4676,7 +4676,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T70-a11",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4808,7 +4808,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4819,7 +4819,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4830,7 +4830,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4841,7 +4841,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4852,7 +4852,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a4",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4863,7 +4863,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a5",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4874,7 +4874,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a6",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4885,7 +4885,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a7",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4896,7 +4896,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a8",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4907,7 +4907,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a9",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4918,7 +4918,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T73-a10",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4962,7 +4962,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4973,7 +4973,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4984,7 +4984,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -4995,7 +4995,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5006,7 +5006,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a4",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5017,7 +5017,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a5",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5028,7 +5028,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a6",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5039,7 +5039,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a7",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5050,7 +5050,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a8",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5061,7 +5061,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T76-a9",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5072,7 +5072,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T77-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5083,7 +5083,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T78-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5094,7 +5094,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5105,7 +5105,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5116,7 +5116,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5127,7 +5127,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5138,7 +5138,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a4",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5149,7 +5149,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a5",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5160,7 +5160,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a6",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5171,7 +5171,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a7",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5182,7 +5182,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a8",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5193,7 +5193,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a9",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5204,7 +5204,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a10",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5215,7 +5215,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a11",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5226,7 +5226,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a12",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5237,7 +5237,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T80-a13",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5248,7 +5248,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T81-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5259,7 +5259,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T81-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5270,7 +5270,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T81-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5281,7 +5281,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T81-a3",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -5299,7 +5299,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T81-a4",
-   "to": "REPO:github-repo-cfts",
+   "to": "REPO:CFTS-VAULT",
    "type": "HOSTED_IN"
   },
   {
@@ -5310,7 +5310,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T82-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5328,7 +5328,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T86-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5339,7 +5339,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T86-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5350,7 +5350,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T86-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5361,7 +5361,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T86-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5394,7 +5394,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T89-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5405,7 +5405,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T90-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5423,7 +5423,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T90-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5441,7 +5441,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T91-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5459,7 +5459,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T91-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5470,7 +5470,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T92-a0",
-   "to": "REPO:ci-library",
+   "to": "REPO:HUB-LIB",
    "type": "HOSTED_IN"
   },
   {
@@ -5481,7 +5481,7 @@
   },
   {
    "from": "ART:cfts-cfts-outbox-era-T92-a1",
-   "to": "REPO:ci-library",
+   "to": "REPO:HUB-LIB",
    "type": "HOSTED_IN"
   },
   {
@@ -5492,7 +5492,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T93-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5521,7 +5521,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T93-a2",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5532,7 +5532,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T93-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5550,7 +5550,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T93-a4",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
@@ -5579,7 +5579,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T95-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5619,7 +5619,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T95-a3",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5637,7 +5637,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T95-a4",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5655,7 +5655,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T95-a5",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5666,7 +5666,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T95-a6",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5677,7 +5677,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T96-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5695,7 +5695,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T97-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -5713,7 +5713,7 @@
   },
   {
    "from": "ART:cfts-cfts-lex-wave-20260828-T97-a1",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {

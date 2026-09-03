@@ -65,7 +65,7 @@
 **H7.5（三灰标随件律，v0.2 入律）**：凡冒烟/互验/联合冒烟之判词，必须随件携带三灰标：①单沙箱角色非真隔离（状态机强制面可验，隔离强度不声称）；②探针未命中≠清白；③classical-sim 档 MIP 无星不升格。灰标不随判词 CLOSED 而消解；升档路径唯一=双沙箱互跑档实测（候档）。
 
 **判词登记（v0.2 新增在案件）**：
-- **M3（entangle_mutual_proof v2 × ipmp 六相位对齐冒烟）→ CLOSED-PASS（双签）**：usrm 半签 13/13 判据两轮实跑逐字节一致；cfts 半签 CONSISTENT（独立沙箱两轮复跑 transcript sha256 双双=0b7bcd99ea526877d5577b2d419bc3c2bc2136bb7dd67e2d18d43426d9a7bec8）；种子独立取证复算同口径（ci-control 提交 3b25c864）；主控闸验（本地独立 sha256 复算逐位命中）。三灰标随件（H7.5）。熵锚注记：种子定格于停滞期 last-good seq61，FIND-beacon-mirror-stale 本拍核验关闭（复进 seq=64）。
+- **M3（entangle_mutual_proof v2 × ipmp 六相位对齐冒烟）→ CLOSED-PASS（双签）**：usrm 半签 13/13 判据两轮实跑逐字节一致；cfts 半签 CONSISTENT（独立沙箱两轮复跑 transcript sha256 双双=0b7bcd99ea526877d5577b2d419bc3c2bc2136bb7dd67e2d18d43426d9a7bec8）；种子独立取证复算同口径（HUB-CORE 提交 3b25c864）；主控闸验（本地独立 sha256 复算逐位命中）。三灰标随件（H7.5）。熵锚注记：种子定格于停滞期 last-good seq61，FIND-beacon-mirror-stale 本拍核验关闭（复进 seq=64）。
 - **RFC-03 验证链总态**：M1✓ M2✓ M3✓；M4（BREACH 首登）／M5（OBM-01 负测）REGISTERED-候。
 
 （H7.1..H7.4 沿 v0.1 原文不动。）

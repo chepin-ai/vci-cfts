@@ -34,10 +34,10 @@ T107 77e43b4023ed6c884ca79fa63d5c6792c3263337dcf5045e8425f14e9eb50888  cfts:curr
 2. ts 平点 1 处：T102=T103@2026-08-30T01:50:00Z（通配位下界相撞），顺序按源文件序保持。T106 答面通配位下界（07:20）早于其 q（07:22），ts_utc 取 q 推定 07:22:00Z，在案。
 3. 答面保真分级：T99/T100=SUMMARY-DERIVED（原文在上下文压缩界前，要点转述）；T101..T106=RAW-VERBATIM（要点压缩）（raw 件原标注沿用，非逐字全文）；T107=在飞（本轮即 R17 构建轮）。
 4. 「si/ 全五件」口径未合：vci-cfts/si/ 仓面实见 4 件（RETURN-CAPSULE/S-I-2-charter/S-I-3-charter/watch-log），第五件未定位——如实挂账，候 lead 指正或补件。
-5. engine-state 系列 v3.0.0@T100/v3.1.0@T101 中间版未逐版留痕（远端 canonical=v3.2.0@T102 迁 vci-cfts）；ci-control INST-REG 若干版未逐版留痕（远端当前版在案；本地暂存件滞后，以远端回读为正）。
+5. engine-state 系列 v3.0.0@T100/v3.1.0@T101 中间版未逐版留痕（远端 canonical=v3.2.0@T102 迁 vci-cfts）；HUB-CORE INST-REG 若干版未逐版留痕（远端当前版在案；本地暂存件滞后，以远端回读为正）。
 6. 迁移面 552 件逐件指纹在 MANIFEST FINAL（汇总锚=本地 research/migrate/MANIFEST.md，local-only 索引件）；注意 vci-cfts/MANIFEST.json 系 SHADOW-CI-01 仓面描述件，非迁移清单，勿混。
 7. capgate.py/ledger.jsonl 本地件 local-only；ledger 为活账（闸链续增长），索引 sha=构建时点快照 49 行。
 8. 事件轮 R15 三班产物 3 件（cfts-36/ROUTING-Q-18FILES/迁移 MANIFEST 锚）无 TURN 节点：跨锚对 PRODUCED_BY⇄YIELDED=21 对不含此 3 件，事件轮入 continuity/索引不入 turns（令规）。
 9. watch-log.md 与 TH-SESCAP-01.md 为活件：索引/网络哈希=当前帖面（watch-log 含 seq0..seq9 至 07:37Z；TH-SESCAP-01 含 [6]@T100+[7]@T102）。
-10. 本批 7 件产物不入 turn artifacts（防自指循环，FB01 先例），经 deliverables-index-add.json + 批次回件（ci-inbox session/cfts/inbox/INCR01-cfts-20260830-001.md）锚定。
+10. 本批 7 件产物不入 turn artifacts（防自指循环，FB01 先例），经 deliverables-index-add.json + 批次回件（HUB-MAIL session/cfts/inbox/INCR01-cfts-20260830-001.md）锚定。
 11. FB01 界外 3 件（dm-queue/cfts 08-29 入站：USRM-HOLO-01/USRM-T5Q3-QKSA-01/USRM2CFTS-M3-01）非本线产物，不转入本批，仍候相应批次/线处置。

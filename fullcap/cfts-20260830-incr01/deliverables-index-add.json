@@ -255,7 +255,7 @@
    "github_path": "ci-inbox/dm-queue/cisvr/CFTS-ROUTING-Q-18FILES-01.md@29ebbffe18c1",
    "sha256": "adda547423eeb47cda7a3ea1b5abc9062c689227d897e0aeda85c6a78984862e",
    "mirror_state": "OK",
-   "mirror_note": "ci-inbox 通信面 18 件路由请裁 dm@cisvr（事件轮产物）",
+   "mirror_note": "HUB-MAIL 通信面 18 件路由请裁 dm@cisvr（事件轮产物）",
    "web_dashboard_ref": null
   },
   {

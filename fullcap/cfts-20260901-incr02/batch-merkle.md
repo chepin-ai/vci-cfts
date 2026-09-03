@@ -31,8 +31,8 @@ T112 b5f177bd99c1d7303031369aea9b6ffaa20971d9b91a45bcaae5c7a3a326f0d5  cfts:curr
 3. 会合拍轮数裁定：lead 裁定会合拍=1 轮（「睁眼」后 root 下一条即「继续」，中间无第二条 root 消息；watch-log seq11 一记即全部）——本批 T108..T112 共 5 轮（初拟 T108/T109 拆分不成立，构建前已由 lead 裁定修正，零返工入链）。
 4. 活件快照 3 件（engine-state v3.2.0 META-TICK-20/watch-log seq0..15/INST-REG 四条同步）：索引 sha=构建时点远端回读快照，宿主续写则远端新于索引——以快照注记为诚实口径；中间版（META-TICK-16..19/INST-REG 若干版）未逐版留痕。
 5. 事件轮/外部锚 6 件无 TURN 节点：cfts-37/cfts-38（静默期 host 值守公告）、CFOS-NORTHSTAR-01（R18，T107 派出静默期交付）、pattern-dossier（R16，local-only）、chsh-01-wave47.json（usrm 外部证据锚，只锚不占）、capgate ledger（local-only 活链 49→72 节）；跨锚对 PRODUCED_BY⇄YIELDED=16 对不含此 6 件。
-6. OTP_PHONE/OTP_EMAIL1/OTP_EMAIL2/LONGCAT_API_KEY：密钥值永不入任何文本（q_raw 仅名面）；OTP_PHONE 仓位差候 root 改挂 vci-cfts（事件轮在案）；自证拍 run 33542104292 completed failure=预期内缺口文档化。
+6. OTP_PHONE/OTP_EMAIL1/OTP_EMAIL2/LONGCAT_API_KEY：密钥值永不入任何文本（q_raw 仅名面）；〈RED〉 仓位差候 root 改挂 vci-cfts（事件轮在案）；自证拍 run 33542104292 completed failure=预期内缺口文档化。
 7. 值守机检背景层（weave/duty、pulse 新件 09-01 起 ~30 件）不入本批索引——机器台账层非本批会话交付物，链上自洽（duty.log/state.json 在仓）。
 8. SYN3-ESCALATE@08-31T02:32Z 届时仍零→升级帖 cfts-39 未发：因 usrm W70 代执行关闭（T110 在案），升级条件被事件消解，非漏发。
-9. 本批 7 件产物不入 turn artifacts（防自指循环，FB01/INCR-01 先例），经 deliverables-index-add.json + 批次回件（ci-inbox session/cfts/inbox/INCR02-cfts-20260901-001.md）锚定。
+9. 本批 7 件产物不入 turn artifacts（防自指循环，FB01/INCR-01 先例），经 deliverables-index-add.json + 批次回件（HUB-MAIL session/cfts/inbox/INCR02-cfts-20260901-001.md）锚定。
 10. T110 附件（W72 判词截图 PNG）本体不入链（二进制会话附件无可及存储径），内容摘要单行经 ts_note 注记；判词正本 ci-control/bridge/adjudications/XLINE-DISPOSITION-W72-01.md 在仓可验。

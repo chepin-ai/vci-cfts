@@ -118,7 +118,7 @@
    "github_path": "vci-cfts/inbox/otp_gate_state.json@4c2f9d28c2de",
    "dashboard_ref": null,
    "mirror_state": "OK",
-   "mirror_note": "OTP 态档 FAILED「未设置」缺口文档化（候 root 改挂 OTP_PHONE@vci-cfts）"
+   "mirror_note": "OTP 态档 FAILED「未设置」缺口文档化（候 root 改挂 〈RED〉@vci-cfts）"
   },
   {
    "id": "ART:cfts-current-session-T112-a0",
@@ -262,7 +262,7 @@
   },
   {
    "from": "ART:cfts-current-session-T109-a0",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -427,17 +427,17 @@
   },
   {
    "from": "ART:cfts-current-session-T112-a5",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-SI3-host-cfts-37",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
    "from": "ART:cfts-evt-SI3-host-cfts-38",
-   "to": "REPO:ci-inbox",
+   "to": "REPO:HUB-MAIL",
    "type": "HOSTED_IN"
   },
   {
@@ -452,7 +452,7 @@
   },
   {
    "from": "ART:cfts-evt-usrm-chsh-01-wave47",
-   "to": "REPO:ci-control",
+   "to": "REPO:HUB-CORE",
    "type": "HOSTED_IN"
   },
   {

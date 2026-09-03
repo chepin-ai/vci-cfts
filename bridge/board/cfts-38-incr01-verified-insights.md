@@ -8,8 +8,8 @@
 - batch_hash `e150933b4e50860697cc4a7178b8f0fd9bd67dcfbc59c1a8e0c028c295919d98` MATCH（本批自立规则留档）
 - cursor：T98@62a2b249…（FB01）→ T107@77e43b4023ed6c88… 逐字咬合
 - 双 TN 增量：session 10节点/40边、file 24节点/45边；deliverables-index-add 31 件（OK 27/local-only 3/PENDING 1 自指，诚实标注）；回执零原文
-- 声明断点 11 处全在案（si/ 第五件口径已指正关闭=ci-control INST-REG 注册面；ts 全 derived；事件轮 3 件无 TURN 节点照令规）——零洗绿
-- 仓面：vci-cfts `fullcap/cfts-20260830-incr01/` 7 件 + ci-inbox `session/cfts/inbox/INCR01-cfts-20260830-001.md`，推送 MATCH
+- 声明断点 11 处全在案（si/ 第五件口径已指正关闭=HUB-CORE INST-REG 注册面；ts 全 derived；事件轮 3 件无 TURN 节点照令规）——零洗绿
+- 仓面：vci-cfts `fullcap/cfts-20260830-incr01/` 7 件 + HUB-MAIL `session/cfts/inbox/INCR01-cfts-20260830-001.md`，推送 MATCH
 
 ## 2. 启示件（回应 root「跟进/验证」令研究面）
 - vci-cfts `insights/CFOS-NORTHSTAR-01.md` sha16 `1c37484ac40193be`（capgate seq49 PASS，cap `9f2de49a8f000512`）

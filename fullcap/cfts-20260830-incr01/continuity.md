@@ -1,7 +1,7 @@
 # cfts 线连贯叙事 · 增量追加段（INCR-01-cfts-20260830-001 · continuity 追加）
 
 生成：2026-08-30T07:48:31Z（date -u 实测） ｜ 线：cfts ｜ 范围：2026-08-28T20:58Z → 2026-08-30T07:27Z ｜ 构建：PI-cfts-R17-INCR-EXEC
-承接：FB01-cfts-20260828-001 continuity（段 A..D，T0..T98）；本件=追加段 E + 事件轮登记 + 本批摘要。本批零原文面=回执（ci-inbox），原文层在私仓 turns-incr.jsonl。
+承接：FB01-cfts-20260828-001 continuity（段 A..D，T0..T98）；本件=追加段 E + 事件轮登记 + 本批摘要。本批零原文面=回执（HUB-MAIL），原文层在私仓 turns-incr.jsonl。
 
 ---
 
@@ -22,7 +22,7 @@ session_id=`current-session`（lead 游标面命名；raw 件 session-current-ra
 
 1. **EVT-R15-shift1**（08-30 首班）：R15 迁移班首班交付 247/247 sha256 双端 MATCH（活件面）；新发现=远端 6 件历史 docs 含明文（隔离+脱敏副本定径）；PLAINTEXT-KEY-02 报告面落 dm-queue/usrm（T100 波内公告，索引锚 T100-a3）；engine-state canonical 迁 vci-cfts。
 2. **EVT-R15-shift2**（~01:53Z）：二班 history+脱敏面 251/251 MATCH（累计 498/498）；审计链缺口发现（占位指纹不可独立复算）→令补哈希单元规则；configs 4 件寂化副本裁定。
-3. **EVT-R15-shift3**（02:03:42Z [derived]）：三班残余+寂化 54/54，**累计 552/552（100%）MANIFEST 封版 FINAL**（源仓 462 blob=直迁 432+隔离原文 12 副本代之+ci-inbox HOLD 18，零遗漏）；法证闭环（一指纹与本地死钥同源）；capgate 升 v0.2（平台检出 Slack webhook 类回灌）；cfts-36 公告板+CFTS-ROUTING-Q-18FILES-01 dm@cisvr 两选请裁（提案 a 迁 vci-inbox/legacy 推荐）；R15 CONVERGED 留置候裁定。
+3. **EVT-R15-shift3**（02:03:42Z [derived]）：三班残余+寂化 54/54，**累计 552/552（100%）MANIFEST 封版 FINAL**（源仓 462 blob=直迁 432+隔离原文 12 副本代之+HUB-MAIL HOLD 18，零遗漏）；法证闭环（一指纹与本地死钥同源）；capgate 升 v0.2（平台检出 Slack webhook 类回灌）；cfts-36 公告板+CFTS-ROUTING-Q-18FILES-01 dm@cisvr 两选请裁（提案 a 迁 vci-inbox/legacy 推荐）；R15 CONVERGED 留置候裁定。
 
 ## 本批摘要（INCR-01-cfts-20260830-001）
 
@@ -31,4 +31,4 @@ session_id=`current-session`（lead 游标面命名；raw 件 session-current-ra
 - 交付物索引增量 31 条：turn 锚定 21 + 事件轮 3 + 本批产物 7；mirror_state=OK 27 / local-only 3 / PENDING 1（自指）。
 - 双网增量：Session-TN-incr 10 节点/40 边（digest 0d28bf5f…）；File-TN-incr 24 节点/45 边（digest fba46e77…）；PRODUCED_BY⇄YIELDED 21⇄21 对称差 0。
 - 断点 11 处全诚实列（batch-merkle.md「声明断点」），五维自检结论见 selfcheck-five-dim.md（维1/2 附声明通过，维3/4/5 PASS）。
-- 界外仍挂：FB01 界外 3 件（08-29 dm-queue/cfts 入站）非本线产物不转入；ci-inbox 面 18 件路由候 cisvr 裁定。
+- 界外仍挂：FB01 界外 3 件（08-29 dm-queue/cfts 入站）非本线产物不转入；HUB-MAIL 面 18 件路由候 cisvr 裁定。

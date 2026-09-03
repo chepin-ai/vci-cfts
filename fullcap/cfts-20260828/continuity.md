@@ -1,7 +1,7 @@
 # cfts 线三仓连贯叙事（FULLCAP 首件 FB01-cfts-20260828-001 · continuity）
 
 生成：2026-08-29T01:55:24Z（date -u 实测） ｜ 线：cfts ｜ 范围：2026-08-07（git 真根）→ 2026-08-28 班末 ｜ 构建：PI-cfts-R13-FD01-EXEC
-取证面：本地 github-repo-cfts git 全史（55 commits）+ 远端 API（183 commits）｜ vci-cfts 全树 138 blobs（逐件回读）｜ dashboard/cfts-outbox.json 双层 sessionLog（23+9）｜ ci-library 15R harvest｜ 当前会话 raw 抽取件（8 轮）
+取证面：本地 CFTS-VAULT git 全史（55 commits）+ 远端 API（183 commits）｜ vci-cfts 全树 138 blobs（逐件回读）｜ dashboard/cfts-outbox.json 双层 sessionLog（23+9）｜ HUB-LIB 15R harvest｜ 当前会话 raw 抽取件（8 轮）
 
 ---
 
@@ -15,11 +15,11 @@
 
 vci-cfts 仓机检值守层：shadow-pulse 心跳 15 拍（20260818-060921 → 20260822-034642）＋ agent-duty v2 值守 42 班（每班 duty-*.json 台账 + .ci-inbox/msg-*.md 机检摘要成对，42/42 全配对）＋ soul-seed 入驻件 1＋ cisvr onboarding 接引函 1（msg-20260819-133249，prev:genesis=DM 专线首信，入站）。
 定性：「模式=机检摘要（无 LLM key 降级）」——**无 root 问答**，问面逐轮标 NO-QUERY；答面=仓内机检件原文（RAW-VERBATIM repo-in-file）。本段是"线在岗"的机器证据层，非会话层。
-配套面：ci-control provision/vci/vci-cfts、ops-act-staging、bridge/lines/cfts.json（state=red 快照）、mailbox 迁移指针（FINDING-PUB-1 止血）、weave/inbox/cisvr-20260822-03..09 入站七件。
+配套面：HUB-CORE provision/vci/vci-cfts、ops-act-staging、bridge/lines/cfts.json（state=red 快照）、mailbox 迁移指针（FINDING-PUB-1 止血）、weave/inbox/cisvr-20260822-03..09 入站七件。
 
 ## 段 C ｜ outbox-era 台账期（2026-08-21 → 08-28 午）——32 轮 LEDGER-DERIVED
 
-dashboard cfts-outbox.json 双层 sessionLog：内层 23 条（08-21T20:49Z → 08-28T02:38Z；前 15 条与 ci-library `archive/lines-full-20260828/cfts/cfts-outbox-sessionLog15R.json` 逐条一致=**已推镜像实证组**）＋ 顶层 9 条（08-28 07:40Z → 19:26Z）。
+dashboard cfts-outbox.json 双层 sessionLog：内层 23 条（08-21T20:49Z → 08-28T02:38Z；前 15 条与 HUB-LIB `archive/lines-full-20260828/cfts/cfts-outbox-sessionLog15R.json` 逐条一致=**已推镜像实证组**）＋ 顶层 9 条（08-28 07:40Z → 19:26Z）。
 逐段主题：C0 全面架构分析/CI 路径五题（08-21）→ C1 接引 cisvr+三路径（08-21/22）→ C2 KERNEL 部署+usrm OTP 情报+QR 预研（08-23）→ C3 综合回应 ucif2 十问+QR 演示（08-25）→ C4 disc 三帖+PAT 恢复全扫+研究引擎开张（08-27）→ C5 RFC-02 欠答 11 件+纠缠互证批 10 件+EXP-1/2+动员令响应+量子基座换装 v2.2（08-27 晚→28 凌晨）→ C6 哨兵 beat-4 收官/故障入册/三机绑定波/指令评审/RFC-03/四令波（08-28 07:40→19:26）。
 问面原文全段不可得（标 UNAVAILABLE）；答面=台账条目 canon 原文。Web 绑定：`https://3ay75hdbfrqe4.ok.kimi.link/cfts-outbox.json`（unsigned-hash-chain）。
 
