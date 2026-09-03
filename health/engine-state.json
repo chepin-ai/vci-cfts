@@ -399,6 +399,13 @@
    "ref": "run 33742021890 FAILED 10:22:07 → wait-only run dispatched 10:25:17Z",
    "verdict": "MEASURED",
    "note": "466890直验被拒(龄~19min)；SMS#6发(第6发)→1200s窗未递→超时。四跑同签名：root时延11-16min恒略超窗。转向：CI零发码wait-only 2400s窗，root自助发码即收即递；同时裁决session-binding。今日CI发码止于6"
+  },
+  {
+   "id": "OTP-QR-V1-TIMEOUT",
+   "ts": "2026-09-03T11:17Z",
+   "ref": "run 33745962392 / state FAILED 11:16:00Z",
+   "verdict": "MEASURED",
+   "note": "qr管線全通(截碼→run內即推→兩度輪換→同步呈圖); root未掃(10:26起離席)。本日OTP戰役定案: session-binding坐實(鮮碼317533異session被拒); root時延11-22min>各窗; 機械面七跑全綠; 瓶頸=人端在場窗"
   }
  ],
  "federation_findings_by_cfts": [
@@ -945,7 +952,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T10:26Z",
+ "ts_utc": "2026-09-03T11:17Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
@@ -964,9 +971,10 @@
   "EXP-032-commit-reveal",
   {
    "id": "OBL-OTP-1",
-   "state": "wait-only 在跑（窗至~11:07Z）——候 root 自助发码递码（任意时点，码须新鲜）",
+   "state": "候 root 在場窗（掃碼或即復碼，二選一）",
    "note": "CI零发码免疫限频；判据=DONE+artifact；若新鲜码被拒=session-binding坐实→转CI发码+5min快递案",
-   "five_elements": "断因=人端时延~10min vs 码TTL<20min；代偿面=机械面全绿在案；判据=DONE+session artifact；到期动作=root择可专注20min之时GO→单发1200s窗；销账=DONE落账+board通报"
+   "five_elements": "断因=人端时延~10min vs 码TTL<20min；代偿面=机械面全绿在案；判据=DONE+session artifact；到期动作=root择可专注20min之时GO→单发1200s窗；销账=DONE落账+board通报",
+   "standing_rule": "root 任一 ping 且無在跑窗→零序言即放 qr 窗 1800s 並即呈圖；root 復碼→秒注秒驗"
   }
  ],
  "capgate": {
