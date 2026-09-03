@@ -1,3 +1,12 @@
 {
- "open": {}
+ "open": {
+  "1279e7a005": {
+   "finding": {
+    "kind": "outbox-down",
+    "note": "对线 outbox HTTP 0"
+   },
+   "first": "20260903-121239",
+   "ticks": 1
+  }
+ }
 }
