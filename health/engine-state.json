@@ -378,6 +378,13 @@
    "ref": "run 33737154003 / state FAILED 09:20:06Z",
    "verdict": "MEASURED",
    "note": "发码成功（无滑块，风控过）；600s 候码窗内 root 码未达 issue#6 → 超时。session 已闭，旧码复用未实测。今日已发3码，平台限频风险在案——下一发须 root 协同单发案，不自作重发"
+  },
+  {
+   "id": "OTP-CODEFIRST-V3-TIMEOUT",
+   "ts": "2026-09-03T09:39Z",
+   "ref": "run 33738913334 / state FAILED 09:38:08Z",
+   "verdict": "MEASURED",
+   "note": "第一试: root所递码(09:10发, 龄~19min)捕获即焚→直验被拒(过期; session-binding因子仍未实测分离)。第二试: 同会话发新码成功无滑块(今日第4发), 600s窗新码未达issue#6→超时。SMS#4是否送达root手机——待root证实(平台限频信号采集)"
   }
  ],
  "federation_findings_by_cfts": [
@@ -924,7 +931,7 @@
    "rule": "R-F2'+V3闭包五条件：零反对≠沉默；一态射≠闭包"
   }
  },
- "ts_utc": "2026-09-03T09:21Z",
+ "ts_utc": "2026-09-03T09:39Z",
  "deadlines_next": [
   "SPEC-HOLO-01-v0.2",
   "METAPATTERN-round2",
@@ -943,8 +950,8 @@
   "EXP-032-commit-reveal",
   {
    "id": "OBL-OTP-1",
-   "state": "awaiting root GO (single coordinated shot)",
-   "note": "v2 超时结案；重发需 root 在场确认，W82-L1 五要件随案"
+   "state": "awaiting root: ①证实SMS#4(09:29Z发)是否送达 ②GO+手边确认→单发900s窗",
+   "note": "v3双试结案； 今日已4发， 限频风险高； 下一发为最后一发制"
   }
  ],
  "capgate": {
