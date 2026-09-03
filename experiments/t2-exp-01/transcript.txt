@@ -1,0 +1,8 @@
+T2-EXP-01 零落链复现实验 transcript
+ts=2026-09-03T15:2xZ seed=20260903 N=20/condition
+[判据①] silent-drop p=1.0: reported=20/20 landed=0/20 ← 疑案原型逐点复现（16+连success零落链同构）
+[判据①对照] credential-fail: reported=0/20（诚实报错）; readonly: 0/20（诚实报错）; healthy: 20/20=20/20
+[判据②] decay: p=0→L=1.00; 0.25→0.80; 0.5→0.50; 0.75→0.30; 1.0→0.00 | max_dev=0.050≤0.10 R²=0.9920≥0.9
+[判据③] 读回MATCH闸@p=1.0: gated_reported=0/20（假成功全拒）漏捕=0
+[灰标] 沙箱mock≠GitHub真面（故障型谱=构造集非全集）；玩具档不升格；同种子各点可比
+[结论] 三判据全过 → CLOSED-成立：success≠落链律复现；无读回闸脚本在静默丢写模态下100%被骗且无法自检；读回闸100%捕获
