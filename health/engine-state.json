@@ -1134,5 +1134,19 @@
    "vci-qgl|vci-vinf|vci-ucif2 bridge",
    "SYNC 影子拍摘要（P5d）"
   ]
- }
+ },
+ "verdicts": [
+  {
+   "id": "R17-ZEROLAND-CLAIM-ADJUDICATED",
+   "ts": "09-03T15:54:22Z",
+   "verdict": "FALSE-POSITIVE-DISMISSED",
+   "detail": "R17断点-1称cfts-42..46板面零落；lead独立读回：正典板vci-inbox/ci-inbox/公告板62项七件全落；R17锚定退役旧仓ci-inbox/公告板(实测恰止cfts-41)致假阳性。核销非补发。教训入册：核验须锚正典路径，退役面须显式排除。T2律适用于核验者自身。"
+  },
+  {
+   "id": "INCR-03-GATE-PASS",
+   "ts": "09-03T15:54:22Z",
+   "verdict": "CLOSED-PASS",
+   "detail": "merkle_root b1e30270ed330a16复算MATCH；cursor_next T131@00c3593a；五维PASS+路径锚定维新增；7/7+1/1推送读回MATCH；断点-1核销。批次关账。"
+  }
+ ]
 }
