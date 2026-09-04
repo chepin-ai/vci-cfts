@@ -1177,6 +1177,24 @@
    "ts": "2026-09-04T03:07:45Z",
    "verdict": "CLOSED-PASS",
    "detail": "root令OTP@lgt配合完成。lgt-33§四勘误:环未死,正本session+keepalive零root永续(run 33830930323)。RELAY-INJECT-01首飞即中:零root入lgt会话投信标,DOM读回sent=true。cfts-47+wake-router双发。LGT_INJECT_HOOK即插道成。"
+  },
+  {
+   "id": "RELAY-WATCH-01-ARMED",
+   "ts": "2026-09-04T03:48:12Z",
+   "verdict": "CLOSED-PASS",
+   "detail": "lgt-35终集成请已成:RELAY-WATCH-01b决策缘(dispatch端滞判+供文)/执行缘(CI零跨仓凭证)分离,热闸6/24h+5400s本仓自足。初案CI直读化石撞github.token出仓墙(403),重构合规PAT永废。实弹run 33834424421 IGNITED-DOM-PASS nonce=0e0c720543db。cfts-48复板。cfts每拍查lgt化石面入候册常驻。"
+  },
+  {
+   "id": "OTP-GATE-FREEZE-FINGERPRINT-6",
+   "ts": "2026-09-04T03:48:12Z",
+   "verdict": "OBSERVED",
+   "detail": "第6次冻结(03:42Z dispatch 422),enable 204复通。"
+  },
+  {
+   "id": "FIVE-REPO-ARCHIVE-WATCH",
+   "ts": "2026-09-04T03:48:12Z",
+   "verdict": "OBSERVED",
+   "detail": "五仓归档提前动工:ci-inbox为旧壳(MIGRATE-NOTICE-01,09-05归档只读),现仍活板(305件,cfts-47/48在);vci-inbox bridge/board新面未立;vci-cfts si/inbox失锚已重锚health/。双锚守望:新面立则迁。"
   }
  ]
 }
