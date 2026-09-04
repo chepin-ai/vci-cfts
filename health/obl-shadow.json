@@ -1,7 +1,7 @@
 {
  "v": "OBL-SHADOW-01",
  "line": "cfts",
- "refreshed_at": "2026-09-04T03:07:45Z",
+ "refreshed_at": "2026-09-04T03:48:12Z",
  "note": "原 inbox/obl-shadow-20260830.json 失锚于 09-04 仓体重构,重锚 health/(内容自会话在案数据重建)",
  "deadlines_next": [
   "EXP-032 SLA门 09-04T18:48:28Z(reveal 3/3已闭,纯候)",
@@ -12,7 +12,8 @@
  "standing_rules": [
   "OTP保活:每次otp-gate dispatch挂keepalive;死态SESSION_DEAD方开QR窗(root唯一物理拍)",
   "核验须锚正典路径,退役面显式排除",
-  "cron双禁:会话端禁用,OS端极大限制;一律事件驱动"
+  "cron双禁:会话端禁用,OS端极大限制;一律事件驱动",
+  "vci-cfts 仓 md 必带 envelope+级标(R1q 闸);扫件留史于 ci-inbox/archive/r1q-20260904/"
  ],
- "last_verdict": "OTP-LGT-COOP-01-RELAY-ARMED"
+ "last_verdict": "R1Q-SWEEP-COMPLIANCE-RESTORE(候实测)"
 }
