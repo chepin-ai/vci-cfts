@@ -1165,6 +1165,12 @@
    "ts": "09-04T02:51:22Z",
    "verdict": "OBSERVED",
    "detail": "otp-gate第5次disabled_manually(紧接先前FAILED态);enable 204+dispatch 204复通。冻结指纹律持续成立。"
+  },
+  {
+   "id": "INFRA-REANCHOR-01",
+   "ts": "09-04T03:00:40Z",
+   "verdict": "LOSS-RECORDED-REANCHORED",
+   "detail": "si/(watch-log seq23-34)与inbox/(obl-shadow)于09-03T23:19-24Z fleet-drive seq102仓体重构中失锚:全树1697件零命中,ci-control亦无;史中无任何提交触si/inbox=force-rewrite指纹,机制【候实测】。业务面全在无损。断代即真史不回填;watch-log自seq35续于health/,obl-shadow重建于health/。"
   }
  ]
 }
