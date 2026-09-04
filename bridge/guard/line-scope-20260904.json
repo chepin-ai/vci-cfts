@@ -1,4 +1,49 @@
 {
- "ts": "2026-09-04T04:49:20Z",
- "verdict": "installation probe HTTP404"
+ "ts": "2026-09-04T04:51:26Z",
+ "line_installation_id": 155768871,
+ "app_permissions": {
+  "issues": "write",
+  "actions": "write",
+  "secrets": "write",
+  "contents": "write",
+  "metadata": "read",
+  "workflows": "write",
+  "actions_variables": "write"
+ },
+ "line_granted": [
+  "github-repo-cfts",
+  "qlv-lab",
+  "quantum-go-ledger",
+  "ucif2-formalization-kernel",
+  "usrm-repo",
+  "vci-inbox",
+  "vinf-market-kernel"
+ ],
+ "effective": {
+  "quantum-go-ledger": {
+   "admin": false,
+   "push": false,
+   "archived": true
+  },
+  "ci-control-backup": "HTTP404",
+  "ci-library": "HTTP404",
+  "ci-logs": "HTTP404",
+  "ci-playground": "HTTP404",
+  "ci-build": "HTTP404",
+  "qlv-lib": {
+   "admin": false,
+   "push": false,
+   "archived": false
+  },
+  "vci-code": {
+   "admin": false,
+   "push": false,
+   "archived": false
+  },
+  "ci-yard": {
+   "admin": false,
+   "push": false,
+   "archived": false
+  }
+ }
 }
