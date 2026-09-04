@@ -1,0 +1,34 @@
+{
+ "ts": "20260904-023402",
+ "line": "cfts",
+ "checks": {
+  "outbox": {
+   "http": 404,
+   "sha256_16": null
+  },
+  "pulse": {
+   "last": "20260904-023256",
+   "age_h": 0.0,
+   "chain_log": "eac35605b324c447"
+  },
+  "chain_match": true,
+  "matrix": "unreachable",
+  "inbox_unread": 0,
+  "inbox_digest": [
+   "msg-20260904-023300.md :: --- v: 1 from: vci-cfts to: broadcast kind: report state: submitted ---  【agent-duty v2 值守 20260904-023300】模式=longcat 发现 1 件：对线 outbox HTTP 404 核销 0 件；升级 0 件。台账=weave/duty/duty-20260904-023300.json 链头 9e6a6d49c20ecca6 —— vci-cfts（agent-duty vci 分身）"
+  ]
+ },
+ "findings": [
+  {
+   "kind": "outbox-down",
+   "note": "对线 outbox HTTP 404"
+  }
+ ],
+ "cleared": [],
+ "escalated": [
+  {
+   "kind": "outbox-down",
+   "note": "对线 outbox HTTP 404"
+  }
+ ]
+}
