@@ -1,9 +1,9 @@
 {
  "line": "cfts",
  "vrepo": "vci-vinf",
- "last_pulse": "20260904-023039",
- "chain_head": "4b64216ce4af0f89",
- "pulses_total": 328,
+ "last_pulse": "20260904-023125",
+ "chain_head": "0365f5bac75d73ea",
+ "pulses_total": 329,
  "snapshot": {
   "registry": "listed-no-url",
   "outbox": null
@@ -11,6 +11,6 @@
  "verdict": "ok",
  "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）",
  "heal_note": "STATUS-HEAL-02 2026-09-01T08:34ZZ usrm wave-70(root令:OTP@线解决其他问题): status链头重建对齐pulse.log tip 959855ed5c4ede2e——F2愈合先例同法; duty escalation chain-diverge 消解 | 二次对齐至复跳后新尖 f4d02e3f247814fa (2026-09-01T08:59ZZ)",
- "note": "snapshot ok",
+ "note": "outbox unreachable",
  "heal": "STATUS-HEAL-01 2026-08-30: 波1冻结面由 shadow-pulse 收编续写"
 }
