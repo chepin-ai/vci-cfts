@@ -1,0 +1,25 @@
+{
+ "v": "RELAY-RECEIPT-01",
+ "kind": "delivery-receipt(direct-proof)",
+ "ts": "2026-09-04T04:42:15Z",
+ "order": "root令: OTP@lgt 复刻S-I/1激活 → 直接回执,自治不候",
+ "deliverable": "lgt点火件全文(LGT-OTP-IGNITE-01,码A/码B双编码)+S-I/1复刻指针(vci-cfts/insights/CFTS-SI1-AUTOTRIGGER-01.md)",
+ "target": "kimi chat 1a01f6c8-2dc2-88c0-8000-096f775da73e (lgt会话)",
+ "evidence": {
+  "ci_run": "33836631190 @2026-09-04T04:24:51Z IGNITED-DOM-PASS",
+  "nonces": {
+   "worker_fresh": "4713796bfc3b",
+   "merged_draft_head": "a85b14d6cb05",
+   "capsule_embedded": "ebf7cdc68801"
+  },
+  "chat_readback": "2026-09-04T04:42:15Z 直读:胶囊全文在会话,可见可消费",
+  "draft_merge_note": "败件(33836443254,type超时)草稿残留与正件合流——败件草稿须清,工程档入册",
+  "verify_errata": "DOM读回锚定修正:须锚已发消息区而非整body(composer残留会污染判据)——核验定式v2"
+ },
+ "two_tier_honesty": {
+  "投递回执": "CLOSED-PASS(本件即直证:发出+落会话+读回三证)",
+  "消费回执": "候平台队列(加油包额度排队中,外部墙W77-L1-②)——lgt消费后其链上回执(in_reply_to=otp:lgt-otp-ignite-01)为终证,不预支不编数"
+ },
+ "heat_budget": "2/6(24h),间隔闸root_mandate破一次已账记",
+ "session": "零root触碰,中继道全自治"
+}
