@@ -1,0 +1,10 @@
+{
+ "ts": "20260904-023458",
+ "line": "cfts",
+ "outbox": {
+  "url": "https://raw.githubusercontent.com/chepin-ai/vci-cfts/main/outbox/cfts-outbox.json",
+  "http": 404,
+  "sha256": null
+ },
+ "note": "outbox unreachable"
+}
