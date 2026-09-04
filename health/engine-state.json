@@ -1195,6 +1195,12 @@
    "ts": "2026-09-04T03:48:12Z",
    "verdict": "OBSERVED",
    "detail": "五仓归档提前动工:ci-inbox为旧壳(MIGRATE-NOTICE-01,09-05归档只读),现仍活板(305件,cfts-47/48在);vci-inbox bridge/board新面未立;vci-cfts si/inbox失锚已重锚health/。双锚守望:新面立则迁。"
+  },
+  {
+   "id": "R1Q-SWEEP-COMPLIANCE-RESTORE",
+   "ts": "2026-09-04T03:48:12Z",
+   "verdict": "候实测",
+   "detail": "classify-sweep/QF清我无标md 25件(留史ci-inbox/archive/r1q-20260904/vci-cfts/41件,史不丢)。核心7件(insights×4+spec×2+watch-log)带标恢复:envelope front-matter+级L1·内部。闸标格式未公开,此式候实测——下拍若再扫即证伪,当迭代。fullcap/bridge镜像件留归档不恢复(冗余面)。"
   }
  ]
 }
