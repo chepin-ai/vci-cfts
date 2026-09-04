@@ -1,0 +1,68 @@
+name: line-scope-probe-20260904
+on:
+  push:
+    paths: ['.github/workflows/line-scope-probe-20260904.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  # rationale: root令"网页手你全权处理"——探Line App授权面(铸钥即焚); 若其安装覆盖6封存仓且App持Administration权限→API解封; 结果零值落仓
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "Line App授权面探测（零值）"
+        env:
+          LINE_KEY: ${{ secrets.CI_OPS_LINE_KEY }}
+          LINE_ID: ${{ vars.CI_OPS_LINE_ID }}
+        run: |
+          python3 -m pip install -q pyjwt
+          python3 - <<'PYEOF'
+          import os,json,time,datetime,urllib.request,urllib.error,base64
+          import jwt as JW
+          GH='https://api.github.com'
+          rep={'ts':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
+          key=os.environ.get('LINE_KEY','').strip(); iss=os.environ.get('LINE_ID','').strip()
+          if not key or not iss:
+              rep['verdict']='LINE secrets unset in this repo'
+          else:
+              now=int(time.time())
+              appjwt=JW.encode({'iat':now-90,'exp':now+540,'iss':iss},key,algorithm='RS256')
+              HJ={'Authorization':'Bearer '+appjwt,'Accept':'application/vnd.github+json','User-Agent':'line-probe'}
+              # 本仓的安装实例id
+              try:
+                  inst=json.loads(urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/vci-cfts/installation',headers=HJ),timeout=20).read())
+                  iid=inst['id']; rep['line_installation_id']=iid
+                  perms=inst.get('permissions',{})
+                  rep['app_permissions']={k:v for k,v in perms.items() if v in ('write','admin','read')}
+              except urllib.error.HTTPError as e:
+                  rep['verdict']='installation probe HTTP'+str(e.code); iid=None
+              if iid:
+                  tk=json.loads(urllib.request.urlopen(urllib.request.Request(GH+'/app/installations/'+str(iid)+'/access_tokens',method='POST',headers=HJ,data=b'{}'),timeout=20).read())['token']
+                  HT={'Authorization':'token '+tk,'Accept':'application/vnd.github+json','User-Agent':'line-probe'}
+                  try:
+                      repos=json.loads(urllib.request.urlopen(urllib.request.Request(GH+'/installation/repositories?per_page=100',headers=HT),timeout=20).read())['repositories']
+                      rep['line_granted']=sorted(x['name'] for x in repos)
+                  except Exception as e:
+                      rep['line_granted']='ERR '+str(e)[:60]
+                  # 关键: 对封存仓的有效权限
+                  eff={}
+                  for repo in ['quantum-go-ledger','ci-control-backup','ci-library','ci-logs','ci-playground','ci-build','qlv-lib','vci-code','ci-yard']:
+                      try:
+                          d=json.loads(urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/'+repo,headers=HT),timeout=20).read())
+                          p=d.get('permissions') or {}
+                          eff[repo]={'admin':p.get('admin'),'push':p.get('push'),'archived':d.get('archived')}
+                      except urllib.error.HTTPError as e:
+                          eff[repo]='HTTP'+str(e.code)
+                      except Exception:
+                          eff[repo]='ERR'
+                  rep['effective']=eff
+          open('/tmp/line-scope.json','w').write(json.dumps(rep,ensure_ascii=False,indent=1))
+          print(json.dumps(rep,ensure_ascii=False)[:400])
+          PYEOF
+          mkdir -p bridge/guard
+          cp /tmp/line-scope.json bridge/guard/line-scope-20260904.json
+          git config user.name line-probe; git config user.email probe@local
+          git add bridge/guard/line-scope-20260904.json
+          git commit -q -m "line-scope probe (零值) [ADMIN-CRED-CENSUS-01]" || echo "no change"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 3; done
