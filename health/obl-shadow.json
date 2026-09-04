@@ -1,0 +1,18 @@
+{
+ "v": "OBL-SHADOW-01",
+ "line": "cfts",
+ "refreshed_at": "09-04T03:00:40Z",
+ "note": "原 inbox/obl-shadow-20260830.json 失锚于 09-04 仓体重构,重锚 health/(内容自会话在案数据重建)",
+ "deadlines_next": [
+  "EXP-032 SLA门 09-04T18:48:28Z(reveal 3/3已闭,纯候)",
+  "EXP-035联签窗 09-04",
+  "五仓归档 09-05(重构似已提前动工,fleet-drive seq102+,watch)",
+  "T9回声窗 09-06T09:00Z(usrm/qgl/vinf/ucif2未应)"
+ ],
+ "standing_rules": [
+  "OTP保活:每次otp-gate dispatch挂keepalive;死态SESSION_DEAD方开QR窗(root唯一物理拍)",
+  "核验须锚正典路径,退役面显式排除",
+  "cron双禁:会话端禁用,OS端极大限制;一律事件驱动"
+ ],
+ "last_verdict": "OTP-AUTONOMY-01-ZERO-ROOT-PASS"
+}
