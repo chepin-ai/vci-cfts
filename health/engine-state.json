@@ -1153,6 +1153,18 @@
    "ts": "09-03T15:56:52Z",
    "verdict": "候册",
    "detail": "R17勘误已落(ERRATA-local.md)。INCR-04范围预载：①路径锚定维正式执行②7件板文正典补锚以修正迹入索引(含cfts-40/41正典版与旧仓版内容相异,INCR-03锚=旧仓版,重锚正典:cfts-40=b0bfe5b8…/1641B,cfts-41=2528a319…/962B)③cfts-39正典板无(仅旧仓有),候裁是否迁补④threads/dm/session三面vci-inbox下404=迁址仅及公告板,余面锚旧仓活体面无误维持。"
+  },
+  {
+   "id": "OTP-AUTONOMY-01-ZERO-ROOT-PASS",
+   "ts": "09-04T02:51:22Z",
+   "verdict": "CLOSED-PASS",
+   "detail": "root令:OTP全自治零root候。实测:在案QR登录态仍活(30d锚至10-03T13:10Z)。①本地探活PASS(我的Kimi在/无登录钮/史单可见)②worker新增live_keepalive+workflow keepalive分支(事件驱动,非cron,合规双禁)③CI实弹run 33830930323 success:触活→滑期续至09-04T03:20Z→回写MATCH(sha16 37ebddab16707058)。律:保活优先于再登录;SESSION_DEAD=唯一需root物理拍(重扫QR);每次dispatch挂keepalive即永续。"
+  },
+  {
+   "id": "OTP-GATE-FREEZE-FINGERPRINT-5",
+   "ts": "09-04T02:51:22Z",
+   "verdict": "OBSERVED",
+   "detail": "otp-gate第5次disabled_manually(紧接先前FAILED态);enable 204+dispatch 204复通。冻结指纹律持续成立。"
   }
  ]
 }
