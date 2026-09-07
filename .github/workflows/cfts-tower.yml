@@ -2,8 +2,10 @@ name: CFTS-TOWER-01
 on:
   push:
     paths: ['inbox/**', 'ci/cfts_tower.py']
-  issues: [opened, edited]
-  issue_comment: [created]
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
   repository_dispatch:
     types: [cfts-tower-cascade, cfts-tower-kick]
   workflow_dispatch:
