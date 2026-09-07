@@ -22,6 +22,8 @@ def api(method, path, data=None, repo=None):
             return r.status, json.loads(r.read() or b'{}')
     except urllib.error.HTTPError as e:
         return e.code, {}
+    except Exception as e:
+        return 0, {'err': f'{e.__class__.__name__}: {e}'}
 
 def get_file(remote, repo=None):
     st, j = api('GET', 'contents/' + remote, repo=repo)
