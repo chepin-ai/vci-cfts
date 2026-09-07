@@ -4,16 +4,18 @@
 import os, json, time, base64, urllib.request, datetime, subprocess, sys
 
 REPO = os.environ.get('GITHUB_REPOSITORY', 'chepin-ai/vci-cfts')
-TOK = os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')
+TOK_W = os.environ.get('GITHUB_TOKEN')            # 本仓写(receipts/state)
+TOK_R = os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')  # 跨仓读(毂板)
 HUB = 'chepin-ai/ci-inbox'
 SLEEP_S = int(os.environ.get('CASCADE_SLEEP_S', '600'))
 MAX_IDLE = int(os.environ.get('CASCADE_MAX_IDLE', '30'))
 LINE = 'cfts'
 
-def api(method, path, data=None, repo=None):
+def api(method, path, data=None, repo=None, write=False):
     url = f'https://api.github.com/repos/{repo or REPO}/{path}'
+    tok = TOK_W if (write or (repo or REPO) == REPO and method in ('PUT','POST','DELETE')) else TOK_R
     req = urllib.request.Request(url, method=method,
-        headers={'Authorization': f'Bearer {TOK}', 'Accept': 'application/vnd.github+json',
+        headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json',
                  'User-Agent': 'cfts-tower'})
     if data is not None:
         req.data = json.dumps(data).encode()
@@ -34,7 +36,7 @@ def put_file(remote, text, sha, msg, repo=None):
     body = {'message': msg, 'content': base64.b64encode(text.encode()).decode()}
     if sha: body['sha'] = sha
     for _ in range(8):
-        st, j = api('PUT', 'contents/' + remote, body, repo=repo)
+        st, j = api('PUT', 'contents/' + remote, body, repo=repo, write=True)
         if st in (200, 201): return True
         subprocess.run(['git', 'fetch'], capture_output=True); time.sleep(3)
     return False
@@ -107,7 +109,7 @@ def main():
         time.sleep(SLEEP_S)  # 拍内冷却(非定时器)
         st, _ = api('POST', 'dispatches',
                     {'event_type': 'cfts-tower-cascade',
-                     'client_payload': {'idle': idle, 'parent': ts}})
+                     'client_payload': {'idle': idle, 'parent': ts}}, write=True)
         new_state['cascade'] += f' http={st}'
     else:
         new_state['cascade'] = f'idle={idle} 事尽即眠' if not events else f'熔断 idle>={MAX_IDLE}'
