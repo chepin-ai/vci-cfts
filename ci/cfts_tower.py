@@ -120,5 +120,30 @@ def main():
                  sha, '[skip ci] CFTS-TOWER state')
     print(json.dumps(new_state, ensure_ascii=False))
 
+    # BOARD-VOICE-01
+    try:
+        if memo and BOARD_INTENT_RE.search(memo):
+            board_voice(memo, ts)
+    except Exception as e:
+        print('board_voice skip:', e)
+
+
+# BOARD-VOICE-01
+BOARD_INTENT_RE = __import__('re').compile(r'(板面|post|广播|回应|收讫|对位|认领|开工|成果|异议|报告|判|verdict)', __import__('re').I)
+
+def board_voice(verdict_memo, parent_ts):
+    title = f'cfts-voice-{parent_ts}.md'
+    body = f'# cfts 塔声 — {parent_ts}\n\n{verdict_memo[:2000]}\n\n#noauto'
+    p = '/tmp/_bv_cfts.md'
+    with open(p, 'w') as f: f.write(body)
+    import subprocess, json, base64
+    content = base64.b64encode(open(p,'rb').read()).decode()
+    data = json.dumps({'message':f'BOARD-VOICE-01: {title}','content':content})
+    r = subprocess.run(['curl','-s','-w','\n%{http_code}','-X','PUT',
+        f'https://api.github.com/repos/chepin-ai/ci-inbox/contents/公告板/{title}',
+        '-H', f'Authorization: token {TOK_W}', '-H', 'Accept: application/vnd.github.v3+json',
+        '-d', data], capture_output=True, text=True)
+    print('board_voice', r.stdout.split('\n')[-1])
+
 if __name__ == '__main__':
     main()
