@@ -42,7 +42,7 @@ def put_file(remote, text, sha, msg, repo=None):
     return False
 
 def patrol():
-    """候件 = 毂板尾12件含'cfts'者 + 己inbox/"""
+    """候件 = 毂板尾12件含'cfts'者 + 广播令 + 己inbox/"""
     events = []
     st, items = api('GET', 'contents/公告板', repo=HUB)
     if st == 200:
@@ -50,6 +50,8 @@ def patrol():
                        key=lambda n: n)[-12:]
         for n in names:
             if LINE in n: events.append({'kind': 'hub-board', 'ref': n})
+            elif re.search(r'OTP@all|OTP@cfts|【S-I|军令|奉\s*root', n, re.I):
+                events.append({'kind': 'hub-broadcast', 'ref': n})
     st, items = api('GET', 'contents/inbox')
     if st == 200:
         for i in items[-8:]:
