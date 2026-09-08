@@ -59,6 +59,21 @@ def patrol():
     if st == 200:
         for i in items[-8:]:
             if i['name'] != '.gitkeep': events.append({'kind': 'inbox', 'ref': i['name']})
+
+    # PEER-SCAN-01: scan qgl receipts for new activity (chain-reaction cascade)
+    try:
+        st_peer, peer_items = api('GET', 'contents/receipts/tower', repo='chepin-ai/vci-qgl')
+        if st_peer == 200:
+            peer_names = sorted([i['name'] for i in peer_items if i['name'].startswith('QT-')])
+            if peer_names:
+                latest_peer = peer_names[-1]
+                # Check if we've seen this before (simple state: compare with last known)
+                last_peer = state.get('last_peer_receipt', '')
+                if latest_peer != last_peer:
+                    events.append({'kind': 'peer-qgl', 'ref': latest_peer, 'note': 'qgl new receipt detected'})
+                    state['last_peer_receipt'] = latest_peer
+    except Exception as e:
+        pass  # peer scan is best-effort
     return events
 
 def kimi_work(events):
@@ -83,6 +98,18 @@ def main():
     stj, _ = get_file('receipts/tower/state.json')
     state = json.loads(stj) if stj else {'idle': 0}
     events = patrol()
+    # PEER-SCAN-01: qgl chain-reaction
+    try:
+        st_peer, peer_items = api('GET', 'contents/receipts/tower', repo='chepin-ai/vci-qgl')
+        if st_peer == 200:
+            peer_names = sorted([i['name'] for i in peer_items if i['name'].startswith('QT-')])
+            if peer_names:
+                latest_peer = peer_names[-1]
+                last_peer = state.get('last_peer_receipt', '')
+                if latest_peer != last_peer:
+                    events.append({'kind': 'peer-qgl', 'ref': latest_peer})
+                    state['last_peer_receipt'] = latest_peer
+    except Exception: pass
     idle = state.get('idle', 0) + 1 if not events else 0
     memo = kimi_work(events) if events else ''
     receipt = {'v': 'CFTS-TOWER-01', 'ts': ts, 'idle_in': state.get('idle', 0),
