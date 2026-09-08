@@ -14,6 +14,9 @@ LINE = 'cfts'
 def api(method, path, data=None, repo=None, write=False):
     url = f'https://api.github.com/repos/{repo or REPO}/{path}'
     tok = TOK_W if (write or (repo or REPO) == REPO and method in ('PUT','POST','DELETE')) else TOK_R
+    # Self-cascade override: LINE_PAT can trigger workflows when GITHUB_TOKEN cannot
+    if path == 'dispatches' and os.environ.get('LINE_PAT'):
+        tok = os.environ.get('LINE_PAT')
     req = urllib.request.Request(url, method=method,
         headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json',
                  'User-Agent': 'cfts-tower'})
