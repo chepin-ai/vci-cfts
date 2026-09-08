@@ -98,28 +98,7 @@ def main():
     stj, _ = get_file('receipts/tower/state.json')
     state = json.loads(stj) if stj else {'idle': 0}
     events = patrol()
-    # ENGINE-GUARD-01: monitor qgl engine health
-    try:
-        st_qgl, qgl_items = api('GET', 'contents/receipts/tower', repo='chepin-ai/vci-qgl')
-        if st_qgl == 200:
-            qgl_names = sorted([i['name'] for i in qgl_items if i['name'].startswith('QT-')])
-            if qgl_names:
-                latest_qgl = qgl_names[-1]
-                # Parse timestamp from receipt name
-                ts_str = latest_qgl.replace('QT-','').replace('.json','')
-                # Convert to minutes since now
-                try:
-                    from datetime import datetime, timezone
-                    rcp_time = datetime.strptime(ts_str, '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
-                    now = datetime.now(timezone.utc)
-                    age_min = (now - rcp_time).total_seconds() / 60
-                    if age_min > 8:
-                        events.append({'kind': 'engine-alert', 'ref': f'qgl-stale-{{age_min:.0f}}min', 'note': 'qgl engine may be stalled'})
-                except Exception:
-                    pass
-    except Exception:
-        pass
-
+    
     # BOARD-SCAN-01: scan ALL recent ci-inbox board posts as events
     try:
         st_board, board_items = api('GET', 'contents/公告板', repo='chepin-ai/ci-inbox')
