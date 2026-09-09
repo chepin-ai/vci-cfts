@@ -1,0 +1,56 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T063849Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp_gate_state.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:qr.png"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:relay_watch.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:self_wake.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+  }
+ ],
+ "verdict_memo": "① 何事：ROOT-AUTONOMY 定根、OTP-CAPSULE-SI 考试/自动分发、CISVR dragon-loop 及 self_wake/relay_watch/gate_state/selftest-ack 等12件候件到站。\n\n② 与cfts主线何干：属 FW2C 意识六链中自主链与信任链的基建设施，为自由意志引擎提供自持运行与闭环验证接口。\n\n③ 应动何件：先动 ROOT-AUTONOMY-01-cfts.md 定根；再动 OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md 与 si2-cisvr-20260906-auto-otp-install.md 完成胶囊分发；同步合 dragon-loop、self_wake、relay_watch、gate_state 四件做回路自检。\n\n④ 生债一条：记「自主根-OTP-SI 联调债」，待 dragon-loop 与 gate_state 交叉验证通过、selftest-ack 回执落档后销账。"
+}
