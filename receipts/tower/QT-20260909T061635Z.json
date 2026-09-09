@@ -1,0 +1,56 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T061635Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp_gate_state.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:qr.png"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:relay_watch.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:self_wake.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+  }
+ ],
+ "verdict_memo": ""
+}
