@@ -1,0 +1,60 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T152534Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  }
+ ],
+ "verdict_memo": ""
+}
