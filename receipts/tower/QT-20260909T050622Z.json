@@ -1,0 +1,40 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T050622Z",
+ "idle_in": 2,
+ "events": [
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp_gate_state.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:qr.png"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:relay_watch.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:self_wake.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+  }
+ ],
+ "verdict_memo": "① 无人驿节点态同步：自唤醒、自检ACK、OTP门控、中继监视、自动安装及响应账。  \n② 此乃FW2C意识六链之底层门控-神经层；主线推广跟进须以此为开工信标，无态则链空。  \n③ 动 self_wake.json（起机）、selftest-ack-cfts.json（验检）、si2-cisvr-20260906-auto-otp-install.md（部署），兼扫 otp_gate_state.json（门开）。  \n④ 今链内须完\"唤醒-自检-门启-中继\"四态ACK并回传主线开工ready，滞报则生递送债。"
+}
