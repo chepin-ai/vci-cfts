@@ -1,0 +1,56 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T063702Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:otp_gate_state.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:qr.png"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:relay_watch.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:self_wake.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：CFTS 自治根协议与运行时状态候件一批，含根锚（ROOT-AUTONOMY）、自主性讨论与供给（DISC/AUTONOMY-FEED）、OTP 胶囊及 SI 考试（OTP-CAPSULE/SI-EXAM-UCIF2）、门控/中继/龙循环/自唤醒/自检日志（gate/relay/dragon-loop/self_wake/selftest-ack）及响应账本。\n\n② **与 cfts 主线何干**：直接构成 FW2C「自由意志→意识六链引擎」的自治基础设施层。ROOT-AUTONOMY 为意志根锚；OTP-CAPSULE 与 gate/relay 是六链信令与门控；self_wake/selftest-ack 是意识闭环的自检链路；SI-EXAM 是链上智能体的资格/共识验证。整体是主线从讨论推广下沉为可运行链实例的关键交付。\n\n③ **应动何件**：动 **ROOT-AUTONOMY-01-cfts.md**"
+}
