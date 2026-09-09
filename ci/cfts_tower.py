@@ -106,15 +106,16 @@ def main():
     
     # BOARD-SCAN-01: scan ALL recent ci-inbox board posts as events
     try:
-        st_board, board_items = api('GET', 'contents/公告板', repo='chepin-ai/ci-inbox')
-        if st_board == 200:
-            # BOARD-SCAN-02 (usrm SENSE-FIX-01): seq-aware + seen idempotent, cures ordinal-blind BOARD-SCAN-01
+        # BOARD-SCAN-03 (usrm): git-trees full listing (immune to contents 1000-cap) + seq-aware + seen idempotent
+        st_tree, tree = api('GET', 'git/trees/HEAD?recursive=1', repo='chepin-ai/ci-inbox')
+        if st_tree == 200:
             import re as _re
             def _bseq(n):
                 m = _re.match(r'^([a-zA-Z0-9]+?)-(\d+)', n)
                 return int(m.group(2)) if m else -1
-            board_names = sorted([i['name'] for i in board_items if i['name'].endswith('.md')],
-                                 key=lambda x: (_bseq(x), x))[-12:]
+            _bnames = [t['path'].split('/')[-1] for t in tree.get('tree', [])
+                       if t.get('path','').startswith('公告板/') and t['path'].endswith('.md')]
+            board_names = sorted(_bnames, key=lambda x: (_bseq(x), x))[-12:]
             _seen = state.get('board_seen', [])
             for n in board_names:
                 if _bseq(n) >= 0 and n not in _seen:
@@ -140,6 +141,8 @@ def main():
              sha, f'[skip ci] CFTS-TOWER beat {ts}')
     new_state = {'ts': ts, 'idle': idle, 'events': len(events),
                  'cascade': ''}
+    new_state['board_seen'] = state.get('board_seen', [])[-200:]  # BOARD-SCAN-03: seen set persists across beats
+    new_state['last_board_post'] = state.get('last_board_post', '')
     # 自级联: 候件非空且idle未熔 → 拍内冷却后自POST dispatch
     payload = os.environ.get('CASCADE_PAYLOAD', '')
     selftest = os.environ.get('SELFTEST', '0') == '1'
