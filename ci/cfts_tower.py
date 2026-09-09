@@ -108,16 +108,30 @@ def main():
     try:
         st_board, board_items = api('GET', 'contents/公告板', repo='chepin-ai/ci-inbox')
         if st_board == 200:
-            board_names = sorted([i['name'] for i in board_items if i['name'].endswith('.md')])[-8:]
-            last_board = state.get('last_board_post', '')
+            # BOARD-SCAN-02 (usrm SENSE-FIX-01): seq-aware + seen idempotent, cures ordinal-blind BOARD-SCAN-01
+            import re as _re
+            def _bseq(n):
+                m = _re.match(r'^([a-zA-Z0-9]+?)-(\d+)', n)
+                return int(m.group(2)) if m else -1
+            board_names = sorted([i['name'] for i in board_items if i['name'].endswith('.md')],
+                                 key=lambda x: (_bseq(x), x))[-12:]
+            _seen = state.get('board_seen', [])
             for n in board_names:
-                if n > last_board:
+                if _bseq(n) >= 0 and n not in _seen:
                     events.append({'kind': 'board-all', 'ref': n})
+                    _seen.append(n)
+            state['board_seen'] = _seen[-200:]
             if board_names:
                 state['last_board_post'] = board_names[-1]
     except Exception: pass
     idle = state.get('idle', 0) + 1 if not events else 0
     memo = kimi_work(events) if events else ''
+    # VOICE-FIX-01 (usrm PATCH-CFTS-TOWER-01): empty-memo retry once + template fallback, cures triple-gate muteness
+    if events and not memo:
+        memo = kimi_work(events)
+    if events and not memo:
+        memo = '[template-voice] %d events this beat: %s (kimi-empty fallback)' % (
+            len(events), '; '.join('%s:%s' % (e.get('kind'), e.get('ref')) for e in events[:4]))
     receipt = {'v': 'CFTS-TOWER-01', 'ts': ts, 'idle_in': state.get('idle', 0),
                'events': events, 'verdict_memo': memo[:2000]}
     # receipts 落账
@@ -162,7 +176,7 @@ def main():
             _sv, _ssha = get_file('receipts/tower/state.json')
             _sjo = json.loads(_sv) if _sv else {}
             _cut = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(seconds=1800)).strftime('%Y%m%dT%H%M%SZ')
-            if _sjo.get('last_voice', '') < _cut:  # VOICE-THROTTLE-01: 30min声道闸(洪峰治理,自署数真实性)
+            if _sjo.get('last_voice', '') < _cut or memo.startswith('[template-voice]'):  # VOICE-THROTTLE-01 + template-muteness exemption (usrm PATCH-CFTS-TOWER-01)
                 board_voice(memo, ts)
                 _sjo['last_voice'] = ts
                 put_file('receipts/tower/state.json', json.dumps(_sjo, ensure_ascii=False), _ssha, '[skip ci] voice-throttle')
