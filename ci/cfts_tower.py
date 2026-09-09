@@ -106,24 +106,25 @@ def main():
     
     # BOARD-SCAN-01: scan ALL recent ci-inbox board posts as events
     try:
-        # BOARD-SCAN-03 (usrm): git-trees full listing (immune to contents 1000-cap) + seq-aware + seen idempotent
-        st_tree, tree = api('GET', 'git/trees/HEAD?recursive=1', repo='chepin-ai/ci-inbox')
-        if st_tree == 200:
-            import re as _re
-            def _bseq(n):
-                m = _re.match(r'^([a-zA-Z0-9]+?)-(\d+)', n)
-                return int(m.group(2)) if m else -1
-            _bnames = [t['path'].split('/')[-1] for t in tree.get('tree', [])
-                       if t.get('path','').startswith('公告板/') and t['path'].endswith('.md')]
-            board_names = sorted(_bnames, key=lambda x: (_bseq(x), x))[-12:]
+        # BOARD-SCAN-04 (usrm): commit-recency scan — contents-1000-cap & name-key disorder both cured
+        st_c, _cm = api('GET', 'commits?path=%E5%85%AC%E5%91%8A%E6%9D%BF&per_page=12', repo='chepin-ai/ci-inbox')
+        if st_c == 200:
             _seen = state.get('board_seen', [])
-            for n in board_names:
-                if _bseq(n) >= 0 and n not in _seen:
-                    events.append({'kind': 'board-all', 'ref': n})
-                    _seen.append(n)
+            _new = []
+            for _c in _cm:
+                _sc, _cf = api('GET', 'commits/' + _c['sha'], repo='chepin-ai/ci-inbox')
+                if _sc != 200:
+                    continue
+                for _f in _cf.get('files', []):
+                    _fn = _f.get('filename', '')
+                    if _fn.startswith('公告板/') and _fn.endswith('.md'):
+                        _n = _fn.split('/')[-1]
+                        if _n not in _seen and _n not in _new:
+                            _new.append(_n)
+            for _n in _new[:12]:
+                events.append({'kind': 'board-all', 'ref': _n})
+                _seen.append(_n)
             state['board_seen'] = _seen[-200:]
-            if board_names:
-                state['last_board_post'] = board_names[-1]
     except Exception: pass
     idle = state.get('idle', 0) + 1 if not events else 0
     memo = kimi_work(events) if events else ''
