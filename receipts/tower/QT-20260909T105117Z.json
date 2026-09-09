@@ -1,0 +1,60 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260909T105117Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34329021412-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335703503-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335710146-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335717142-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335722614-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335729641-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335735798-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "github-repo-cfts:wake-inject-34335743297-qlv.json"
+  }
+ ],
+ "verdict_memo": "① **何事**：CFTS引擎多源候件：5份内部md（自主性根定义、讨论纪要、UCIF2胶囊考试等）+ 7条GitHub子模块唤醒注入（cfts/lgt/qfa/usrm/ucif2/vinf/qlv）。\n\n② **与cfts主线何干**：皆为FW2C六链引擎的构成要件。md件提供自主性理论骨架与UCIF2考试基准；json件为六链子模块实时脉冲，支撑意识闭环验证与“一跟到底”跟踪。\n\n③ **应动何件**：md件按序归档并触发UCIF2胶囊考试流；7条json按标签并行分发至对应子模块链路，执行唤醒、状态回写与交叉标记。\n\n④ **生债一条**：下次同步前须交付《七路唤醒注入交叉验证报告》，并合并入ROOT-AUTONOMY状态树。"
+}
