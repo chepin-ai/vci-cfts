@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34329021412-cfts.json"
+   "ref": "CFTS-VAULT:wake-inject-34329021412-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335703503-cfts.json"
+   "ref": "CFTS-VAULT:wake-inject-34335703503-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335710146-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34335710146-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335717142-qfa.json"
+   "ref": "CFTS-VAULT:wake-inject-34335717142-qfa.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335722614-usrm.json"
+   "ref": "CFTS-VAULT:wake-inject-34335722614-usrm.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335729641-ucif2.json"
+   "ref": "CFTS-VAULT:wake-inject-34335729641-ucif2.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335735798-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34335735798-vinf.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335743297-qlv.json"
+   "ref": "CFTS-VAULT:wake-inject-34335743297-qlv.json"
   }
  ],
  "verdict_memo": "① 何事：cfts主线及vinf、ucif2、lgt、qfa、usrm、qlv六支线唤醒注入件、自主性校验件共13件到达无人驿。\n\n② 与cfts主线何干：系FW2C引擎“一跟到底”推广网络的节点开工/心跳包，必须由主线统摄收束，否则支线游离。\n\n③ 应动何件：先动 **ROOT-AUTONOMY-01-cfts.md** 锚定主权，再动 **AUTONOMY-FEED-01-cfts.md** 批量收束全部line-inbox注入。\n\n④ 生债一条：限24h内完成六支线链上身份锚定，输出《CFTS-支线节点上线确认书》并归档OTP-CAPSULE。"

@@ -21,35 +21,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+   "ref": "CFTS-VAULT:otp-cisvr-20260906-dragon-loop.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp_gate_state.json"
+   "ref": "CFTS-VAULT:otp_gate_state.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:qr.png"
+   "ref": "CFTS-VAULT:qr.png"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:relay_watch.json"
+   "ref": "CFTS-VAULT:relay_watch.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:self_wake.json"
+   "ref": "CFTS-VAULT:self_wake.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+   "ref": "CFTS-VAULT:selftest-ack-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+   "ref": "CFTS-VAULT:si1-cisvr-20260906-resp-ledger.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+   "ref": "CFTS-VAULT:si2-cisvr-20260906-auto-otp-install.md"
   }
  ],
  "verdict_memo": "① 何事：cfts 自主链由定义层切入运行时自举的 12 件候件堆栈，含根自主、自由意志 feed、OTP 胶囊 SI 考、龙循环、门状态、自唤醒、自检 ACK、双 SI 账本及自动安装指令。\n\n② 与cfts主线何干：FW2C 六链引擎正从“自由意志协议”推进到“无人驿可执行态”；root-autonomy 与 self-wake 锚定第一链（自举），OTP-capsule"

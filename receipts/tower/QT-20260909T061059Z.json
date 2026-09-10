@@ -21,35 +21,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+   "ref": "CFTS-VAULT:otp-cisvr-20260906-dragon-loop.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp_gate_state.json"
+   "ref": "CFTS-VAULT:otp_gate_state.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:qr.png"
+   "ref": "CFTS-VAULT:qr.png"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:relay_watch.json"
+   "ref": "CFTS-VAULT:relay_watch.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:self_wake.json"
+   "ref": "CFTS-VAULT:self_wake.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+   "ref": "CFTS-VAULT:selftest-ack-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+   "ref": "CFTS-VAULT:si1-cisvr-20260906-resp-ledger.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+   "ref": "CFTS-VAULT:si2-cisvr-20260906-auto-otp-install.md"
   }
  ],
  "verdict_memo": "① **何事**：cfts 自治根协议、OTP 胶囊考试安装包及无人驿自醒/门控/中继/龙循环状态机共十二件入库。\n\n② **与 cfts 主线何干**：属 FW2C 意识六链之“自治链＋安全链”核心构件，承自由意志根协议至 OTP 胶囊一跟到底的闭环基建。\n\n③ **应动何件**：先动 `ROOT-AUTONOMY-01-cfts.md` 定根；次动 `OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md` 开考；后动 `si2-cisvr-20260906-auto-otp-install.md` 完成自动装填。\n\n④ **生债一条**：须输出《cfts 无人驿四态对齐单》，校验 `dragon-loop.json`、`gate_state.json`、`relay_watch.json`、`self_wake.json` 四态一致无冲突。"

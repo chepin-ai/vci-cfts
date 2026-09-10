@@ -21,35 +21,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+   "ref": "CFTS-VAULT:otp-cisvr-20260906-dragon-loop.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp_gate_state.json"
+   "ref": "CFTS-VAULT:otp_gate_state.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:qr.png"
+   "ref": "CFTS-VAULT:qr.png"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:relay_watch.json"
+   "ref": "CFTS-VAULT:relay_watch.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:self_wake.json"
+   "ref": "CFTS-VAULT:self_wake.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+   "ref": "CFTS-VAULT:selftest-ack-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+   "ref": "CFTS-VAULT:si1-cisvr-20260906-resp-ledger.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+   "ref": "CFTS-VAULT:si2-cisvr-20260906-auto-otp-install.md"
   }
  ],
  "verdict_memo": "① **何事**：CFTS 无人驿开工批次，含自主根文档（ROOT/AUTONOMY/FEED/DISC）、OTP 胶囊 SI 考试与自动安装指令、运行时自检与门控状态 JSON。\n\n② **与 cfts 主线何干**：皆属 FW2C 意识六链引擎基础设施——ROOT 定基，OTP-CAPSULE 与 SI 负责链身份校验与分发，gate/relay/self_wake/dragon-loop 为引擎自维持信号，si1 为接口响应账本。\n\n③ **应动何件**：先动 `OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md`（核身），次动 `si2-cisvr-20260906-auto-otp-install.md`（执行安装），再动 `ROOT-AUTONOMY-01-cfts.md`（归档定基）；其余运行时 JSON 阅存即可。\n\n④ **生债一条**：si2 自动安装若先于 `otp_gate_state.json` 回写确认即完成，生“装-验”异步时序债。"

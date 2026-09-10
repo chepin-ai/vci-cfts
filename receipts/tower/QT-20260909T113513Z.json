@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335710146-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34335710146-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335717142-qfa.json"
+   "ref": "CFTS-VAULT:wake-inject-34335717142-qfa.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335722614-usrm.json"
+   "ref": "CFTS-VAULT:wake-inject-34335722614-usrm.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335729641-ucif2.json"
+   "ref": "CFTS-VAULT:wake-inject-34335729641-ucif2.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335735798-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34335735798-vinf.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335743297-qlv.json"
+   "ref": "CFTS-VAULT:wake-inject-34335743297-qlv.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342705051-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34342705051-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342709834-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34342709834-vinf.json"
   }
  ],
  "verdict_memo": "① 何事：cfts 项目 13 件候料，分三束——AUTONOMY 根/馈/论（3 件）、ECHO 五命令与 OTP 胶囊 SI 审查（2 件）、github wake-inject 运行日志（8 件，含 lgt/qfa/usrm/ucif2/vinf/qlv）。\n\n② 与 cfts"

@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335710146-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34335710146-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335717142-qfa.json"
+   "ref": "CFTS-VAULT:wake-inject-34335717142-qfa.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335722614-usrm.json"
+   "ref": "CFTS-VAULT:wake-inject-34335722614-usrm.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335729641-ucif2.json"
+   "ref": "CFTS-VAULT:wake-inject-34335729641-ucif2.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335735798-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34335735798-vinf.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335743297-qlv.json"
+   "ref": "CFTS-VAULT:wake-inject-34335743297-qlv.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342705051-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34342705051-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342709834-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34342709834-vinf.json"
   }
  ],
  "verdict_memo": "① 何事：CFTS自主层输入包（AUTONOMY-FEED、ROOT-AUTONOMY、FIVECMD回显、OTP考试胶囊）及GitHub七节点 wake-inject（lgt/qfa/usrm/ucif2/vinf/qlv）。\n\n② 与cfts主线何干：属FW2C意识六链引擎的自主输入层与分支节点激活，直接供给“讨论推广一跟到底”的执行坐标。\n\n③ 应动何件：先拆OTP-CAPSULE-CFTS-SI-EXAM-UCIF2-01.md，再按ucif2→vinf→余节点顺序回执七件wake-inject。\n\n④ 生债一条：欠七节点wake-inject统一ACK确认回执一条。"

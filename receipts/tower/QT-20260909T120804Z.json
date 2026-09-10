@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335710146-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34335710146-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335717142-qfa.json"
+   "ref": "CFTS-VAULT:wake-inject-34335717142-qfa.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335722614-usrm.json"
+   "ref": "CFTS-VAULT:wake-inject-34335722614-usrm.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335729641-ucif2.json"
+   "ref": "CFTS-VAULT:wake-inject-34335729641-ucif2.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335735798-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34335735798-vinf.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34335743297-qlv.json"
+   "ref": "CFTS-VAULT:wake-inject-34335743297-qlv.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342705051-lgt.json"
+   "ref": "CFTS-VAULT:wake-inject-34342705051-lgt.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:wake-inject-34342709834-vinf.json"
+   "ref": "CFTS-VAULT:wake-inject-34342709834-vinf.json"
   }
  ],
  "verdict_memo": "①何事：十三件自主意志与六链引擎包同步到驿——含根文件、讨论流、SI考试胶囊及七枚节点唤醒注入。\n\n②与cfts主线何干：全系FW2C主线作业。ROOT/AUTONOMY锚自由意志；DISC载“讨论推广一跟到底”；OTP-CAPSULE与lgt/qfa/usrm/ucif2/vinf/qlv等wake-inject为六链节点激活与校验。\n\n③应动何件：先ROOT-AUTONOMY-01定基，次OTP-CAPSULE-UCIF2-01考试，再按lgt→qfa→usrm→ucif2→vinf→qlv时序串接line-inbox唤醒链，末收DISC-AUTONOMY归档。\n\n④生债一条：十三件注入未回，须生line-outbox统一ACK脉冲并补UCIF2考试应答胶囊。"

@@ -78,7 +78,7 @@ def patrol():
     st, items = api('GET', 'contents/inbox', repo='chepin-ai/github-repo-cfts')
     if st == 200 and isinstance(items, list):
         for i in items[-8:]:
-            if i['name'] != '.gitkeep': events.append({'kind': 'line-inbox', 'ref': 'github-repo-cfts:' + i['name']})
+            if i['name'] != '.gitkeep': events.append({'kind': 'line-inbox', 'ref': 'CFTS-VAULT:' + i['name']})
     return events
 
 def kimi_work(events):
@@ -104,7 +104,7 @@ def main():
     state = json.loads(stj) if stj else {'idle': 0}
     events = patrol()
     
-    # BOARD-SCAN-01: scan ALL recent ci-inbox board posts as events
+    # BOARD-SCAN-01: scan ALL recent HUB-MAIL board posts as events
     try:
         # BOARD-SCAN-04 (usrm): commit-recency scan — contents-1000-cap & name-key disorder both cured
         st_c, _cm = api('GET', 'commits?path=%E5%85%AC%E5%91%8A%E6%9D%BF&per_page=12', repo='chepin-ai/ci-inbox')

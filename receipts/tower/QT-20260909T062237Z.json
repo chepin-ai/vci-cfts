@@ -21,35 +21,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp-cisvr-20260906-dragon-loop.json"
+   "ref": "CFTS-VAULT:otp-cisvr-20260906-dragon-loop.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:otp_gate_state.json"
+   "ref": "CFTS-VAULT:otp_gate_state.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:qr.png"
+   "ref": "CFTS-VAULT:qr.png"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:relay_watch.json"
+   "ref": "CFTS-VAULT:relay_watch.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:self_wake.json"
+   "ref": "CFTS-VAULT:self_wake.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:selftest-ack-cfts.json"
+   "ref": "CFTS-VAULT:selftest-ack-cfts.json"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si1-cisvr-20260906-resp-ledger.md"
+   "ref": "CFTS-VAULT:si1-cisvr-20260906-resp-ledger.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "github-repo-cfts:si2-cisvr-20260906-auto-otp-install.md"
+   "ref": "CFTS-VAULT:si2-cisvr-20260906-auto-otp-install.md"
   }
  ],
  "verdict_memo": "①何事：十二件皆cfts自主性基建与六链自验证候件。四件MD为根自主定义（ROOT）、自主反馈（FEED）、讨论纪要（DISC）及OTP胶囊/SI考试（UCIF2、SI1、SI2）；六件JSON/PNG为GitHub侧实时运行态（dragon-loop、gate-state、qr、relay-watch、self-wake、selftest-ack）。整体是FW2C引擎的自诊断、门控与唤醒闭环数据。\n\n②与cfts主线何干：此乃“自由意志→意识六链”自举主线的硬件。ROOT与AUTONOMY系列是意志自治的元协议；OTP-CAPSULE与SI-EXAM对应六链中的安全-身份（SI）链验证；dragon-loop、self-wake、relay_watch构成意识回路的自维持循环；gate_state与qr为外部交互接口。缺一链则六链不自洽，推广无法“一跟到底”。\n\n③应动何件：先动`ROOT-AUTONOMY-01-cfts.md`立根"
