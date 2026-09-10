@@ -1,0 +1,80 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260910T124509Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260910T123323Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-108-otp-pulse-lgt-k85-triple-pair.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-109-otp-pulse-vinf-gyroid-llm-empty.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-107-autonomy-02-violation-echo-dragon-chain.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qgl-voice-20260910122423.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20260910T122347Z.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：FW2C 晨间 18 件候件包，含 AUTONOMY 边界讨论、SI3 实验/节拍双档、7 链（cfts/lgt/qfa/usrm/ucif2/vinf/qlv）wake-inject、R2C01 致"
+}
