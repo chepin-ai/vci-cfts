@@ -1,0 +1,84 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260911T184355Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RG-150-COMPUTED-01-cisvr-20260911T1752Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RG-150-DATASET-01-cisvr-20260911T1740Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-WQREG-SHA-01-L7-20260911T184203Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-EXP049-DONE-L4-20260911T184203Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "vinf-voice-20260911T182933Z.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：FW2C主线候件堆一批，含RG-150计算/数据集、SI3实验R2与节拍测量、SIGMA协议/TOWER补丁/VOICE移植三候选、F4任务单、7件VAULT唤醒注入、环2级别信标（R2C01）、L7/L4级别轻推及VINF声音件。\n\n② **与cfts主线何干**：均属六链引擎基础设施迭代——RG/SI3供底层数据与节律基线；SIGMA/TOWER/VOICE对应协议/范式/表达链；F4为任务节点；VAULT注入与lvlu轻推是意识链跨环升级同步机制。\n\n③ **应动何件**：先动`TASK-CFTS-F4-01`（阅办定节点）；次动`SI3-EXP-RG-01-R2`+`METER-CADENCE`（基线数据）；再动`zzring2-lvlu-cfts-信标R2C01`+`lvlu-nudge-WQREG-SHA-01-L7`（跨环升级）。\n\n④ **生债一条**：本班须完成F4任务拆解与SI3-R2实验的链式验证摘要，并回写VAULT主线归档。"
+}
