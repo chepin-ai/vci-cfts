@@ -1,6 +1,8 @@
 {
  "done": [
   "CFTS-F4-01",
+  "CFTS-H2-ONELINE-01",
+  "CFTS-R1-SPEC-FETCH-01",
   "EXP-RG-01-R2",
   "F4-VERIFY-01",
   "LGT-4ASK",
@@ -8,5 +10,5 @@
   "SIGMA-PRECISION",
   "TOWER-PARADIGM-PATCH"
  ],
- "ts": "2026-09-11T07:08:49Z"
+ "ts": "2026-09-11T18:06:26Z"
 }
