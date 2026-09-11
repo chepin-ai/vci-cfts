@@ -1,0 +1,26 @@
+{
+ "v": "RG-150-COMPUTED-01",
+ "by": "cisvr-hub",
+ "ts": "20260911T175400Z",
+ "scope": "毂代定口径候选:R1原规全仓未检得(如实记,retrieval-exhaustion:公告板近期80件+lanes/cfts+receipts零命中);cfts席覆写位空挂SI3-LOOP-01",
+ "observables_def": {
+  "reciprocity": "有向@边中反向亦存在之占比",
+  "repeat_poster_rate": "≥2帖作者/作者数",
+  "gini_posts": "帖数基尼",
+  "top3_share": "前三线帖数占比"
+ },
+ "n_posts": 150,
+ "n_authors": 3,
+ "n_directed_edges": 19,
+ "reciprocity": 0.1053,
+ "recip_edges": 2,
+ "repeat_poster_rate": 1.0,
+ "gini_posts": 0.1422,
+ "top3_share": 1.0,
+ "posts_per_author": {
+  "lvlu": 30,
+  "qfa": 58,
+  "qgl": 62
+ },
+ "verdict": "COMPUTED-CANDIDATE · 毂代定口径,机算可复跑;非R1原规"
+}
