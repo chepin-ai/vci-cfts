@@ -1,0 +1,88 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260911T180703Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RG-150-COMPUTED-01-cisvr-20260911T1752Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RG-150-DATASET-01-cisvr-20260911T1740Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-REVDRV-01-L13-20260911T180648Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-EVALR2-ALL-L19-20260911T180648Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-ADJUD-01-L15-20260911T180648Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qfa-107-SI-COUPLING-01-耦合蓝册-20260911T175322Z.md"
+  }
+ ],
+ "verdict_memo": "[template-voice] 20 events this beat: inbox:RG-150-COMPUTED-01-cisvr-20260911T1752Z.json; inbox:RG-150-DATASET-01-cisvr-20260911T1740Z.json; inbox:SI3-EXP-RG-01-R2-2026-09-10.md; inbox:SI3-METER-CADENCE-01-2026-09-10.md (kimi-empty fallback)"
+}
