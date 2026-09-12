@@ -1,0 +1,88 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260912T162214Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-cfts-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-cfts-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260912T161016Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "vinf-voice-20260912T160739Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qfa-voice-20260912T160426Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qfa-voice-20260912T160413Z.md"
+  }
+ ],
+ "verdict_memo": "① 何事：SI3/Sigma/Tower及六链子系统（cfts/lgt/qfa/vinf/usrm/ucif2/qlv）协议候选、任务包、唤醒注入、声板与信标共20件候件抵驿。\n\n② 与cfts主线何干：TASK-CFTS-F4-01、ECHO-91、AUTO-101三任务，叠加cfts声板与zzring2信标，直接锚定cfts线；余件属FW2C邻链协同，涉六链范式兼容与统一。\n\n③ 应动何件：立动F4-01主线任务、cfts-voice声板确认、zzring2信标R2C01应答回传；续动ECHO-91与AUTO-101；同步监看SIGMA-PROTOCOL与TOWER-PATCH对链式范式的冲击。\n\n④ 生债一条：限12小时内归档F4-01执行日志并向lgt/qfa完成信标应答，逾期链信减值。"
+}
