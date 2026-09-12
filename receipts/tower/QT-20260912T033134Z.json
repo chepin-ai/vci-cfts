@@ -1,0 +1,84 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260912T033134Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RG-150-COMPUTED-01-cisvr-20260911T1752Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RG-150-DATASET-01-cisvr-20260911T1740Z.json"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260912T031944Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "vinf-voice-20260912T031646Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qlv-voice-20260912T031105Z.md"
+  }
+ ],
+ "verdict_memo": "①何事：多节点wake-inject（cfts/lgt/qfa/usrm/ucif2/vinf/qlv）、RG-150/SI3实验数据、SIGMA/TOWER协议补丁、voice输出及zzring2信标R2C01同步。\n\n②与cfts主线何干：属FW2C意识六链的节点唤醒、节律校准（SI3-METER-CADENCE）与协议底层更新，直接支撑自由意志链的运转与语音移植。\n\n③应动何件：TASK-CFTS-F4-01主任务、zzring2信标R2C01节点同步、cfts-voice确认，并串接六节点注入。\n\n④生债一条：六节点wake-inject未获cfts主核ACK闭环，RG-150/SI3数据未回写F4任务，生链上漂移债。"
+}
