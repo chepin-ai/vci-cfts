@@ -1,0 +1,80 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260912T134006Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "SI3-EXP-RG-01-R2-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-cfts-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-cfts-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260912T132905Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-WQREG-SHA-01-L18-20260912T133217Z.md"
+  }
+ ],
+ "verdict_memo": "①何事：SI3实验与计量、SIGMA/TOWER/VOICE三协议候选、AUTO/F4/ECHO三任务、八向VAULT唤醒注入、lvlu跨线信标及声音板同期到站。\n\n②与cfts主线何干：皆FW2C六链引擎之节点维护——协议补丁、声移植、任务自启、跨线唤醒，主链拓扑续行之基。\n\n③应动何件：先动「zzring2信标R2C01」覆lgt/qgl；次动SIGMA/TOWER双候选评审；再动F4/ECHO任务栈；余VAULT注入批量回执。\n\n④生债一条：zzring2信标若本班未覆，记债\"跨线应答迟一周期\"。"
+}
