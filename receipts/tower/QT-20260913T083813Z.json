@@ -1,0 +1,80 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260913T083813Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "SI3-METER-CADENCE-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SIGMA-PROTOCOL-CAND-01-cisvr-20260911T1740Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-cfts-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-CFTS-F4-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-cfts-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260913T082717Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qgl-voice-20260913082718.md"
+  }
+ ],
+ "verdict_memo": "①何事：CFTS线批量候件注入，含F4任务、QFA-Yoneda探针、cisvr协议补丁、vault多路信标及今晨双语音板（cfts/qgl）。\n\n②与cfts主线何干：FW2C六链引擎处于F4层推进与跨线（QFA/LGT/QGL）共鸣期；Yoneda探针涉及意识函子化输出，双voice板疑似R2C回环信标，直接关联自由意志→意识上传链路校准。\n\n③应动何件：优先双语音板（cfts-voice + qgl-voice）及YONEDA-EXPORT-PROBE-01-QFA-CFTS；次动TASK-CFTS-F4-01。\n\n④生债一条：今须完成voice双板与Yoneda探针交叉校验，发出《F4-回声确认/否定》回执，否则锁止下一步链式唤醒。"
+}
