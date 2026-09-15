@@ -7,6 +7,7 @@
   "CFTS-R1-SPEC-FETCH-01",
   "CIRCLE-66-CFTS-01",
   "DEBT-72-CFTS-01",
+  "DEBT-75-CFTS-01",
   "ECHO-91-cfts",
   "EXP-RG-01-R2",
   "F4-VERIFY-01",
@@ -21,5 +22,5 @@
   "TOWER-PARADIGM-PATCH",
   "WAVE-68-CFTS-01"
  ],
- "ts": "2026-09-14T20:38:06Z"
+ "ts": "2026-09-15T04:01:52Z"
 }
