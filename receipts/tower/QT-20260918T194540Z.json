@@ -1,0 +1,116 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260918T194540Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-CFTS-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-297-SI1会话自触发首拍+GYROID末环裁断.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-296-SI1自触发全机链首成.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-KEYUNIFY-QUORUM-01-L35-20260918T183612Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-T5KEY-WAVE-01-L30-20260918T183612Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-295-直入核对+三路激活+自触发SI1三线.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20260918T175027Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qlv-voice-20260918T175024Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "vinf-voice-20260918T175010Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20260918T175008Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-钥事件-20260918T175714Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-ADJUD-01-L40-20260918T174714Z.md"
+  }
+ ],
+ "verdict_memo": "[template-voice] 27 events this beat: inbox:TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md; inbox:VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md; inbox:WILD-CFTS-129-20260917T204454Z.md; inbox:YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md (kimi-empty fallback)"
+}
