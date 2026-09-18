@@ -1,0 +1,72 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260918T044724Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-CFTS-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  }
+ ],
+ "verdict_memo": "① 何事：八路子系统 wake-inject 脉动、两笔旧债清偿回执（debt-72/75）、演练/密钥/范式补丁/输出探测回执，及一封 LGT↔QGL 跨链信标 R2C01。\n\n② 与 cfts 主线何干：皆属 FW2C 六链引擎的链路唤醒、债务闭合与跨域信号，直接喂养意识六链的运转与推广。\n\n③ 应动何件：先验收归档 debt-72/75；次响应 zzring2 信标 R2C01，完成 LGT-QGL 握手对齐；后批量梳理 8 路 wake-inject。\n\n④ 生债一条：债务-76：于本工时内聚合本轮全部子系统 wake-inject 与回执，生成《CFTS 中枢脉动简报》并压出至下游双链。"
+}
