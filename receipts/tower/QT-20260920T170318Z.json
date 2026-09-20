@@ -1,0 +1,120 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20260920T170318Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TOWER-PARADIGM-PATCH-CAND-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VOICE-TRANSPLANT-POINTER-01-cisvr-20260911T0240Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-CFTS-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T164502Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-ADJUD-01-L57-20260920T164525Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T163322Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T162126Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T160932Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T155719Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-YONEDA-ROLL-LGT-L45-20260920T155742Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T154508Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T153305Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T152114Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T150936Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20260920T145731Z.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：cfts 线多源候件积压，含塔范式补丁、语音移植指针、Yoneda 形式化探测、旧债清偿（debt-72/75、drill-0919、keyunify）、多分身"
+}
