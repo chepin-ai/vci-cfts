@@ -1,0 +1,16 @@
+{
+ "v": "LINE-DRIVE-01",
+ "ts": "2026-09-25T13:25:10Z",
+ "line": "cfts",
+ "repos": [
+  "github-repo-cfts"
+ ],
+ "events": [
+  {
+   "kind": "repo-unreadable",
+   "repo": "github-repo-cfts",
+   "http": 403
+  }
+ ],
+ "acked": []
+}
