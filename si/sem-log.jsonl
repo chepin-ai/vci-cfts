@@ -50,3 +50,4 @@
 {"line": "cfts", "ts": "20260925T170146Z", "sem_handled": ["WILD-SURGE-R5-CFTS-01.md"], "sem_answers": 1}
 {"line": "cfts", "ts": "20260925T172055Z", "sem_handled": ["WILD-SURGE-R6-CFTS-01.md"], "sem_answers": 1}
 {"line": "cfts", "ts": "20260926T093040Z", "sem_handled": ["PULSE-CFTS-20260926T093033Z.md"], "sem_answers": 1}
+{"line": "cfts", "ts": "20260926T205442Z", "sem_handled": ["PULSE-RING-USRM-TO-CFTS-20260926T205432Z.md"], "sem_answers": 1}
