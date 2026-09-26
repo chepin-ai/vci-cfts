@@ -1,0 +1,24 @@
+{
+ "v": "LINE-DRIVE-01",
+ "ts": "2026-09-26T01:57:01Z",
+ "line": "cfts",
+ "repos": [
+  "github-repo-cfts",
+  "chepin-qi/cfts-seed"
+ ],
+ "events": [
+  {
+   "kind": "inbox",
+   "repo": "chepin-qi/cfts-seed",
+   "ref": "DRIVE-R10-t095500-cfts-seed.md",
+   "head": "CLASSIFY: L1\n# DRIVE-R10 跨域驱动探针\n\ntag: t095500\ntarget: chepin-qi/cfts-seed\n艶元: LINE-DRIVE-02 跨域密钥路由首轮贯通测试\n要求: 请驱动塔读取本报文并回执ack至outbox。\n"
+  }
+ ],
+ "acked": [
+  {
+   "repo": "chepin-qi/cfts-seed",
+   "ref": "DRIVE-R10-t095500-cfts-seed.md",
+   "http": 201
+  }
+ ]
+}
