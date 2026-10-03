@@ -1,0 +1,120 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20261003T070408Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "WILDQ-R26B-FIX-CFTS-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-01-CFTS-20261001T072106ZZ.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-statex-digest-gen896.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T064813Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T063732Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T062638Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T061600Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-T5KEY-WAVE-01-L161-20261003T060637Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T060440Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T055356Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T054325Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T053220Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-statex-digest-gen888.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261003T052137Z.md"
+  }
+ ],
+ "verdict_memo": "① 何事：多链路候件堆栈，含X引擎集成（2件）、Yoneda外探测、债务清偿（2件）与演练回溯、密钥统一、七路唤醒注入（cfts/lgt/qfa/usrm/ucif2/vinf/qlv）、层级语音及状态看板。\n\n② 与cfts主线何干：CFTS为FW2C意识六链之主枢纽；X引擎乃核心动力，Yoneda/QFA为外环探针，各路wake-inject为子链神经节点，债务、演练、密钥皆为维持主线coherence之维护作业。\n\n③ 应动何件：优先启动  \n- XENGINE-"
+}
