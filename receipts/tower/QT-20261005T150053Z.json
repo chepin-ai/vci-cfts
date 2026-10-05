@@ -1,0 +1,120 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20261005T150053Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-01-CFTS-20261001T072106ZZ.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z-MACH.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261005T144113Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261005T143050Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "usrm-statex-digest-gen1208.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261005T142023Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20261005T141843Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-nudge-WQB15-V02-L213-20261005T141229Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261005T140959Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20261005T140825Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cisvr-343-beat133-deepfix-metaanchor-bqlogin.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261005T135935Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20261005T135811Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "qlv-voice-20261005T135745Z.md"
+  }
+ ],
+ "verdict_memo": "(kimi_work 未达: HTTPError)"
+}
