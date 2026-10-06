@@ -1,0 +1,88 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20261006T064457Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-01-CFTS-20261001T072106ZZ.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z-MACH.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356740157-cfts.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356746189-lgt.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356755449-qfa.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356762499-usrm.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356769991-ucif2.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356777657-vinf.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:wake-inject-34356784981-qlv.json"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "CFTS-VAULT:zzring2-lvlu-cfts-信标R2C01-致lgt候qgl.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "cfts-voice-20261006T063435Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "vinf-voice-20261006T063435Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "ucif2-voice-20261006T063434Z.md"
+  },
+  {
+   "kind": "board-all",
+   "ref": "lvlu-voice-20261006T062739Z.md"
+  }
+ ],
+ "verdict_memo": "(kimi_work 未达: HTTPError)"
+}
