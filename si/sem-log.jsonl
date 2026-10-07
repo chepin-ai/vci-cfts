@@ -102,3 +102,4 @@
 {"line": "cfts", "ts": "20261007T073915Z", "sem_handled": ["PULSE-RING-USRM-TO-CFTS-20261007T073905Z.md"], "sem_answers": 1}
 {"line": "cfts", "ts": "20261007T131852Z", "sem_handled": ["VERDICT-CFTS-01.md"], "sem_answers": 1}
 {"line": "cfts", "ts": "20261007T144343Z", "sem_handled": ["WILDQ-UNIFY-01-cfts.md"], "sem_answers": 1}
+{"line": "cfts", "ts": "20261007T155035Z", "sem_handled": ["CALIB-TASK-01-cfts.md", "WILDQ-MONOTONE-01-cfts.md"], "sem_answers": 2}
