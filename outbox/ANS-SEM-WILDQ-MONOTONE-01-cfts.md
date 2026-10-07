@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-MONOTONE-01-cfts.md
 
 应卡: inbox/WILDQ-MONOTONE-01-cfts.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 396, "completion_tokens": 1875, "total_tokens": 2271, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 140}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 396, "completion_tokens": 1875, "total_tokens": 2271, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 140}
 
 这个问题很有“形式化 + 治理协议”混合的味道。我按你给的 A/B 二答路径来，先给结论，再给推导与反例。
 
