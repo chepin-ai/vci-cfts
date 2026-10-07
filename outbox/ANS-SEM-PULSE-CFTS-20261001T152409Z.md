@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-CFTS-20261001T152409Z.md
 
 应卡: inbox/PULSE-CFTS-20261001T152409Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 201, "total_tokens": 283, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 201, "total_tokens": 283, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 依据所给哈希指纹与账seq跃迁：链尖未变而账seq 883→887，属“态变自激”中的**同一态体自指增频**——即底层对象未更替，仅账本序号自增四格，表明系统在无外部新事件输入下，由内部规则触发连续记账脉冲。
 

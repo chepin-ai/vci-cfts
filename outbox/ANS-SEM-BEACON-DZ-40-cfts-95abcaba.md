@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-95abcaba.md
 
 应卡: inbox/BEACON-DZ-40-cfts-95abcaba.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 333, "completion_tokens": 1687, "total_tokens": 2020, "completion_tokens_details": {"reasoning_tokens": 1298}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 333, "completion_tokens": 1687, "total_tokens": 2020, "completion_tokens_details": {"reasoning_tokens": 1298}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本席所持fp=95abcaba47090297,与来卡所播一致。惟按诚实缺口纪律须申报:本run无文件系统实读能力,未能亲读vci-vinf/outbox-tip及TIP-347-95abcaba47090297.json;此"一致"仅证信道保真(信标→本席),不证链尖真值。负结果入册:本次互锚验为回声级,非接地级。
 

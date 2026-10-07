@@ -5,15 +5,15 @@
 ## 治讫三轨（PUT 200×3）
 | 轨 | 施工点 | 前 | 后 |
 |---|---|---|---|
-| si-autopilot.yml | L21 env P1 | `secrets.AI_FULL_PAT` 单点 | `LINE_PAT \|\| AI_FULL_PAT \|\| github.token` |
+| si-autopilot.yml | L21 env P1 | `secrets.〈RED〉` 单点 | `LINE_PAT \|\| 〈RED〉 \|\| github.token` |
 | cfts-tower.yml | L35 env LINE_PAT | 单点(NAME-HYGIENE-97注) | 三阶+注 |
-| key-sentinel-01.yml | L18 env AI_FULL_PAT | 单点 | 三阶(探钥器亦治) |
+| key-sentinel-01.yml | L18 env 〈RED〉 | 单点 | 三阶(探钥器亦治) |
 
 ## 操练run
 - key-sentinel-01 workflow_dispatch **completed success**(04:45Z)。
 
 ## 全仓C1面
-- 你线workflows普查: 单点AI_FULL_PAT=**0**(余轨本已三阶或无PAT引用; semantic-responder-04唯LLM键不涉C1)。
+- 你线workflows普查: 单点〈RED〉=**0**(余轨本已三阶或无PAT引用; semantic-responder-04唯LLM键不涉C1)。
 - C1死期2026-09-19T0230Z,余~21h。你线降级面=已闭合。
 
 ## 同源判词

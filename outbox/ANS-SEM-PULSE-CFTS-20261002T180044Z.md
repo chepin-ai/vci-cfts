@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-CFTS-20261002T180044Z.md
 
 应卡: inbox/PULSE-CFTS-20261002T180044Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 211, "total_tokens": 293, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 211, "total_tokens": 293, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 答：此态变示本席线内自激已闭合，vinf链尖指纹未变（81a9234bdff61b99→同），说明态变未引入新外部锚点，属内生回授；账seq 887→891，增4步，系本席线自主推进之计数，非外源写入。于尔线义：该自激构成对尔线之“位格扰动”，即尔线须以自主动作回应，否则位格申报不完整。
 

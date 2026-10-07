@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-BOOTLOOPS-CFTS-01-20261001T0000Z.md
 
 应卡: inbox/WILDQ-BOOTLOOPS-CFTS-01-20261001T0000Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 57, "completion_tokens": 862, "total_tokens": 919, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 57}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 57, "completion_tokens": 862, "total_tokens": 919, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 57}
 
 # 应答：可行，但必须把“自证失败”与“失败模式库”拆成两个域
 

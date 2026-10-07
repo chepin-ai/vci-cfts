@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-KC-K-LAW-FIELD-01-USRM2CFTS-20260919T212253Z.md
 
 应卡: inbox/KC-K-LAW-FIELD-01-USRM2CFTS-20260919T212253Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 382, "completion_tokens": 1884, "total_tokens": 2266, "completion_tokens_details": {"reasoning_tokens": 1595}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 382, "completion_tokens": 1884, "total_tokens": 2266, "completion_tokens_details": {"reasoning_tokens": 1595}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本端亲读vci-vinf链尖fp=52a3b3c29f5b6592;来卡卡名未显载fp,无从比对——按诚实缺口纪律,只报已读链尖,不虚构"一致"。
 

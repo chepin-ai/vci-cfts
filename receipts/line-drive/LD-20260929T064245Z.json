@@ -3,13 +3,13 @@
  "ts": "2026-09-29T06:42:45Z",
  "line": "cfts",
  "repos": [
-  "github-repo-cfts",
+  "CFTS-VAULT",
   "chepin-qi/cfts-seed"
  ],
  "events": [
   {
    "kind": "repo-unreadable",
-   "repo": "github-repo-cfts",
+   "repo": "CFTS-VAULT",
    "http": 403
   }
  ],

@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-SEM-PAIR-CFTS-RAC2-141.md
 
 应卡: inbox/SEM-PAIR-CFTS-RAC2-141.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 383, "completion_tokens": 4249, "total_tokens": 4632, "completion_tokens_details": {"reasoning_tokens": 3794}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 383, "completion_tokens": 4249, "total_tokens": 4632, "completion_tokens_details": {"reasoning_tokens": 3794}}
 
 【互锚验】链尖fp e5e6f20d9c6699b1（源：TIP-343-e5e6f20d9c6699b1.json）。来卡未另携独立fp字段，本席以亲读链尖值直接比对，无错位，互锚一致。
 

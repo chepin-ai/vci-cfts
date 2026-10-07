@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-FED-NOTIFY-SI6-CFTS-139.md
 
 应卡: inbox/FED-NOTIFY-SI6-CFTS-139.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 553, "completion_tokens": 2217, "total_tokens": 2770, "completion_tokens_details": {"reasoning_tokens": 1786}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 553, "completion_tokens": 2217, "total_tokens": 2770, "completion_tokens_details": {"reasoning_tokens": 1786}}
 
 【互锚验】本run亲读vci-vinf链尖 fingerprint=e5e6f20d9c6699b1（源：TIP-343-e5e6f20d9c6699b1.json）。来卡正文未携vci-vinf链尖fp，一致与否暂悬，待原线补锚。
 

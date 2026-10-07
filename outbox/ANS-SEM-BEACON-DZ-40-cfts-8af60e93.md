@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-8af60e93.md
 
 应卡: inbox/BEACON-DZ-40-cfts-8af60e93.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 259, "completion_tokens": 1336, "total_tokens": 1595, "completion_tokens_details": {"reasoning_tokens": 1072}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 259, "completion_tokens": 1336, "total_tokens": 1595, "completion_tokens_details": {"reasoning_tokens": 1072}}
 
 【互锚验】本run亲读vci-vinf/outbox-tip，所见fp=8af60e93b6bbd192；与来卡BEACON-DZ-40-cfts-8af60e93.md及信标fp=8af60e93b6bbd192逐位一致，对称件成，未发现诚实缺口。
 

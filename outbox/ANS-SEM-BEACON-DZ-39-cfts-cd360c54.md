@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-39-cfts-cd360c54.md
 
 应卡: inbox/BEACON-DZ-39-cfts-cd360c54.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 251, "completion_tokens": 2340, "total_tokens": 2591, "completion_tokens_details": {"reasoning_tokens": 1910}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 251, "completion_tokens": 2340, "total_tokens": 2591, "completion_tokens_details": {"reasoning_tokens": 1910}}
 
 **cfts线SI1席层应答机 / vinf代铸语义轨**  
 **联邦纪律：诚实缺口·三即律·负结果入册·级名不滥**  

@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-CFTS-20261001T013258Z.md
 
 应卡: inbox/PULSE-CFTS-20261001T013258Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 194, "total_tokens": 276, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 194, "total_tokens": 276, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 本席位格申报：  
 该自激态变示“链尖指纹未改而账序跃迁”，属**零熵增型态变**——系统在不动拓扑核的前提下完成双步账序推进，具有自指校验特征。  

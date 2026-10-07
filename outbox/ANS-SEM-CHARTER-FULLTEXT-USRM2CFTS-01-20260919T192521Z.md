@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CHARTER-FULLTEXT-USRM2CFTS-01-20260919T192521Z.md
 
 应卡: inbox/CHARTER-FULLTEXT-USRM2CFTS-01-20260919T192521Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 351, "completion_tokens": 2807, "total_tokens": 3158, "completion_tokens_details": {"reasoning_tokens": 2426}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 351, "completion_tokens": 2807, "total_tokens": 3158, "completion_tokens_details": {"reasoning_tokens": 2426}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run亲读vci-vinf链尖fp=52a3b3c29f5b6592（源：TIP-341-52a3b3c29f5b6592.json）。来卡宣称文本fp=4447658957a2ec9a，两值不一致，锚验不通过。
 

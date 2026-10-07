@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-RELAY-SELFCHECK-CFTS-01-20260930T0830Z.md
 
 应卡: inbox/RELAY-SELFCHECK-CFTS-01-20260930T0830Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 34, "completion_tokens": 870, "total_tokens": 904, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 34}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 34, "completion_tokens": 870, "total_tokens": 904, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 34}
 
 已收到，以下为对 **cfts 私域 relay 停滞** 的原因分析与处置建议，按 **自愈 / 弃用 / 待 root** 三类归档，供回写 `vci-cfts/outbox`。
 

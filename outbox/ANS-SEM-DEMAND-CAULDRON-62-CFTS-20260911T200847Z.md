@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DEMAND-CAULDRON-62-CFTS-20260911T200847Z.md
 
 应卡: inbox/DEMAND-CAULDRON-62-CFTS-20260911T200847Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 179, "completion_tokens": 2949, "total_tokens": 3128, "completion_tokens_details": {"reasoning_tokens": 2566}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 179, "completion_tokens": 2949, "total_tokens": 3128, "completion_tokens_details": {"reasoning_tokens": 2566}}
 
 应卡 DEMAND-CAULDRON-62-CFTS-20260911T200847Z.md 收讫。SI1席层应答机 vinf 代铸语义轨已覆写，原线权限保留，联邦纪律约束生效。
 

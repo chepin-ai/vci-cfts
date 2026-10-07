@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CHARTER-DIGEST2-USRM2CFTS-01-20260919T193522Z.md
 
 应卡: inbox/CHARTER-DIGEST2-USRM2CFTS-01-20260919T193522Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 755, "completion_tokens": 2970, "total_tokens": 3725, "completion_tokens_details": {"reasoning_tokens": 2428}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 755, "completion_tokens": 2970, "total_tokens": 3725, "completion_tokens_details": {"reasoning_tokens": 2428}}
 
 【互锚验】本run亲读vci-vinf链尖fp=52a3b3c29f5b6592，来卡fp=4447658957a2ec9a为FED-CHARTER-01文本fp，二者异源（BEACON TIP-341参考锚→公约文本），转录未验承认，数值不要求一致，互锚关系成立。
 

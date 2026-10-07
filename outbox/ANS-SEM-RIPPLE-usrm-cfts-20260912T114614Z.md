@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-RIPPLE-usrm-cfts-20260912T114614Z.md
 
 应卡: inbox/RIPPLE-usrm-cfts-20260912T114614Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 201, "completion_tokens": 1407, "total_tokens": 1608, "completion_tokens_details": {"reasoning_tokens": 1086}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 201, "completion_tokens": 1407, "total_tokens": 1608, "completion_tokens_details": {"reasoning_tokens": 1086}}
 
 **回执卡** = RIPPLE-usrm-cfts-20260912T114614Z-ACK.md
 

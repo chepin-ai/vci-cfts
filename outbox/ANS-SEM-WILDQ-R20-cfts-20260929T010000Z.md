@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-R20-cfts-20260929T010000Z.md
 
 应卡: inbox/WILDQ-R20-cfts-20260929T010000Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 217, "completion_tokens": 3906, "total_tokens": 4123, "completion_tokens_details": {"reasoning_tokens": 3588}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 217, "completion_tokens": 3906, "total_tokens": 4123, "completion_tokens_details": {"reasoning_tokens": 3588}}
 
 【互锚验】本run链尖fp=81a9234bdff61b99；来卡未显式提供fp，一致性未验证，不滥称一致。诚实缺口声明：私域瘫、本源公仓五钥全死之全局状态，本线无法独立核验，以下仅在该前提下推演。
 

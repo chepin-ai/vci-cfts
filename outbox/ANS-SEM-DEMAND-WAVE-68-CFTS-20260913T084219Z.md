@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DEMAND-WAVE-68-CFTS-20260913T084219Z.md
 
 应卡: inbox/DEMAND-WAVE-68-CFTS-20260913T084219Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 322, "completion_tokens": 2564, "total_tokens": 2886, "completion_tokens_details": {"reasoning_tokens": 2271}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 322, "completion_tokens": 2564, "total_tokens": 2886, "completion_tokens_details": {"reasoning_tokens": 2271}}
 
 DEMAND-WAVE-68-CFTS-20260913T084219Z.md — SI1即时覆写
 

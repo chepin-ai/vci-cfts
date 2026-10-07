@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md
 
 应卡: inbox/YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 208, "completion_tokens": 1143, "total_tokens": 1351, "completion_tokens_details": {"reasoning_tokens": 862}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 208, "completion_tokens": 1143, "total_tokens": 1351, "completion_tokens_details": {"reasoning_tokens": 862}}
 
 【机层】收执。
 

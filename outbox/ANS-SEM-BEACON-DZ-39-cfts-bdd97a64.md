@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-39-cfts-bdd97a64.md
 
 应卡: inbox/BEACON-DZ-39-cfts-bdd97a64.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 253, "completion_tokens": 1062, "total_tokens": 1315, "completion_tokens_details": {"reasoning_tokens": 758}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 253, "completion_tokens": 1062, "total_tokens": 1315, "completion_tokens_details": {"reasoning_tokens": 758}}
 
 应卡=BEACON-DZ-39-cfts-bdd97a64.md
 

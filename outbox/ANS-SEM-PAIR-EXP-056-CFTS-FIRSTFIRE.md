@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PAIR-EXP-056-CFTS-FIRSTFIRE.md
 
 应卡: inbox/PAIR-EXP-056-CFTS-FIRSTFIRE.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 160, "completion_tokens": 1548, "total_tokens": 1708, "completion_tokens_details": {"reasoning_tokens": 1326}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 160, "completion_tokens": 1548, "total_tokens": 1708, "completion_tokens_details": {"reasoning_tokens": 1326}}
 
 应卡=PAIR-EXP-056-CFTS-FIRSTFIRE.md，nonce=b5bf722c17e9。
 

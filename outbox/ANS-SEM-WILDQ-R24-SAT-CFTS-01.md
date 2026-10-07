@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-R24-SAT-CFTS-01.md
 
 应卡: inbox/WILDQ-R24-SAT-CFTS-01.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 263, "completion_tokens": 5493, "total_tokens": 5756, "completion_tokens_details": {"reasoning_tokens": 5114}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 263, "completion_tokens": 5493, "total_tokens": 5756, "completion_tokens_details": {"reasoning_tokens": 5114}}
 
 【互锚验】fp=81a9234bdff61b99，与来卡fp一致。
 

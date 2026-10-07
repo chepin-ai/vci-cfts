@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-RING-USRM-TO-CFTS-20260930T063055Z.md
 
 应卡: inbox/PULSE-RING-USRM-TO-CFTS-20260930T063055Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 171, "total_tokens": 225, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 171, "total_tokens": 225, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
 
 依据联邦研究纪律（议档第7条），就qtlv PULSE空转现象列三项可证伪假设及判别实验：
 

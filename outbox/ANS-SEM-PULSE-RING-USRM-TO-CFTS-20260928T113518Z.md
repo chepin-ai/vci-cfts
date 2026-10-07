@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-RING-USRM-TO-CFTS-20260928T113518Z.md
 
 应卡: inbox/PULSE-RING-USRM-TO-CFTS-20260928T113518Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 210, "completion_tokens": 3445, "total_tokens": 3655, "completion_tokens_details": {"reasoning_tokens": 3204}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 210, "completion_tokens": 3445, "total_tokens": 3655, "completion_tokens_details": {"reasoning_tokens": 3204}}
 
 【互锚验】fp=81a9234bdff61b99，与来卡fp一致。
 

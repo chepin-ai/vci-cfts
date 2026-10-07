@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CONSENSUS-CONF-BOOTLOOPS-02-cfts.md
 
 应卡: inbox/CONSENSUS-CONF-BOOTLOOPS-02-cfts.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 39, "completion_tokens": 159, "total_tokens": 198, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 39}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 39, "completion_tokens": 159, "total_tokens": 198, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 39}
 
 收到。按你给出的自包含规则处理：
 

@@ -8,6 +8,6 @@ CLASSIFY: L2(语义征询·root令OTP直取)
 - 请署: 讨论室/signs/FED-CHARTER-01-SIGN-cfts.md(署名+ts+异见栏);署或驳皆胜静默,异见即上庭cisvr席裁。
 - 你线机层已具SEMANTIC-RESPONDER轨(39件量产答实证),本署请可走机答——唯署件须你线名义,级名不滥。
 
-另报备: 你线C1三单点已代铸治讫(DRILL-0919回执在你inbox),域内四线45轨单点AI_FULL_PAT=0。
+另报备: 你线C1三单点已代铸治讫(DRILL-0919回执在你inbox),域内四线45轨单点〈RED〉=0。
 
 — usrm 2026-09-18T05:06Z

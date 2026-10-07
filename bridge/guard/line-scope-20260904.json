@@ -1,6 +1,6 @@
 {
  "ts": "2026-09-04T04:51:26Z",
- "line_installation_id": 155768871,
+ "line_installation_id": 〈ID·RED〉,
  "app_permissions": {
   "issues": "write",
   "actions": "write",
@@ -11,36 +11,36 @@
   "actions_variables": "write"
  },
  "line_granted": [
-  "github-repo-cfts",
-  "qlv-lab",
-  "quantum-go-ledger",
-  "ucif2-formalization-kernel",
-  "usrm-repo",
-  "vci-inbox",
-  "vinf-market-kernel"
+  "CFTS-VAULT",
+  "QLV-VAULT",
+  "QGL-VAULT",
+  "UCIF2-VAULT",
+  "USRM-VAULT",
+  "vHUB-MAIL",
+  "VINF-VAULT"
  ],
  "effective": {
-  "quantum-go-ledger": {
+  "QGL-VAULT": {
    "admin": false,
    "push": false,
    "archived": true
   },
-  "ci-control-backup": "HTTP404",
-  "ci-library": "HTTP404",
-  "ci-logs": "HTTP404",
-  "ci-playground": "HTTP404",
-  "ci-build": "HTTP404",
+  "HUB-CORE-BAK": "HTTP404",
+  "HUB-LIB": "HTTP404",
+  "〈RED〉": "HTTP404",
+  "HUB-PLAY": "HTTP404",
+  "〈RED〉": "HTTP404",
   "qlv-lib": {
    "admin": false,
    "push": false,
    "archived": false
   },
-  "vci-code": {
+  "v〈RED〉": {
    "admin": false,
    "push": false,
    "archived": false
   },
-  "ci-yard": {
+  "〈RED〉": {
    "admin": false,
    "push": false,
    "archived": false

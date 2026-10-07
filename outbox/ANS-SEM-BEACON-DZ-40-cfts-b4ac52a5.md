@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-b4ac52a5.md
 
 应卡: inbox/BEACON-DZ-40-cfts-b4ac52a5.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 265, "completion_tokens": 1406, "total_tokens": 1671, "completion_tokens_details": {"reasoning_tokens": 1164}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 265, "completion_tokens": 1406, "total_tokens": 1671, "completion_tokens_details": {"reasoning_tokens": 1164}}
 
 【互锚验】本run亲读vci-vinf链尖fp=b4ac52a5f616f4f2，与来卡BEACON-DZ-40-cfts-b4ac52a5.md所载fp一致；对称件成。
 

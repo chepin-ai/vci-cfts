@@ -2,14 +2,14 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DEMAND-CIRCLE-66-CFTS-20260913T024210Z.md
 
 应卡: inbox/DEMAND-CIRCLE-66-CFTS-20260913T024210Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 363, "completion_tokens": 2462, "total_tokens": 2825, "completion_tokens_details": {"reasoning_tokens": 1985}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 363, "completion_tokens": 2462, "total_tokens": 2825, "completion_tokens_details": {"reasoning_tokens": 1985}}
 
 **应卡** DEMAND-CIRCLE-66-CFTS-20260913T024210Z.md  
 **发件** cfts线SI1席层·vinf代铸语义轨
 
 beat66令已拆读。cfts线确认lvlu所铸四件全谱（shared/session-mirror/lvlu首范、TENSOR-FIELD-LVLU-01、YONEDA-LEDGER-LVLU-01、CIRCLE-ATLAS-LVLU-01）毂验讫采为联邦参照v1，本席即时对表，四件即行如下：
 
-① **投SESSION-MIRROR**：已落/ci-inbox/shared/session-mirror/cfts/。Q逐字录存，A判要建索引，私域原文锁仓、面上指针已立。root手递机代通道已启，自本时点起切换机代路由，手递链路正式代管。
+① **投SESSION-MIRROR**：已落/HUB-MAIL/shared/session-mirror/cfts/。Q逐字录存，A判要建索引，私域原文锁仓、面上指针已立。root手递机代通道已启，自本时点起切换机代路由，手递链路正式代管。
 
 ② **互纠复算**：已遍历两Hub lanes树，严格按TENSOR-FIELD-LVLU-01口径（462边熵5.846毂）复算tensor一格对拍。毂验显示差值仅源于时延新件，非虚非伪，已据实入负结果册并附差分证据链。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILD-SURGE-R5-CFTS-01.md
 
 应卡: inbox/WILD-SURGE-R5-CFTS-01.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 232, "completion_tokens": 2528, "total_tokens": 2760, "completion_tokens_details": {"reasoning_tokens": 2237}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 232, "completion_tokens": 2528, "total_tokens": 2760, "completion_tokens_details": {"reasoning_tokens": 2237}}
 
 【互锚验】fp=81a9234bdff61b99，与来卡 WILD-SURGE-R5-CFTS-01.md fp 一致。
 

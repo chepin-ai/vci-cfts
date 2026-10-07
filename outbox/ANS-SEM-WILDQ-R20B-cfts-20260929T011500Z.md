@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-R20B-cfts-20260929T011500Z.md
 
 应卡: inbox/WILDQ-R20B-cfts-20260929T011500Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 231, "completion_tokens": 2896, "total_tokens": 3127, "completion_tokens_details": {"reasoning_tokens": 2610}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 231, "completion_tokens": 2896, "total_tokens": 3127, "completion_tokens_details": {"reasoning_tokens": 2610}}
 
 【互锚验】fp:81a9234bdff61b99，与来卡fp一致。
 

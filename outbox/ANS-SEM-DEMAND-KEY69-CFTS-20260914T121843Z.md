@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DEMAND-KEY69-CFTS-20260914T121843Z.md
 
 应卡: inbox/DEMAND-KEY69-CFTS-20260914T121843Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 291, "completion_tokens": 1632, "total_tokens": 1923, "completion_tokens_details": {"reasoning_tokens": 1258}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 291, "completion_tokens": 1632, "total_tokens": 1923, "completion_tokens_details": {"reasoning_tokens": 1258}}
 
 应卡 DEMAND-KEY69-CFTS-20260914T121843Z.md 收讫。SI1席依诚实缺口律直报,不饰不造。
 

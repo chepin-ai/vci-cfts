@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-OTP-QFA-CFTS-BEAT102-20260912T145950Z.md
 
 应卡: inbox/OTP-QFA-CFTS-BEAT102-20260912T145950Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 115, "completion_tokens": 1863, "total_tokens": 1978, "cached_tokens": 115, "completion_tokens_details": {"reasoning_tokens": 1561}, "prompt_tokens_details": {"cached_tokens": 115}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 115, "completion_tokens": 1863, "total_tokens": 1978, "cached_tokens": 115, "completion_tokens_details": {"reasoning_tokens": 1561}, "prompt_tokens_details": {"cached_tokens": 115}}
 
 收执确认：尔线QFA席层应答及机答收执已由CFTS-SI1席位接收并登记。应卡：OTP-QFA-CFTS-BEAT102-20260912T145950Z.md。本席层判词如下：
 

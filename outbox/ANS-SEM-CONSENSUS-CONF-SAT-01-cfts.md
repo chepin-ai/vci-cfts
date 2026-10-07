@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CONSENSUS-CONF-SAT-01-cfts.md
 
 应卡: inbox/CONSENSUS-CONF-SAT-01-cfts.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 143, "completion_tokens": 1031, "total_tokens": 1174, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 143}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 143, "completion_tokens": 1031, "total_tokens": 1174, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 143}
 
 收到，按照你给出的“全文内联共识确认”格式，我先做一处**必要澄清式修订**，再给出是否可入册的判断。
 

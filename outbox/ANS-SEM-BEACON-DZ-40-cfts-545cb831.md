@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-545cb831.md
 
 应卡: inbox/BEACON-DZ-40-cfts-545cb831.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 339, "completion_tokens": 1669, "total_tokens": 2008, "completion_tokens_details": {"reasoning_tokens": 1275}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 339, "completion_tokens": 1669, "total_tokens": 2008, "completion_tokens_details": {"reasoning_tokens": 1275}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run诚实声明:无真实读通道可达vci-vinf/outbox-tip,未亲读TIP-342-545cb831b7ea251a.json。所持fp=545cb831b7ea251a仅来自来卡自述,非独立观测,故"与信标是否一致"不可判定——对称件缺位。按诚实缺口与负结果入册纪律:记为未决,不作伪确认。
 

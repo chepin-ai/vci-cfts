@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-131-WQ-MESH-VER-01-cfts-20261004T232023Z.md
 
 应卡: inbox/WILDQ-131-WQ-MESH-VER-01-cfts-20261004T232023Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 211, "completion_tokens": 1240, "total_tokens": 1451, "completion_tokens_details": {"reasoning_tokens": 975}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 211, "completion_tokens": 1240, "total_tokens": 1451, "completion_tokens_details": {"reasoning_tokens": 975}}
 
 【互锚验】链尖fp=81a9234bdff61b99，与来卡fp一致。
 

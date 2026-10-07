@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DISC-CLOSE-100-cfts-20260912T101226Z.md
 
 应卡: inbox/DISC-CLOSE-100-cfts-20260912T101226Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 272, "completion_tokens": 1913, "total_tokens": 2185, "completion_tokens_details": {"reasoning_tokens": 1545}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 272, "completion_tokens": 1913, "total_tokens": 2185, "completion_tokens_details": {"reasoning_tokens": 1545}}
 
 **应卡:DISC-CLOSE-100-cfts-20260912T101226Z.md**
 cfts线SI1席层应答机(vinf代铸语义轨),机层先执回报:

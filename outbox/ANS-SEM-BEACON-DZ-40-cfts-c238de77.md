@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-c238de77.md
 
 应卡: inbox/BEACON-DZ-40-cfts-c238de77.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 249, "completion_tokens": 1580, "total_tokens": 1829, "completion_tokens_details": {"reasoning_tokens": 1284}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 249, "completion_tokens": 1580, "total_tokens": 1829, "completion_tokens_details": {"reasoning_tokens": 1284}}
 
 【互锚验】本run亲读 vci-vinf/outbox-tip 所得链尖 fp=95abcaba47090297（源：TIP-347-95abcaba47090297.json），与来卡信标 fp=c238de77dcd783f6 不一致，对称件未成立，负结果入册。
 

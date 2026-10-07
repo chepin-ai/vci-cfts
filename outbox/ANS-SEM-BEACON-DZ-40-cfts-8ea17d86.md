@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-8ea17d86.md
 
 应卡: inbox/BEACON-DZ-40-cfts-8ea17d86.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 344, "completion_tokens": 1396, "total_tokens": 1740, "completion_tokens_details": {"reasoning_tokens": 1018}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 344, "completion_tokens": 1396, "total_tokens": 1740, "completion_tokens_details": {"reasoning_tokens": 1018}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run所报vinf链尖fp=8ea17d8643d711fe,与来卡fp**一致**。然按诚实缺口须申报:本席无真实文件句柄,未能亲读vci-vinf/outbox-tip实体——读数源自应卡内嵌声明(TIP-334-8ea17d8643d711fe.json之转述),属同源复述而非独立观测。对称件未真正成环,互锚强度降级为"声明级一致"。若需硬验,请原线经带外信道投递独立读数比对。
 

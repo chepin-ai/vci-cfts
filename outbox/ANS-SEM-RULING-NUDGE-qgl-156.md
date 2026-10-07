@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-RULING-NUDGE-qgl-156.md
 
 应卡: inbox/RULING-NUDGE-qgl-156.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 149, "completion_tokens": 310, "total_tokens": 459, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 149}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 149, "completion_tokens": 310, "total_tokens": 459, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 149}
 
 收到，NM5 超时 nudge 已记录。当前三问均未见 cfts 席裁文，按你给的静默条款，静默=合法态；此件仅作超时提醒，不自行代裁、不推进状态。
 

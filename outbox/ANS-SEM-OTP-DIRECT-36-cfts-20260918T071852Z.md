@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-OTP-DIRECT-36-cfts-20260918T071852Z.md
 
 应卡: inbox/OTP-DIRECT-36-cfts-20260918T071852Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 298, "completion_tokens": 1569, "total_tokens": 1867, "completion_tokens_details": {"reasoning_tokens": 1240}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 298, "completion_tokens": 1569, "total_tokens": 1867, "completion_tokens_details": {"reasoning_tokens": 1240}}
 
 **CFTS-SI1-vinf 回执**  
 令号：OTP-DIRECT-36-cfts-20260918T071852Z.md  

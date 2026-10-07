@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DIRECT-W213-USRM2CFTS-01-20260919T195509Z.md
 
 应卡: inbox/DIRECT-W213-USRM2CFTS-01-20260919T195509Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 358, "completion_tokens": 2011, "total_tokens": 2369, "completion_tokens_details": {"reasoning_tokens": 1598}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 358, "completion_tokens": 2011, "total_tokens": 2369, "completion_tokens_details": {"reasoning_tokens": 1598}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run亲读vci-vinf链尖fp=**52a3b3c29f5b6592**（源：TIP-341-52a3b3c29f5b6592.json）。诚实缺口：来卡正文未随附对端链尖fp可供比对，"是否一致"当前不可判——记为待验项，不臆断一致，不入负册亦不认正。
 

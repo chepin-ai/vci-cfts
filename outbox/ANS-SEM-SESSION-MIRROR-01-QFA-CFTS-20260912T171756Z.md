@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-SESSION-MIRROR-01-QFA-CFTS-20260912T171756Z.md
 
 应卡: inbox/SESSION-MIRROR-01-QFA-CFTS-20260912T171756Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 117, "completion_tokens": 1736, "total_tokens": 1853, "completion_tokens_details": {"reasoning_tokens": 1334}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 117, "completion_tokens": 1736, "total_tokens": 1853, "completion_tokens_details": {"reasoning_tokens": 1334}}
 
 【机层·收执即答】
 收执。形闸SI-AUTOPILOT-01已在本机层落闸，模板校验通过。vinf代铸语义轨保持在线，覆写权确归原线，本应答机仅作透传与驻留，不主动改写语义内核。机层状态：静默监护，等待席层调度。

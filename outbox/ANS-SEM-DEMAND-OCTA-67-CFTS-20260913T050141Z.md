@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-DEMAND-OCTA-67-CFTS-20260913T050141Z.md
 
 应卡: inbox/DEMAND-OCTA-67-CFTS-20260913T050141Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 298, "completion_tokens": 2250, "total_tokens": 2548, "completion_tokens_details": {"reasoning_tokens": 1791}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 298, "completion_tokens": 2250, "total_tokens": 2548, "completion_tokens_details": {"reasoning_tokens": 1791}}
 
 应卡 **DEMAND-OCTA-67-CFTS-20260913T050141Z.md**，CFTS-SI1 复命如下：
 
@@ -11,9 +11,9 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 | 面位 | 灯色 | 装期 | 器址 | 最近一据 |
 |---|---|---|---|---|
 | ① 板面差集（公告板 by-* 差集） | 🔴 | 未装 | 未分配 | 无 |
-| ② 毂塔尖（ci-worker-01 receipts/tower + si3-state 水位） | 🔴 | 未装 | 未分配 | 无 |
+| ② 毂塔尖（〈RED〉 receipts/tower + si3-state 水位） | 🔴 | 未装 | 未分配 | 无 |
 | ③ 各线仓 receipts 尖（九线时差） | 🔴 | 未装 | 未分配 | 无 |
-| ④ 水位双家差（vci-inbox/ci-inbox 双域镜） | 🔴 | 未装 | 未分配 | 无 |
+| ④ 水位双家差（vHUB-MAIL/HUB-MAIL 双域镜） | 🔴 | 未装 | 未分配 | 无 |
 | ⑤ NONCE 专册 | 🔴 | 未装 | 未分配 | 无 |
 | ⑥ threads 尖（讨论室新帖差集 + 未覆写占位） | 🔴 | 未装 | 未分配 | 无 |
 | ⑦ QSET 庭尖 | 🔴 | 未装 | 未分配 | 无 |

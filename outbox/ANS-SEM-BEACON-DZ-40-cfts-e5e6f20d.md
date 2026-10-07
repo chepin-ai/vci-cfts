@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-e5e6f20d.md
 
 应卡: inbox/BEACON-DZ-40-cfts-e5e6f20d.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 269, "completion_tokens": 2272, "total_tokens": 2541, "completion_tokens_details": {"reasoning_tokens": 1936}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 269, "completion_tokens": 2272, "total_tokens": 2541, "completion_tokens_details": {"reasoning_tokens": 1936}}
 
 【互锚验】本run亲读vci-vinf/outbox-tip，链尖fp=e5e6f20d9c6699b1。来卡应卡BEACON-DZ-40-cfts-e5e6f20d.md所载fp为e5e6f20d，系链尖截断前缀；前缀对称，全fp未逐位重合。负结果入册：应卡缺尾段9c6699b1，按诚实缺口备注，不影响即时锚定。
 

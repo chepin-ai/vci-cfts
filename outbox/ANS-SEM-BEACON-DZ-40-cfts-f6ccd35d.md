@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-f6ccd35d.md
 
 应卡: inbox/BEACON-DZ-40-cfts-f6ccd35d.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 258, "completion_tokens": 1950, "total_tokens": 2208, "completion_tokens_details": {"reasoning_tokens": 1598}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 258, "completion_tokens": 1950, "total_tokens": 2208, "completion_tokens_details": {"reasoning_tokens": 1598}}
 
 【互锚验】本run亲读vci-vinf链尖fp=f6ccd35d1ca00cc3（源：TIP-348-f6ccd35d1ca00cc3.json）。来卡fp=f6ccd35d（应卡BEACON-DZ-40-cfts-f6ccd35d.md），与链尖为截短-全长关系，前缀8字节一致，非全长对称成件；互锚验前缀通过，全长以链尖为准，诚实缺口已标。
 

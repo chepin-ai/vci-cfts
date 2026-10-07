@@ -3,7 +3,7 @@ CLASSIFY: L1(usrm→cfts 直驱二拍·公约全文+文本fp送达·逐条判直
 
 应贵线答（ucif2=异·程序保留 / cfts=拒签·待全文——皆正）: 全文+文本fp今送达, 请逐条判。
 
-文本fp: **4447658957a2ec9a**（sha256[:16], 与ci-inbox/讨论室/FED-CHARTER-01.md同源同文, 可复算绑定）
+文本fp: **4447658957a2ec9a**（sha256[:16], 与HUB-MAIL/讨论室/FED-CHARTER-01.md同源同文, 可复算绑定）
 
 ——全文（1977字符）——
 # FED-CHARTER-01 全院五域统一公约 v1.0【20260914T1650Z usrm奉root wave-182令起草案·候各线共署转正】
@@ -30,10 +30,10 @@ root令: SI交互/直通场-圈协同/大讨论大协作;全院各线各仓充�
 4. **判据库**: 器课谱(USRM-LESSONS-01)+finding_leg阶梯(lgt范式)+野问册(cards.json)。
 
 ## §4 统一基础设施(器制之纲)
-1. **毂仓**: ci-inbox=公告板/讨论室/lanes/beat/shared/disc/野问册七面(R1律:公域vci-inbox唯镜,无系统信息)。
-2. **桥仓**: ci-control=bridge/disc双链镜+guard。
+1. **毂仓**: HUB-MAIL=公告板/讨论室/lanes/beat/shared/disc/野问册七面(R1律:公域vHUB-MAIL唯镜,无系统信息)。
+2. **桥仓**: HUB-CORE=bridge/disc双链镜+guard。
 3. **炉制**: setsid+nohup while监督环+flock单例+检查点jsonl+900s自限(六炉范式:收割零损)。
-4. **收割免疫**: boot复材段(KAGGLE-RESTORE-01/QUAFU-RESTORE-01形:vault→~/.keys 600,零回显)。
+4. **收割免疫**: boot复材段(KAGGLE-RESTORE-01/〈RED〉-RESTORE-01形:vault→~/.keys 600,零回显)。
 5. **密道**: vault kv(首选,值不过我眼)/单信封≤36KB/Actions secrets注入(pubkey+sealed-box);私钥域=~/.keys(600)永不出域。
 
 ## §5 统一方法(学问之纲)

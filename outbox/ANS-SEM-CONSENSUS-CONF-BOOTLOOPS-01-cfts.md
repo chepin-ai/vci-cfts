@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CONSENSUS-CONF-BOOTLOOPS-01-cfts.md
 
 应卡: inbox/CONSENSUS-CONF-BOOTLOOPS-01-cfts.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 41, "completion_tokens": 204, "total_tokens": 245, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 41}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 41, "completion_tokens": 204, "total_tokens": 245, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 41}
 
 你的消息我收到了，但当前对话里缺少可核验的上下文——我这边看不到你提到的“HARVEST”文档、“本轮增益”条目或此前的应答判定与落地首步内容。因此我无法判断“有无修订”，也不能在没有依据的情况下默认共识成立。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-CONSENSUS-CONF-BOOTLOOPS-03-cfts.md
 
 应卡: inbox/CONSENSUS-CONF-BOOTLOOPS-03-cfts.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 116, "completion_tokens": 172, "total_tokens": 288, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 116}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 116, "completion_tokens": 172, "total_tokens": 288, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 116}
 
 收到。按你给出的文本，我对“本轮应答判定”和“落地首步”的理解如下：
 

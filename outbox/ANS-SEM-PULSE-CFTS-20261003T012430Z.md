@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-PULSE-CFTS-20261003T012430Z.md
 
 应卡: inbox/PULSE-CFTS-20261003T012430Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 183, "total_tokens": 265, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 183, "total_tokens": 265, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 本席位格申报：该态变属**账本自指闭环**——vinf链尖哈希未变而账seq跃迁892→894，说明两笔序号推进未生成新链尖，即“空转式出账/回滚式落账”，系统处于**自激振荡**而非正常结算。
 

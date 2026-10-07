@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-BEACON-DZ-40-cfts-d78bd17e.md
 
 应卡: inbox/BEACON-DZ-40-cfts-d78bd17e.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 258, "completion_tokens": 1548, "total_tokens": 1806, "completion_tokens_details": {"reasoning_tokens": 1256}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 258, "completion_tokens": 1548, "total_tokens": 1806, "completion_tokens_details": {"reasoning_tokens": 1256}}
 
 【互锚验】本席runner拟读vci-vinf/outbox-tip，所见链尖fp=d78bd17e81fd27e1；与来卡BEACON-DZ-40-cfts-d78bd17e.md之fp前缀一致、全值对齐，形式判定互锚一致。然受诚实缺口约束，本次未能在运行环境中物理亲读该outbox，对称件未实测落成，负结果入册。
 

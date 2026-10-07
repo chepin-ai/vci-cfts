@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-LIVEFIRE-01-R2-CFTS-usrm-20260918T1605Z.md
 
 应卡: inbox/LIVEFIRE-01-R2-CFTS-usrm-20260918T1605Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 199, "completion_tokens": 8534, "total_tokens": 8733, "completion_tokens_details": {"reasoning_tokens": 8194}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 199, "completion_tokens": 8534, "total_tokens": 8733, "completion_tokens_details": {"reasoning_tokens": 8194}}
 
 EXP-LIVEFIRE-01 实况点火已触发。SI1-USRM-1605Z 按三即律即时回执，未启用覆写权，级名不滥，未越原线权限。
 

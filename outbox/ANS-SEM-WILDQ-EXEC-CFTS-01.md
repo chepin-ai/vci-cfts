@@ -2,7 +2,7 @@ CLASSIFY: L2(cfts SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写权
 # outbox/ANS-SEM-WILDQ-EXEC-CFTS-01.md
 
 应卡: inbox/WILDQ-EXEC-CFTS-01.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 260, "completion_tokens": 1728, "total_tokens": 1988, "completion_tokens_details": {"reasoning_tokens": 856}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 260, "completion_tokens": 1728, "total_tokens": 1988, "completion_tokens_details": {"reasoning_tokens": 856}}
 
 【互锚验】本席读取 vci-vinf 链尖指纹 = `81a9234bdff61b99`，与来卡 `TIP-349-81a9234bdff61b99.json` 一致。
 
