@@ -628,7 +628,7 @@
 ## 20261007T073915Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 46 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 46 · 自激: None · 钥名: 〈RED〉
 
 ## 20261007T132129Z 自动拍
 - 处理: []
@@ -638,9 +638,4 @@
 ## 20261007T144512Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 46 · 自激: None · 钥名: AI_FULL_PAT
-
-## 20261007T153301Z 自动拍
-- 处理: []
-- 转派: []
-- prose_pending: 46 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 46 · 自激: None · 钥名: 〈RED〉

@@ -5,7 +5,7 @@ import os, json, time, base64, urllib.request, datetime, subprocess, sys
 
 REPO = os.environ.get('GITHUB_REPOSITORY', 'chepin-ai/vci-cfts')
 TOK_W = os.environ.get('GITHUB_TOKEN')            # 本仓写(receipts/state)
-TOK_R = os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')  # 跨仓读(毂板)
+TOK_R = os.environ.get('〈RED〉') or os.environ.get('GITHUB_TOKEN')  # 跨仓读(毂板)
 HUB = 'chepin-ai/HUB-MAIL'
 SLEEP_S = int(os.environ.get('CASCADE_SLEEP_S', '600'))
 MAX_IDLE = int(os.environ.get('CASCADE_MAX_IDLE', '30'))
@@ -14,9 +14,9 @@ LINE = 'cfts'
 def api(method, path, data=None, repo=None, write=False):
     url = f'https://api.github.com/repos/{repo or REPO}/{path}'
     tok = TOK_W if (write or (repo or REPO) == REPO and method in ('PUT','POST','DELETE')) else TOK_R
-    # Self-cascade override: LINE_PAT can trigger workflows when GITHUB_TOKEN cannot
-    if path == 'dispatches' and os.environ.get('LINE_PAT'):
-        tok = os.environ.get('LINE_PAT')
+    # Self-cascade override: 〈RED〉 can trigger workflows when GITHUB_TOKEN cannot
+    if path == 'dispatches' and os.environ.get('〈RED〉'):
+        tok = os.environ.get('〈RED〉')
     req = urllib.request.Request(url, method=method,
         headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json',
                  'User-Agent': 'cfts-tower'})
@@ -203,7 +203,7 @@ def board_voice(verdict_memo, parent_ts):
     data = json.dumps({'message':f'{title} [skip ci]','content':content})  # 修VOICE-MSG-01: 线名前缀可计自署数,skip-ci防双唤(mesh已唤毂)
     r = subprocess.run(['curl','-s','-w','\n%{http_code}','-X','PUT',
         f'https://api.github.com/repos/chepin-ai/HUB-MAIL/contents/公告板/{title}',
-        '-H', f'Authorization: token {TOK_R}', '-H', 'Accept: application/vnd.github.v3+json',  # 修VOICE-KEY-01: 板写须LINE_PAT(GITHUB_TOKEN不出仓)——哑声道通
+        '-H', f'Authorization: token {TOK_R}', '-H', 'Accept: application/vnd.github.v3+json',  # 修VOICE-KEY-01: 板写须〈RED〉(GITHUB_TOKEN不出仓)——哑声道通
         '-d', data], capture_output=True, text=True)
     print('board_voice', r.stdout.split('\n')[-1])
 
