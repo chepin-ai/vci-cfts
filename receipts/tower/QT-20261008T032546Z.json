@@ -1,0 +1,40 @@
+{
+ "v": "CFTS-TOWER-01",
+ "ts": "20261008T032546Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-01-CFTS-20261001T072106ZZ.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z-MACH.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "XENGINE-INTEG-02-D2-cfts-20261002T084507Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-CFTS-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-cfts-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-cfts-01-ans.md"
+  }
+ ],
+ "verdict_memo": "(无〈RED〉——巡更仅录)"
+}
