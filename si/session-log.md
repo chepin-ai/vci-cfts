@@ -933,52 +933,52 @@
 ## 20261014T052406Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261014T064124Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261014T103403Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261015T040745Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261015T123004Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261016T083310Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261016T084227Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261016T084748Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261016T085655Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261016T215900Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261017T235410Z 自动拍
 - 处理: []
@@ -988,12 +988,12 @@
 ## 20261019T174059Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261021T015433Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261022T160033Z 自动拍
 - 处理: []
@@ -1003,12 +1003,12 @@
 ## 20261024T040805Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261025T100400Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261025T142105Z 自动拍
 - 处理: []
@@ -1018,7 +1018,7 @@
 ## 20261025T204530Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261026T074345Z 自动拍
 - 处理: []
@@ -1028,37 +1028,37 @@
 ## 20261026T150749Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261026T202833Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261026T204136Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261027T045504Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261027T102747Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261028T190148Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261030T151449Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261031T052758Z 自动拍
 - 处理: []
@@ -1068,24 +1068,24 @@
 ## 20261031T111125Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261031T161746Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261101T175233Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261103T215500Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20261105T001954Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
