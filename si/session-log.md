@@ -38,24 +38,24 @@
 ## 20261119T234633Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 38 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 38 · 自激: None · 钥名: 〈RED〉
 
 ## 20261120T045941Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 39 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 39 · 自激: None · 钥名: 〈RED〉
 
 ## 20261120T052230Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 39 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 39 · 自激: None · 钥名: 〈RED〉
 
 ## 20261121T034024Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 40 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 40 · 自激: None · 钥名: 〈RED〉
 
 ## 20261121T035502Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 41 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 41 · 自激: None · 钥名: 〈RED〉
