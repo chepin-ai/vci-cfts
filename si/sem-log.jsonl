@@ -222,3 +222,4 @@
 {"line": "cfts", "ts": "20261123T100627Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "76418788e9d4", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
 {"line": "cfts", "ts": "20261123T103037Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "a592329dc19f", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
 {"line": "cfts", "ts": "20261123T104906Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "fd6053425a92", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
+{"line": "cfts", "ts": "20261125T141059Z", "sem_handled": ["PULSE-RING-USRM-TO-CFTS-20261125T141050Z.md"], "sem_answers": 1}
